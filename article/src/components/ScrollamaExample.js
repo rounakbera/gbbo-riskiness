@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { Scrollama, Step } from 'react-scrollama';
 
@@ -40,7 +40,7 @@ const Content = styled.div`
   }
 `
 
-export default class Example extends React.Component {
+export default class ScrollamaExample extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
