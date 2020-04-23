@@ -24,6 +24,12 @@ export default class BarchartExample extends React.Component {
     console.log(!!props.data)
   }
 
+  componentDidUpdate(prevProps) {
+    if (this.props.data !== prevProps.data) {
+      this.setState({data: this.props.data});
+    }
+  }
+
   render() {
     return (
       <VictoryChart
@@ -36,6 +42,7 @@ export default class BarchartExample extends React.Component {
         />
         <VictoryAxis
           dependentAxis
+          domain={[0, 20000]}
           tickFormat={(x) => (`$${x / 1000}k`)}
         />
         <VictoryBar
