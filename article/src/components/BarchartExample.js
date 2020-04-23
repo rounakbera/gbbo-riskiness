@@ -18,21 +18,28 @@ export default class BarchartExample extends React.Component {
     super(props);
     
     this.state = {
-      data: props.data || sampleData
+      data: props.data || sampleData,
+      animate: props.animate,
+      animating: false
     }
 
     console.log(!!props.data)
   }
 
   componentDidUpdate(prevProps) {
-    if (this.props.data !== prevProps.data) {
-      this.setState({data: this.props.data});
+    if (!this.state.animating && this.props.data !== prevProps.data) {
+      this.setState({
+        data: this.props.data,
+        animating: true
+      });
+      setTimeout(() => this.setState({animating: false}), this.state.animate);
     }
   }
 
   render() {
     return (
       <VictoryChart
+        animate={{ duration: this.state.animate }}
         theme={VictoryTheme.material}
         domainPadding={20}
       >

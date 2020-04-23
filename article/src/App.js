@@ -5,7 +5,7 @@ import ScrollamaExample from './components/ScrollamaExample.js';
 function App() {
   return (
     <div className="App">
-      <BarchartExample />
+      <BarchartExample animate={500} />
       <ScrollamaExample />
     </div>
   );

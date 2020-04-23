@@ -82,7 +82,8 @@ export default class ScrollamaExample extends React.Component {
   };
 
   onStepProgress = ({ element, progress }) => {
-    this.setState({ progress });
+    // Commented out because it stalls animation
+    // this.setState({ progress });
   }
 
   getCurrentChart = (data) => {
