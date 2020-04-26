@@ -69,7 +69,8 @@ export default class BarchartExample extends React.Component {
         />
         <VictoryAxis
           dependentAxis
-          domain={[0, 1]}
+          domain={[0, 1
+          ]}
           tickFormat={(x) => (`${x}`)}
          
         />
