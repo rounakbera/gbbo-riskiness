@@ -51,12 +51,9 @@ const chartMap = {
   {"baker": "Paul", "risk": 0.375, "rank":5}, 
   {"baker": "Sandy", "risk": 0.625, "rank":9}, 
   {"baker": "Tamal", "risk": 0.4, "rank":3}, {"baker": "Ugne", "risk": 1.0, "rank":8}, {"baker": "Stu", "risk": 1.0, "rank":12}, {"baker": "Marie", "risk": 0.0, "rank":11}],
-  2: [
-    {quarter: 1, earnings: 15000},
-    {quarter: 2, earnings: 10000},
-    {quarter: 3, earnings: 15000},
-    {quarter: 4, earnings: 8000}
-  ],
+  2: [ {"baker": "Stu", "risk": 1.0, "rank": 12}, 
+  {"baker": "Mat", "risk": 0.2857142857142857, "rank": 6}, 
+  {"baker": "Nadiya", "risk": 0.65, "rank":1}],
   3: [
     {quarter: 1, earnings: 20000},
     {quarter: 2, earnings: 10000},
@@ -91,7 +88,8 @@ export default class ScrollamaExample extends React.Component {
 
   getCurrentChart = (data) => {
     // return chartMap[data] || 
-    return chartMap[1];
+    console.log("data",chartMap[data])
+    return chartMap[data];
   }
 
   render() {

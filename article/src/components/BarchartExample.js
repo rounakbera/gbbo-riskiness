@@ -35,13 +35,13 @@ export default class BarchartExample extends React.Component {
       setTimeout(() => this.setState({animating: false}), this.state.animate);
     }
   }
-  componentDidMount() {
-    this.setStateInterval = window.setInterval(() => {
-      this.setState({
-        data: this.getData()
-      });
-    }, 3000);
-  }
+  // componentDidMount() {
+  //   this.setStateInterval = window.setInterval(() => {
+  //     this.setState({
+  //       data: this.getData()
+  //     });
+  //   }, 3000);
+  // }
   
   componentWillUnmount() {
     window.clearInterval(this.setStateInterval);
@@ -82,10 +82,10 @@ export default class BarchartExample extends React.Component {
           z="rank"
           style={{
             data: { fill:  "purple" },
-            labels: { fontSize: ({ text }) => text.length > 10 ? 5 : 12 },
+            labels: { fontSize: ({ text }) => text.length > 5 ? 8 : 12 },
             parent: { border: "1px solid #ccc" }
           }}
-          labels={({datum}) => `x: ${datum.x}, y: ${datum.y}`}
+          labels={({datum}) => `risk: ${datum.risk}, rank: ${datum.rank}`}
           labelComponent={<VictoryTooltip dy={0} centerOffset={{ x: 25 }} />}
           sortKey= "rank"
           sortOrder="descending"
