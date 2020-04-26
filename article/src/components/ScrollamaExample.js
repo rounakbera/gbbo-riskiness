@@ -2,6 +2,9 @@ import React, { PureComponent } from 'react';
 import styled from 'styled-components';
 import { Scrollama, Step } from 'react-scrollama';
 import BarchartExample from './BarchartExample.js';
+import RiskBarchart from './RiskBarchart.js';
+
+
 
 const Main = styled.div`
   padding: 70vh 2vw;
@@ -54,12 +57,9 @@ const chartMap = {
   2: [ {"baker": "Stu", "risk": 1.0, "rank": 12}, 
   {"baker": "Mat", "risk": 0.2857142857142857, "rank": 6}, 
   {"baker": "Nadiya", "risk": 0.65, "rank":1}],
-  3: [
-    {quarter: 1, earnings: 20000},
-    {quarter: 2, earnings: 10000},
-    {quarter: 3, earnings: 10000},
-    {quarter: 4, earnings: 6000}
-  ]
+  3:[ {"baker": "Stu", "risk": 1.0, "rank": 12}, 
+  {"baker": "Mat", "risk": 0.2857142857142857, "rank": 6}, 
+  {"baker": "Nadiya", "risk": 0.65, "rank":1}]
 };
 
 export default class ScrollamaExample extends React.Component {
@@ -89,7 +89,7 @@ export default class ScrollamaExample extends React.Component {
   getCurrentChart = (data) => {
     // return chartMap[data] || 
     console.log("data",chartMap[data])
-    return chartMap[data];
+    return chartMap[data] || chartMap[1];
   }
 
   render() {
@@ -118,7 +118,7 @@ export default class ScrollamaExample extends React.Component {
         </Scroller>
         <Graphic>
           <p>{data}</p>
-          <BarchartExample data={this.getCurrentChart(data)} />
+          <RiskBarchart data={this.getCurrentChart(data)} />
         </Graphic>
       </Main>
     );
