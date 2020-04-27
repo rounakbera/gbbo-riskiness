@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { Scrollama, Step } from 'react-scrollama';
 import BarchartExample from './BarchartExample.js';
