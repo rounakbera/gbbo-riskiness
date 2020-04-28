@@ -22,8 +22,6 @@ export default class BarchartExample extends React.Component {
       animate: props.animate,
       animating: false
     }
-
-    console.log(!!props.data)
   }
 
   componentDidUpdate(prevProps) {
