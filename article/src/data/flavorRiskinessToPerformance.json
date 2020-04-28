@@ -1,0 +1,382 @@
+[
+  {
+    "riskiness": 0.333333333,
+    "flavor": "vanilla",
+    "performance": "NEUTRAL",
+    "bad": 0.238095238,
+    "good": 0.333333333,
+    "neutral": 0.428571429,
+    "controversy": 0.095238095,
+    "count": 21
+  },
+  {
+    "riskiness": 0.5625,
+    "flavor": "strawberry",
+    "performance": "NEUTRAL",
+    "bad": 0.1875,
+    "good": 0.375,
+    "neutral": 0.4375,
+    "controversy": 0.1875,
+    "count": 16
+  },
+  {
+    "riskiness": 0.5,
+    "flavor": "parmesan",
+    "performance": "NEUTRAL",
+    "bad": 0.2,
+    "good": 0.4,
+    "neutral": 0.4,
+    "controversy": 0.2,
+    "count": 10
+  },
+  {
+    "riskiness": 0.454545455,
+    "flavor": "buttercream",
+    "performance": "NEUTRAL",
+    "bad": 0.272727273,
+    "good": 0.363636364,
+    "neutral": 0.363636364,
+    "controversy": 0.090909091,
+    "count": 11
+  },
+  {
+    "riskiness": 0.363636364,
+    "flavor": "white chocolate",
+    "performance": "GOOD",
+    "bad": 0.409090909,
+    "good": 0.454545455,
+    "neutral": 0.136363636,
+    "controversy": 0.045454545,
+    "count": 22
+  },
+  {
+    "riskiness": 0.227272727,
+    "flavor": "walnut",
+    "performance": "GOOD",
+    "bad": 0.318181818,
+    "good": 0.409090909,
+    "neutral": 0.272727273,
+    "controversy": 0.090909091,
+    "count": 22
+  },
+  {
+    "riskiness": 0.5625,
+    "flavor": "rosemary",
+    "performance": "GOOD",
+    "bad": 0.1875,
+    "good": 0.625,
+    "neutral": 0.1875,
+    "controversy": 0.4375,
+    "count": 16
+  },
+  {
+    "riskiness": 0.4,
+    "flavor": "rhubarb",
+    "performance": "GOOD",
+    "bad": 0.333333333,
+    "good": 0.466666667,
+    "neutral": 0.2,
+    "controversy": 0.133333333,
+    "count": 15
+  },
+  {
+    "riskiness": 0.468085106,
+    "flavor": "raspberry",
+    "performance": "GOOD",
+    "bad": 0.234042553,
+    "good": 0.553191489,
+    "neutral": 0.212765957,
+    "controversy": 0.319148936,
+    "count": 47
+  },
+  {
+    "riskiness": 0.2,
+    "flavor": "poppy seed",
+    "performance": "GOOD",
+    "bad": 0.2,
+    "good": 0.6,
+    "neutral": 0.2,
+    "controversy": 0.4,
+    "count": 10
+  },
+  {
+    "riskiness": 0.5,
+    "flavor": "pistachio",
+    "performance": "GOOD",
+    "bad": 0.321428571,
+    "good": 0.535714286,
+    "neutral": 0.142857143,
+    "controversy": 0.214285714,
+    "count": 28
+  },
+  {
+    "riskiness": 0.578947368,
+    "flavor": "passionfruit",
+    "performance": "GOOD",
+    "bad": 0.368421053,
+    "good": 0.473684211,
+    "neutral": 0.157894737,
+    "controversy": 0.105263158,
+    "count": 19
+  },
+  {
+    "riskiness": 0.418181818,
+    "flavor": "orange",
+    "performance": "GOOD",
+    "bad": 0.2,
+    "good": 0.563636364,
+    "neutral": 0.236363636,
+    "controversy": 0.363636364,
+    "count": 55
+  },
+  {
+    "riskiness": 0.529411765,
+    "flavor": "mango",
+    "performance": "GOOD",
+    "bad": 0.176470588,
+    "good": 0.647058824,
+    "neutral": 0.176470588,
+    "controversy": 0.470588235,
+    "count": 17
+  },
+  {
+    "riskiness": 0.5,
+    "flavor": "lime",
+    "performance": "GOOD",
+    "bad": 0.357142857,
+    "good": 0.642857143,
+    "neutral": 0,
+    "controversy": 0.285714286,
+    "count": 14
+  },
+  {
+    "riskiness": 0.351851852,
+    "flavor": "lemon",
+    "performance": "GOOD",
+    "bad": 0.240740741,
+    "good": 0.5,
+    "neutral": 0.259259259,
+    "controversy": 0.259259259,
+    "count": 54
+  },
+  {
+    "riskiness": 0.357142857,
+    "flavor": "honey",
+    "performance": "GOOD",
+    "bad": 0.214285714,
+    "good": 0.642857143,
+    "neutral": 0.142857143,
+    "controversy": 0.428571429,
+    "count": 14
+  },
+  {
+    "riskiness": 0.45,
+    "flavor": "hazelnut",
+    "performance": "GOOD",
+    "bad": 0.35,
+    "good": 0.6,
+    "neutral": 0.05,
+    "controversy": 0.25,
+    "count": 20
+  },
+  {
+    "riskiness": 0.25,
+    "flavor": "gingerbread",
+    "performance": "GOOD",
+    "bad": 0.166666667,
+    "good": 0.583333333,
+    "neutral": 0.25,
+    "controversy": 0.416666667,
+    "count": 12
+  },
+  {
+    "riskiness": 0.419354839,
+    "flavor": "ginger",
+    "performance": "GOOD",
+    "bad": 0.225806452,
+    "good": 0.580645161,
+    "neutral": 0.193548387,
+    "controversy": 0.35483871,
+    "count": 31
+  },
+  {
+    "riskiness": 0.6,
+    "flavor": "garlic",
+    "performance": "GOOD",
+    "bad": 0.1,
+    "good": 0.7,
+    "neutral": 0.2,
+    "controversy": 0.6,
+    "count": 10
+  },
+  {
+    "riskiness": 0.5,
+    "flavor": "fig",
+    "performance": "GOOD",
+    "bad": 0.166666667,
+    "good": 0.666666667,
+    "neutral": 0.166666667,
+    "controversy": 0.5,
+    "count": 12
+  },
+  {
+    "riskiness": 0.235294118,
+    "flavor": "dark chocolate",
+    "performance": "GOOD",
+    "bad": 0.235294118,
+    "good": 0.647058824,
+    "neutral": 0.117647059,
+    "controversy": 0.411764706,
+    "count": 17
+  },
+  {
+    "riskiness": 0.473684211,
+    "flavor": "cream",
+    "performance": "GOOD",
+    "bad": 0.157894737,
+    "good": 0.631578947,
+    "neutral": 0.210526316,
+    "controversy": 0.473684211,
+    "count": 19
+  },
+  {
+    "riskiness": 0.3,
+    "flavor": "cranberry",
+    "performance": "GOOD",
+    "bad": 0.2,
+    "good": 0.6,
+    "neutral": 0.2,
+    "controversy": 0.4,
+    "count": 10
+  },
+  {
+    "riskiness": 0.529411765,
+    "flavor": "coffee",
+    "performance": "GOOD",
+    "bad": 0.294117647,
+    "good": 0.470588235,
+    "neutral": 0.235294118,
+    "controversy": 0.176470588,
+    "count": 17
+  },
+  {
+    "riskiness": 0.409090909,
+    "flavor": "coconut",
+    "performance": "GOOD",
+    "bad": 0.318181818,
+    "good": 0.545454545,
+    "neutral": 0.136363636,
+    "controversy": 0.227272727,
+    "count": 22
+  },
+  {
+    "riskiness": 0.321428571,
+    "flavor": "cinnamon",
+    "performance": "GOOD",
+    "bad": 0.25,
+    "good": 0.392857143,
+    "neutral": 0.357142857,
+    "controversy": 0.142857143,
+    "count": 28
+  },
+  {
+    "riskiness": 0.4,
+    "flavor": "chocolate",
+    "performance": "GOOD",
+    "bad": 0.277777778,
+    "good": 0.555555556,
+    "neutral": 0.166666667,
+    "controversy": 0.277777778,
+    "count": 90
+  },
+  {
+    "riskiness": 0.7,
+    "flavor": "chili",
+    "performance": "GOOD",
+    "bad": 0.1,
+    "good": 0.8,
+    "neutral": 0.1,
+    "controversy": 0.7,
+    "count": 10
+  },
+  {
+    "riskiness": 0.35,
+    "flavor": "cherry",
+    "performance": "GOOD",
+    "bad": 0.2,
+    "good": 0.6,
+    "neutral": 0.2,
+    "controversy": 0.4,
+    "count": 20
+  },
+  {
+    "riskiness": 0.636363636,
+    "flavor": "carrot",
+    "performance": "GOOD",
+    "bad": 0.090909091,
+    "good": 0.818181818,
+    "neutral": 0.090909091,
+    "controversy": 0.727272727,
+    "count": 11
+  },
+  {
+    "riskiness": 0.681818182,
+    "flavor": "cardamom",
+    "performance": "GOOD",
+    "bad": 0.227272727,
+    "good": 0.590909091,
+    "neutral": 0.181818182,
+    "controversy": 0.363636364,
+    "count": 22
+  },
+  {
+    "riskiness": 0.5,
+    "flavor": "caramel",
+    "performance": "GOOD",
+    "bad": 0.125,
+    "good": 0.625,
+    "neutral": 0.25,
+    "controversy": 0.5,
+    "count": 16
+  },
+  {
+    "riskiness": 0.428571429,
+    "flavor": "apricot",
+    "performance": "GOOD",
+    "bad": 0.380952381,
+    "good": 0.476190476,
+    "neutral": 0.142857143,
+    "controversy": 0.095238095,
+    "count": 21
+  },
+  {
+    "riskiness": 0.357142857,
+    "flavor": "apple",
+    "performance": "GOOD",
+    "bad": 0.321428571,
+    "good": 0.357142857,
+    "neutral": 0.321428571,
+    "controversy": 0.035714286,
+    "count": 28
+  },
+  {
+    "riskiness": 0.357142857,
+    "flavor": "almond",
+    "performance": "GOOD",
+    "bad": 0.261904762,
+    "good": 0.523809524,
+    "neutral": 0.214285714,
+    "controversy": 0.261904762,
+    "count": 42
+  },
+  {
+    "riskiness": 0.5,
+    "flavor": "pear",
+    "performance": "BAD",
+    "bad": 0.666666667,
+    "good": 0.333333333,
+    "neutral": 0,
+    "controversy": 0.333333333,
+    "count": 12
+  }
+]
