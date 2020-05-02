@@ -40,7 +40,7 @@ export default class FinalViz extends React.Component {
   parseData(info) {
     var bakerPlaceRisk = [];
     for (var i in info) {
-      var risk = Math.round(info[i]['% Risk']*40)/40;
+      var risk = Math.round(info[i]['% Risk']*20)/20;
       bakerPlaceRisk.push([info[i]['Place'], risk, info[i]['Baker']]);
     }
     bakerPlaceRisk.sort(function(a,b) {
@@ -124,6 +124,7 @@ export default class FinalViz extends React.Component {
             tickLabels: { fontSize: 5, textAnchor: "middle" }
           }}  />
         <VictoryAxis tickValues = {Array.from({length: 4}, (x,i) => i)}
+          width = {200}
           style = {{
             axis: {strokeOpacity: 0},
             tickLabels: { fontSize: 0 }
