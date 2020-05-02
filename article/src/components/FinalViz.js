@@ -68,7 +68,12 @@ export default class FinalViz extends React.Component {
     ticks.push(1);
     console.log(ticks);
     return (
-      <VictoryChart containerComponent={<VictoryVoronoiContainer/>}>
+      <VictoryChart 
+        domain = {{y:[-0.025, 1.025]}}
+        width = {200}
+        height = {200}
+        style={{ parent: { maxWidth: "75%" } }}
+        containerComponent={<VictoryVoronoiContainer/>}>
         <VictoryScatter
           data={this.state.data}
           x="leaf"
@@ -77,10 +82,10 @@ export default class FinalViz extends React.Component {
           labelComponent={
           <VictoryTooltip
               cornerRadius={2}
-              pointerOrientation = "right"
-              centerOffset = {{x: -50, y: 20}}
-              dy = {1}
-              dx = {-1}
+              pointerOrientation = "left"
+              centerOffset = {{x: 50, y: 20}}
+              dy = {0}
+              dx = {1}
               pointerLength={({ datum }) => this.getTooltipLength(datum.baker)}
           />}
           events={[{
@@ -110,18 +115,23 @@ export default class FinalViz extends React.Component {
               }
             }
           }]}
-          padding = {{ left: 100}}
           style={{
             data: { fill: "#c43a31", fillOpacity: ({ datum }) => 1/datum.place},
             labels: { fill: "black", fontSize: 5, textAlign: "middle"}
           }}
           size={2}
         />
-        <VictoryAxis tickValues = {ticks} dependentAxis label = "Baker Average Risk Distribution"
+        <VictoryAxis dependentAxis
+          tickValues = {ticks}
+          label = "Baker Average Risk Distribution"
+          tickFormat = {(t) => t.toFixed(2)}
           offsetX = {50}
           x={10} y={300} 
+          padding = {50}
           style={{
-            tickLabels: { fontSize: 5, textAnchor: "middle" }
+            axis: {strokeWidth: 5},
+            axisLabel: {fontSize: 5},
+            tickLabels: { fontSize: 4, textAnchor: "middle" }
           }}  />
         <VictoryAxis tickValues = {Array.from({length: 4}, (x,i) => i)}
           width = {200}
