@@ -5,8 +5,6 @@ import RiskRewardPieChart from './components/RiskRewardPieChart.js';
 import ScrollamaExample from './components/ScrollamaExample.js';
 import TitleCard from './components/TitleCard.js';
 
-const data = require('./data/flavorRiskinessToPerformance.json');
-
 function App() {
   return (
     <div className="App">
@@ -14,7 +12,7 @@ function App() {
 				@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 			</style>
       <TitleCard/>
-      <FlavorScatterplot data={data} />
+      <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />
       <BarchartExample animate={500} />
       <ScrollamaExample />
