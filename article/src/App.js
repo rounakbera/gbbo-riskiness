@@ -1,6 +1,7 @@
 import React from 'react';
 import BarchartExample from './components/BarchartExample.js';
 import FlavorScatterplot from './components/FlavorScatterplot.js';
+import RiskRewardPieChart from './components/RiskRewardPieChart.js';
 import ScrollamaExample from './components/ScrollamaExample.js';
 import TitleCard from './components/TitleCard.js';
 
@@ -14,6 +15,7 @@ function App() {
 			</style>
       <TitleCard/>
       <FlavorScatterplot data={data} />
+      <RiskRewardPieChart baker={"Mat"} />
       <BarchartExample animate={500} />
       <ScrollamaExample />
     </div>
