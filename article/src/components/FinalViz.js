@@ -8,6 +8,8 @@ import {
   VictoryAxis 
 } from 'victory';
 import WorkingHandle from './WorkingHandle';
+
+
 const bakerInfo = require('../data/bakerinfo.json')
 const allSeasons = require('../data/seasons.json')
 
@@ -19,7 +21,7 @@ export default class FinalViz extends React.Component {
       data: this.parseData(bakerInfo),
       animate: props.animate,
       animating: false,
-      placeLimit: props.placeLimit
+      placeLimit: 3
     }
   }
   calcLeaf(bakerList) {
@@ -76,7 +78,7 @@ export default class FinalViz extends React.Component {
     console.log(ticks);
     return (
       <div>
-      <WorkingHandle/>
+      <WorkingHandle />
       <VictoryChart 
         domain = {{y:[-0.025, 1.025]}}
         width = {165}
