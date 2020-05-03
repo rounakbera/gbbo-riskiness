@@ -47,6 +47,11 @@ const NotRisky = styled.span`
     font-weight: bold;
     font-family: 'Ariel', sans-serif;
 `
+const Risky = styled.span`
+    color: #38761d;
+    font-weight: bold;
+    font-family: 'Ariel', sans-serif;
+`
 const Bake = styled.span`
     font-weight: bold;
     font-family: 'Ariel', sans-serif;
@@ -95,7 +100,7 @@ So this was a Good Bake but Not Risky
                 The judges say the flavors wrong for madeira cakes and the glaze is too hard to bite into. 
                 </Paragraph>
                 <Paragraph>
-                    Due to the judges reactions and the unconventional flavor choices this is considered a  <BadBake>Bad Bake</BadBake> that is <Risy>Risky</Risy>
+                    Due to the judges reactions and the unconventional flavor choices this is considered a  <BadBake>Bad Bake</BadBake> that is <Risky>Risky</Risky>
                 </Paragraph>    
             </div>
         )

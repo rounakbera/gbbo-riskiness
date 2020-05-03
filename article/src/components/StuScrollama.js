@@ -5,7 +5,7 @@ import BarchartExample from './BarchartExample.js';
 import RiskBarchart from './RiskBarchart.js';
 import Stu from './Stu.js';
 import StuMadeira from '../assets/stu-madeira.png';
-import StuPic from '../assets/mat.jpg';
+import StuPic from '../assets/stu.jpg';
 
 
 

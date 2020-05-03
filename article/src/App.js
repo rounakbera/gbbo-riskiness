@@ -8,6 +8,8 @@ import SlideCard from './components/SlideCard.js';
 import FinalViz from './components/FinalViz.js';
 import StuScrollama from './components/StuScrollama.js';
 import NadiyaScrollama from './components/NadiyaScrollama.js';
+import MatScrollama from './components/MatScrollama.js';
+
 import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
 
 function App() {
@@ -24,7 +26,7 @@ function App() {
       <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />
       <StuScrollama/>
-      <MatScrollamaExample />
+      <MatScrollama />
       <NadiyaScrollama />    
       <FinalViz placeLimit={5}/>
     </div>
