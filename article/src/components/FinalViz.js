@@ -78,7 +78,7 @@ export default class FinalViz extends React.Component {
     console.log(ticks);
     return (
       <div>
-      <WorkingHandle />
+      <WorkingHandle value = {this.state.placeLimit}/>
       <VictoryChart 
         domain = {{y:[-0.025, 1.025]}}
         width = {165}
