@@ -2,6 +2,7 @@ import React from 'react';
 import FlavorScatterplot from './components/FlavorScatterplot.js';
 import RiskBarchartScrollama from './components/RiskBarchartScrollama.js';
 import RiskRewardPieChart from './components/RiskRewardPieChart.js';
+import TextSection from './components/TextSection.js';
 import TitleCard from './components/TitleCard.js';
 import SlideCard from './components/SlideCard.js';
 import FinalViz from './components/FinalViz.js';
@@ -15,6 +16,7 @@ function App() {
       </style>
       <GlobalStyles/>
       <TitleCard/>
+      <TextSection title={"Section Header"} description={"Some good content."}/>
       <SlideCard />
       <RiskBarchartScrollama />
       <FlavorScatterplot />
