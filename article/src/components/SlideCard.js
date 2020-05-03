@@ -29,8 +29,8 @@ const Content = styled.div`
   }
 `
 const ImageWrapper = styled.div`
-  height: ${props => `${props.minHeight}px`};
-  width: ${props => `${props.minWidth}px`};
+    height: ${props => `${props.minHeight}px`};
+    width: ${props => `${props.minWidth}px`};
 `
 const Image = styled.img`
   position: absolute;
@@ -39,13 +39,15 @@ const Image = styled.img`
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
+  width: 40vw;
+  margin-left: 10vw;
+  top: 50%;
 `
-
 const imageMap = {
-  "1": "http://placekitten.com/g/400/300",
-  "2": "http://placekitten.com/g/200/300",
-  "3": "http://placekitten.com/g/300/300"
-};
+    1: "",
+    2: "",
+    3: ""
+  };
 
 export default class ScrollamaExample extends React.Component {
   constructor(props) {
@@ -55,7 +57,12 @@ export default class ScrollamaExample extends React.Component {
       steps: [1, 2, 3],
       progress: 0
     };
+    Object.keys(imageMap).map((key => {
+        imageMap[key] = this.props.images[key-1]
+      }))
   };
+
+
 
   getImages(imageMap, data) {
     return Object.keys(imageMap).map((key => {
