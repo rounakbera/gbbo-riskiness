@@ -1,9 +1,9 @@
 import React from 'react';
 import FlavorScatterplot from './components/FlavorScatterplot.js';
 import RiskBarchartScrollama from './components/RiskBarchartScrollama.js';
+import RiskRewardPieChart from './components/RiskRewardPieChart.js';
 import TitleCard from './components/TitleCard.js';
-
-const data = require('./data/flavorRiskinessToPerformance.json');
+import FinalViz from './components/FinalViz.js';
 
 function App() {
   return (
@@ -12,8 +12,11 @@ function App() {
 				@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 			</style>
       <TitleCard/>
-      <FlavorScatterplot data={data} />
       <RiskBarchartScrollama />
+      <FlavorScatterplot data={data} />
+      <FlavorScatterplot />
+      <RiskRewardPieChart baker={"Mat"} />
+      <FinalViz/>
     </div>
   );
 }

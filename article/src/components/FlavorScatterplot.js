@@ -7,12 +7,14 @@ import {
   VictoryVoronoiContainer 
 } from 'victory';
 
+const data = require('../data/flavorRiskinessToPerformance.json');
+
 export default class BarchartExample extends React.Component {
   constructor(props) {
     super(props);
     
     this.state = {
-      data: props.data,
+      data: props.data || data,
       animate: props.animate,
       animating: false
     }

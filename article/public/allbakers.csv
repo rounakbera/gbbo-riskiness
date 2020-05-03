@@ -1,0 +1,451 @@
+Season,Episode,Challenge,Baker,Risky,Grade,Notes,# of Flavors
+6,1,Signature,Alvin,T,o,"Orange, vanilla, fig",3
+6,1,Signature,Dorret,F,-,Simple w candied lemon,1
+6,1,Signature,Flora,F,+,blood orange,1
+6,1,Signature,Ian,T,-,"Jamacan ginger, lime mojitos, coconut",3
+6,1,Signature,Mat,T,-,Gin and tonic,2
+6,1,Signature,Nadiya,T,+,"Orange zest, green cardamom",2
+6,1,Signature,Paul,T,-,"Lemon, ginger and caraway seed",3
+6,1,Signature,Sandy,F,+,Almond Liqueur and chopped apricots,2
+6,1,Signature,Tamal,T,+,Rose water to moisten his pistachio cake,2
+6,1,Signature,Ugné,T,-,Lemon and Thyme,2
+6,1,Signature,Stu,T,-,"* Lime and chocolate, * Topped w rum and lime glaze",3
+6,1,Signature,Marie,F,+,Citrus orange/lemon,2
+6,1,Showstopper,Alvin,F,o,"* Chocolate almond sponge, and covered in chocolate mirrored glaze",2
+6,1,Showstopper,Dorret,F,-,"Cherry chocolate ganache, chocolate mousse",2
+6,1,Showstopper,Flora,T,+,"cherry and chocolate layered sponge, w fresh cream",3
+6,1,Showstopper,Ian,F,+,"Chocolate macaroon, genoise sponge, Carmel for structure and covered in chocolate",2
+6,1,Showstopper,Mat,T,+,"Cherry and kirsch flavored jam, and chocolate brownie cakes",3
+6,1,Showstopper,Nadiya,F,+,"* Cherry ganache and cherry jam, covered in chocolate mirror glaze",2
+6,1,Showstopper,Paul,F,+,Outside decorated with cream and tempered choc trees,2
+6,1,Showstopper,Sandy,T,o,Layered with cherries and fresh cream and 3 chocolate sponges and shortbread base,3
+6,1,Showstopper,Tamal,F,+,"Dark chocolate sponge, with a cherry ganache, with tempered chocolate outside",3
+6,1,Showstopper,Ugné,T,-,"Buttermilk chocolate sponges, tea setting decoration",2
+6,1,Showstopper,Stu,T,-,"Beetroot (moisture), mascarpone cream, covered in meringue (weird)",5
+6,1,Showstopper,Marie,F,+,"Genoise sponge, fresh cream and cherry syrup, tempered choc trees",3
+6,2,Signature,Alvin,T,+,"Jackfruit (Filipino childhood), pistachio, macadamia",3
+6,2,Signature,Dorret,T,-,"Amber sugar crystal, almond and apricot biscotti ",2
+6,2,Signature,Flora,T,+,Fennel Seeds and sesame seeds (Italian recipe),2
+6,2,Signature,Ian,T,+,"Orange, cranberry, almond, rosemary, instead of sugar used orange caramel",5
+6,2,Signature,Mat,F,-,"Cranberry, white chocolate, pistachio",3
+6,2,Signature,Nadiya,T,+,"Coconut, fennel seeds, and pistachio",3
+6,2,Signature,Paul,T,+,"Fig, hazelnuts, chocolate, chocolate dough",4
+6,2,Signature,Sandy,F,-,"Chocolate chunk, hazelnut",2
+6,2,Signature,Tamal,T,+,"Physalis+cranberries+barberries, cinnamon, maple syrup and cranberry",5
+6,2,Signature,Ugné,T,+,"White wine, goji berry",2
+6,2,Signature,Marie,F,-,"Pistachio, apricot, cranberry biscotti",3
+6,2,Showstopper,Alvin,F,+,Brandy snaps in a gingerbread box,2
+6,2,Showstopper,Dorret,T,-,"Green tea, cocoa bean cookies in a gingerbread box",3
+6,2,Showstopper,Flora,F,+,"Honey and earl grey shortbread box, Earl grey tea infused biscuits",5
+6,2,Showstopper,Ian,F,+,Shortbread box with macaron biscuits,1
+6,2,Showstopper,Mat,F,o,"Gingerbread box with Earl gray tea, lemon biscuits",3
+6,2,Showstopper,Nadiya,F,+,ginger and cayenne pepper gingerbread box with fortune cookies,3
+6,2,Showstopper,Paul,F,+,"Gingerbread box, biscuits pink macaroon. Memory box with memory decorations",1
+6,2,Showstopper,Sandy,T,o,"* Sun-dried tomato cheese biscuit box,  * Biscuits are Parmesan rounds filled w cream cheese",4
+6,2,Showstopper,Tamal,F,+,"* Gingerbread box, * Checkered shortbread cookies",1
+6,2,Showstopper,Ugné,T,+,"* Lithuanian Honeycake box, marshmallow fondant for décor, * Lithuanian cottage cheese cookies with cinnamon and sugar",4
+6,2,Showstopper,Marie,F,o,"* Russian Gingerbread box, * Shortbread biscuits-orange and cinnamon",3
+6,3,Signature,Alvin,T,+,"Manchego, prosciutto and balsamic onion",3
+6,3,Signature,Dorret,F,-,"Waldorf inspired- Walnut, sultanas, blue cheese",3
+6,3,Signature,Flora,F,+,Fig and Hazelnut rye breads,3
+6,3,Signature,Ian,T,+,"Tipo 00 flour, garlic, pesto",2
+6,3,Signature,Mat,T,-,"Smoked salt, jalapeno Mexican cheddar",2
+6,3,Signature,Nadiya,T,o,"Cumin, coriander with tomato salsa",3
+6,3,Signature,Paul,T,+,"Cranberry and orange sweet soda bread, Sweet soda bread (unusual) HANDSHAKE",3
+6,3,Signature,Sandy,T,-,Smoked bacon and onion bread,2
+6,3,Signature,Tamal,F,+,"Fig, walnut, goat cheese",3
+6,3,Signature,Ugné,T,+,"Chocolate, salted caramel sauce",2
+6,3,Showstopper,Alvin,F,+,"Balsamic onion rolls - Wheat sheaf, Pain de provence, Enriched dough plaits",1
+6,3,Showstopper,Dorret,F,-,Raisin and fennel head board - Mattress stuffed w marzipan and grace cherries and enriched dough duvet,4
+6,3,Showstopper,Flora,T,+,"Courgette, pesto, 3 herbs",3
+6,3,Showstopper,Ian,F,+,"Black olive and parmesan plant, rose and rosemary",4
+6,3,Showstopper,Mat,T,o,"sag aloo, curry spiced, lime-pickle",3
+6,3,Showstopper,Nadiya,T,+,"Cardamom, cayenne, Zaatar, garlic and parsley flutes, Snake: fried onions+chili",7
+6,3,Showstopper,Paul,F,+,"White bread head, whole meal tail and body filled w figs and walnuts",2
+6,3,Showstopper,Sandy,F,o,"Blue cheese and walnut basket, Wholemeal flour, Pesto stocks",3
+6,3,Showstopper,Tamal,F,+,"Filling is marzipan and cranberries, Fennel and lemon dough, Chai spiced dough",5
+6,3,Showstopper,Ugné,T,-,"Truffle, maple syrup, bacon, coffee and cardamom",5
+6,4,Signature,Alvin,F,-,Blackberry,1
+6,4,Signature,Flora,F,-,"Rhubarb, ginger",2
+6,4,Signature,Ian,T,o,Pomegranate (double),1
+6,4,Signature,Mat,F,-,Coconut,1
+6,4,Signature,Nadiya,F,+,Cinnamon tea,1
+6,4,Signature,Paul,T,-,Almonds,1
+6,4,Signature,Sandy,T,-,Licorice,1
+6,4,Signature,Tamal,F,+,"Rhubarb, ginger",2
+6,4,Signature,Ugné,T,+,Marula fruit,1
+6,4,Showstopper,Alvin,F,-,"Blueberry, mixed berries, lemon",3
+6,4,Showstopper,Flora,F,-,"Elderflower, granola",2
+6,4,Showstopper,Ian,T,+,"Tarragon, rosemary, Sichuan peppercorns",3
+6,4,Showstopper,Mat,F,+,"Honeycomb, coconut, peanut butter",3
+6,4,Showstopper,Nadiya,T,+,"Ginger, lemon, cream soda, white chocolate",4
+6,4,Showstopper,Paul,F,-,"Blueberry, blackberry, raspberry, vanilla, lemon, white chocolate, brandy, vodka",8
+6,4,Showstopper,Sandy,T,-,"Cassata, whiskey, orange, apple, ricotta, sour cream",6
+6,4,Showstopper,Tamal,T,+,"Mango, rosemary, hazelnut, honey",4
+6,4,Showstopper,Ugné,T,+,"Lime, chocolate, hazelnut, chili, almond, coconut, cream cheese",7
+6,5,Signature,Alvin,F,+,"pineapple, agave nectar",2
+6,5,Signature,Flora,F,-,"apple, pistachio, cardamom, cream cheese",4
+6,5,Signature,Ian,F,-,"pear, root ginger, honey, walnut",4
+6,5,Signature,Mat,F,+,"carrot, date, honey, raisin, cinnamon, ginger, orange zest",7
+6,5,Signature,Nadiya,T,+,"blueberry, caraway seed, mulberry molasses",3
+6,5,Signature,Paul,F,+,"agave nectar, sultana, pecan, cream cheese, maple syrup",5
+6,5,Signature,Tamal,F,+,"polenta, grapefruit zest, grapefruit juice, blood orange juice, honey, maple syrup",5
+6,5,Signature,Ugné,T,-,"quinoa flour, almond flour, hazelnut flour, chocolate, hazelnut, agave nectar",6
+6,5,Showstopper,Alvin,T,+,"coconut milk, buko pandan, mango jam, passionfruit jam",4
+6,5,Showstopper,Flora,F,-,"coconut milk, pear, chocolate, macadamia nut",4
+6,5,Showstopper,Ian,F,+,"coconut custard, mango, stem ginger, caramel, chocolate",5
+6,5,Showstopper,Mat,F,-,"coconut syrup, raspberry jam",2
+6,5,Showstopper,Nadiya,F,+,"coconut milk, chocolate, strawberry, lime",4
+6,5,Showstopper,Paul,F,+,"coconut, raspberry",5
+6,5,Showstopper,Tamal,F,+,"passionfruit, pineapple jam, lemon",3
+6,5,Showstopper,Ugné,T,-,"peanut butter, grape jelly, chocolate",3
+6,6,Signature,Alvin,F,-,plum,1
+6,6,Signature,Flora,F,-,"apricot jam, rosemary",2
+6,6,Signature,Ian,F,-,"pear, raspberry, calvados, star anise, lemon syrup",5
+6,6,Signature,Mat,F,-,"pineapple, coconut, rum",3
+6,6,Signature,Nadiya,T,-,"toasted almonds, bay leaf rong tea, pear, arrowroot",4
+6,6,Signature,Paul,F,+,"pear, orange, cinnamon, clove, mixed spice, apricot jam, almond",7
+6,6,Signature,Tamal,F,+,"mulled wine (red wine, pomegranate juice, raspberry puree), pear, blackberries",3
+6,6,Showstopper,Alvin,T,o,"smoked salmon, creme fraiche, dill; chicken a la king (chicken, mushroom, red pepper)",6
+6,6,Showstopper,Flora,F,+,"chocolate puff pastry, chocolate ganache, hazelnut, praline; asparagus, parma ham",5
+6,6,Showstopper,Ian,T,o,"mushroom, horse chestnut, porcini, truffle oil, lemon thyme; scallop, squid ink, bacon, vermouth",9
+6,6,Showstopper,Mat,F,+,"smoked trout, horseradish; sausage, bacon, quail egg",5
+6,6,Showstopper,Nadiya,T,-,"cod, clementine; chicken korma, cardamom, cinnamon, star anise, clove",7
+6,6,Showstopper,Paul,T,+,"garlic, chili, prawn, risotto, pea; creme patisserie, raspberry coulis, raspberry, cream",8
+6,6,Showstopper,Tamal,T,+,"pork, fennel, rosemary; chicken, chili, coriander",6
+6,7,Signature,Flora,F,+,"pheasant, pigeon, rabbit, pork belly, sage, herbs, shallot, Muscat wine",8
+6,7,Signature,Ian,F,-,"venison, partridge, guinea fowl, sausage, streaky bacon",5
+6,7,Signature,Mat,F,+,"venison, pigeon, pork belly, bacon, mixed herbs",5
+6,7,Signature,Nadiya,T,-,"pheasant, venison, duck, Chinese five spice (orange, star anise, ginger, fennel, cassias bark)  ",8
+6,7,Signature,Paul,F,-,"venison, pheasant, pigeon, wild boar, cayenne pepper, juniper berry, shallot",7
+6,7,Signature,Tamal,T,+,"rabbit, pigeon, venison, minced lamb, ras el hanout, cinnamon, almond, apricot",8
+6,7,Showstopper,Flora,T,-,"raspberry sponge, champagne, pomegranate juice, raspberry, white chocolate bavarois, pomegranate seed",5
+6,7,Showstopper,Ian,F,+,"rhubarb compote, ginger jelly, lemon verbena",3
+6,7,Showstopper,Mat,F,+,strawberry,1
+6,7,Showstopper,Nadiya,F,+,"raspberry bavarois, mango bavarois, mango jelly",2
+6,7,Showstopper,Paul,F,-,"strawberry bavarois cream, rhubarb / orange / rosemary jelly, almond, strawberry, apple",6
+6,7,Showstopper,Tamal,T,+,"raspberry / ginger, blackberry / apple, cardamom / rosewater / orange blossom bavarois",7
+6,8,Signature,Flora,T,-,"Peach, lemon, thyme; smoked almond, butterscotch",5
+6,8,Signature,Ian,T,-,"chocolate puff pastry, mont blanc, black forest gateau",4
+6,8,Signature,Nadiya,T,+,"Rose, pistachio, mocha, hazelnut",4
+6,8,Signature,Paul,F,-,"Cafe tipple, banana",4
+6,8,Signature,Tamal,F,+,"Lime, mascarpone, malt",4
+6,8,Showstopper,Flora,F,-,"Lime, basil, coconut, white chocolate",4
+6,8,Showstopper,Ian,T,+,"Coffee, cardamom",2
+6,8,Showstopper,Nadiya,T,o,"Bubblegum essence, peppermint",2
+6,8,Showstopper,Paul,T,-,"Banana essence, banana",2
+6,8,Showstopper,Tamal,F,+,"Passionfruit, mango, pistachio, raspberry",4
+6,9,Signature,Flora,T,-,"Passionfruit, chocolate",2
+6,9,Signature,Ian,T,-,"Chocolate, bay",2
+6,9,Signature,Nadiya,T,+,"Peanut, salted caramel, chocolate",3
+6,9,Signature,Tamal,F,+,"Chocolate, pecans",2
+6,9,Showstopper,Flora,T,-,"Chocolate, rice puff, cake, biscuit",2
+6,9,Showstopper,Ian,T,+,"Chocolate, biscuit, lemon, lemon oil",2
+6,9,Showstopper,Nadiya,F,+,"Chocolate, Rice puff, biscuit",1
+6,9,Showstopper,Tamal,F,+,"Chocolate, biscuit",1
+6,10,Signature,Ian,T,o,"Elderflower, lemon, spices",3
+6,10,Signature,Nadiya,T,+,"Cardamom, almond, nutmeg, sour cherry",4
+6,10,Signature,Tamal,T,o,"Cinnamon, apple, toffee, citrus marmalade",4
+6,10,Showstopper,Ian,F,+,"Carrot, star anise",2
+6,10,Showstopper,Nadiya,F,+,"Marshmallow, lemon",2
+6,10,Showstopper,Tamal,T,+,Sticky toffee pudding,1
+5,1,Signature,Chetna,F,+,"Cardamom, Pistachio and Coffee",3
+5,1,Signature,Claire,F,-,"orange jelly, milk chocolate, orange",3
+5,1,Signature,Diana,F,o,Lemon Curd,1
+5,1,Signature,Enwezor,T,-,"Raspberry, Lemon, buttercream",3
+5,1,Signature,Iain,T,-,"Apricot, Basil, Mascarpone, White Chocolate, Cream",5
+5,1,Signature,Jordan,T,o,"Strawberry, creme patisserie",2
+5,1,Signature,Kate,F,-,"Red Velvet, White Chocolate, buttercream, white chocolate",4
+5,1,Signature,Luis,T,+,"Orange, aniseed, honey",3
+5,1,Signature,Martha,F,+,"Tiramisu, macadamia, alcohol",3
+5,1,Signature,Nancy,F,+,"Coffee, Hazelnut",2
+5,1,Signature,Norman,F,+,"Morello cherry jam, dark chocolate, cocoa powder",3
+5,1,Signature,Richard,T,+,"Pistachio, strawberry",2
+5,1,Showstopper,Chetna,T,+,"Lemon Curd, Raspberry, Cream",3
+5,1,Showstopper,Claire,F,-,"Chocolate, Morello Cherry",2
+5,1,Showstopper,Diana,F,+,Chocolate,1
+5,1,Showstopper,Enwezor,T,o,"walnut sponge, coffee, buttercream",3
+5,1,Showstopper,Iain,F,-,"Lemon Drizzle, Mascarpone, poppy seeds, lavender, Candied Lemon",5
+5,1,Showstopper,Jordan,T,-,"genoise sponge, Lemon Drizzle, Blueberry, Lemon Curd, lavender, honeycomb, hazelnut",7
+5,1,Showstopper,Kate,F,o,raspberry,1
+5,1,Showstopper,Luis,T,o,"Genoise sponge, Raspberry, Buttercream, Lemon, Elderflower syrup",5
+5,1,Showstopper,Martha,F,+,"Lemon thyme, mascarpone, lemon curd",3
+5,1,Showstopper,Nancy,F,+,"Vanilla sponge, Cointreau, orange jelly, buttercream, dark chocolate",5
+5,1,Showstopper,Norman,F,+,"Almond sponge, Raspberry, cream",3
+5,1,Showstopper,Richard,F,+,"coffee, walnut",2
+5,2,Signature,Chetna,F,+,"Fenugreek leaf, Carom seed",2
+5,2,Signature,Diana,T,-,"Parmesan, chive, thyme",3
+5,2,Signature,Enwezor,T,+,Pumpkin and Sunflower,2
+5,2,Signature,Iain,T,-,"Za'atar, oatmeal, Fig",3
+5,2,Signature,Jordan,T,o,"Parmesan, arbol, cascabel, chipotle",4
+5,2,Signature,Kate,F,o,"Parmesan, Apple",2
+5,2,Signature,Luis,T,+,"Oatmeal, sweet paprika, Black Olive, Rosemary, Onion",5
+5,2,Signature,Martha,T,+,"Onion, Goat's Cheese",2
+5,2,Signature,Nancy,T,+,"Fennel, Rye",2
+5,2,Signature,Norman,F,+,lard,1
+5,2,Signature,Richard,F,+,"Poppy seed, Rosemary",2
+5,2,Showstopper,Chetna,T,o,Vanilla,1
+5,2,Showstopper,Diana,F,o,"Gingerbread, cocoa, vanilla",3
+5,2,Showstopper,Enwezor,T,-,"Fondant, gingerbread",2
+5,2,Showstopper,Iain,T,+,"oatmeal, chocolate, chili, pistachio, rose water",5
+5,2,Showstopper,Jordan,F,o,"Custard, bourbon",2
+5,2,Showstopper,Kate,F,+,"lemon, lime",2
+5,2,Showstopper,Luis,F,+,"Chili, chocolate, sweet paprika, orange, cardamom, almond",6
+5,2,Showstopper,Martha,T,+,"Coffee, hot chocolate, mulled wine, marshmallow",4
+5,2,Showstopper,Nancy,T,+,"Gingerbread, brandy, orange, green tea",4
+5,2,Showstopper,Norman,F,o,vanilla,1
+5,2,Showstopper,Richard,F,+,"Gingerbread, peanut butter",2
+5,3,Signature,Chetna,F,o,"Onion, Pine Nut, lentil chutney",3
+5,3,Signature,Diana,T,o,"Shropshire blue cheese, stilton cheese, walnut",3
+5,3,Signature,Iain,F,+,"Cranberry, Walnut, orange zest",3
+5,3,Signature,Jordan,F,+,"Lemon, honey, poppy seed, spelt",4
+5,3,Signature,Kate,F,+,"Cardamom, orange syrup",2
+5,3,Signature,Luis,T,+,"Fennel, parsnip, carrot, coffee, chocolate",5
+5,3,Signature,Martha,F,o,"Date, Walnut, black treacle, honey",4
+5,3,Signature,Nancy,F,o,"pear Cider, dried pear, and Walnut oil",3
+5,3,Signature,Norman,F,o,"Caraway seeds, sultana, black treacle",3
+5,3,Signature,Richard,F,o,"treacle, coffee, cinnamon, Cranberry, caraway seeds",5
+5,3,Showstopper,Chetna,T,-,"cauliflower, potato, tomato, onion, curry leaves, mango",6
+5,3,Showstopper,Diana,F,-,"Parmesan, spinach, ham, chili",4
+5,3,Showstopper,Iain,F,+,"black olives, broad beans, lemon, cumin, paprika",5
+5,3,Showstopper,Jordan,T,-,"Strawberry, raspberry, vanilla, cream cheese",4
+5,3,Showstopper,Kate,T,-,"Prosciutto, Olive, Coriander",3
+5,3,Showstopper,Luis,F,o,"Saffron, Manchego, Serrano ham",3
+5,3,Showstopper,Martha,T,o,"Epoisses cheese, apricot, fig",3
+5,3,Showstopper,Nancy,T,o,"Sausage, quail eggs, tomato, bacon, mushroom, ketchup",6
+5,3,Showstopper,Norman,F,-,"Chicken, pesto, vegetables, sun-dried tomatoes, rosemary, olive oil, sea salt, oregano",8
+5,3,Showstopper,Richard,F,+,"pesto, feta, walnut, vegetables",4
+5,4,Signature,Chetna,T,o,"Rhubarb, Strawberry, Caramel, Orange",4
+5,4,Signature,Diana,F,+,"Orange, Lemon Curd",2
+5,4,Signature,Iain,F,+,"dark chocolate, Lime, Raspberry, mint",4
+5,4,Signature,Kate,F,+,"Chocolate, Salted Caramel, almond",3
+5,4,Signature,Luis,T,-,"Cinnamon, almond, Pear",3
+5,4,Signature,Martha,F,-,"Peanut Butter, Chocolate, peanut",3
+5,4,Signature,Nancy,T,-,"Pistachio, Chocolate",2
+5,4,Signature,Norman,T,o,"Toffee, treacle",2
+5,4,Signature,Richard,F,+,"chocolate, cherry",2
+5,4,Showstopper,Chetna,F,o,"Mango, Raspberry, Coconut",3
+5,4,Showstopper,Diana,T,+,"Raspberry, Joconde sponge",2
+5,4,Showstopper,Kate,F,+,"Pistachio, Raspberry, Chocolate",3
+5,4,Showstopper,Luis,T,+,"Raspberry, frozen yogurt, apricot, frangipane, cherry",5
+5,4,Showstopper,Martha,T,+,"lime, coconut",2
+5,4,Showstopper,Nancy,T,+,"Vanilla, almond, mixed berry",3
+5,4,Showstopper,Norman,F,o,"Strawberry, vanilla",2
+5,4,Showstopper,Richard,F,o,coffee,1
+5,5,Signature,Chetna,T,-,"Rice, Mangos and Raspberries",3
+5,5,Signature,Kate,F,o,"Rhubarb, almond, rosemary",3
+5,5,Signature,Luis,T,+,"passionfruit, orange, lime, desiccated coconut, mango",5
+5,5,Signature,Martha,F,-,"Pistachio, Apricot, Honey",3
+5,5,Signature,Nancy,T,+,"Cocoa powder, Passion Fruit",2
+5,5,Signature,Norman,F,-,candied lemon,1
+5,5,Signature,Richard,F,-,"Fig, cinnamon, honey, peppercorns, almond, Orange",6
+5,5,Showstopper,Chetna,T,+,spices,1
+5,5,Showstopper,Kate,F,+,"pork, Rhubarb, Prune, Apple",4
+5,5,Showstopper,Luis,T,o,"Duck, venison, chicken, pork",4
+5,5,Showstopper,Martha,F,o,"Chorizo, pulled pork, pork, apple, paprika",5
+5,5,Showstopper,Nancy,F,o,"apple, chicken, gammon, blackberry",4
+5,5,Showstopper,Norman,T,-,"Venison, haggis, spinach, haddock, cheese, raspberry, passionfruit, lavender",8
+5,5,Showstopper,Richard,T,-,"Steak, ale, chicken, mushroom, frangipane, pear, apple",7
+5,6,Signature,Chetna,F,+,"Orange, cinnamon",2
+5,6,Signature,Kate,F,o,"Pecan, chocolate, cherry",3
+5,6,Signature,Luis,F,+,"Apple, almonds, calvados syrup",3
+5,6,Signature,Martha,F,+,"Dark chocolate, almond liqueur, white chocolate",3
+5,6,Signature,Nancy,T,+,"Rum, coconut, orange, passion fruit, banana",5
+5,6,Signature,Richard,F,o,"Cranberries, apricots, raisins, mixed peel, rum, orange zest, almonds",7
+5,6,Showstopper,Chetna,T,+,"Chocolate, caramel, almond liqueur, buttercream",4
+5,6,Showstopper,Kate,F,o,"Raspberry, chocolate, orange",3
+5,6,Showstopper,Luis,F,-,"Coffee, buttercream, caramel, vanilla, hazelnut",5
+5,6,Showstopper,Martha,F,+,"Chocolate, salted caramel",2
+5,6,Showstopper,Nancy,F,+,"chocolate, caramel, praline",3
+5,6,Showstopper,Richard,T,-,"chocolate, raspberry, white peach, pistachio",4
+5,7,Signature,Chetna,T,+,"lentil, carom seed",2
+5,7,Signature,Kate,T,-,"Paneer and spinach, coriander, cumin, mustard seed, ginger powder, chili flakes, turmeric",8
+5,7,Signature,Luis,T,+,"Beef, chorizo, potato, carrot, celery, paprika, oregano, orange and paprika",9
+5,7,Signature,Martha,T,+,"Beef, mushroom, parma ham",3
+5,7,Signature,Nancy,T,o,"Spicy duck, oriental vegetables, Chinese spices",3
+5,7,Signature,Richard,F,+,"Lamb and mint, sweet potato",3
+5,7,Showstopper,Chetna,T,+,"Caramel, chocolate, mango, Lemon, raspberries",5
+5,7,Showstopper,Luis,T,+,"Blueberry, cheesecake, peanut butter, strawberry",4
+5,7,Showstopper,Martha,T,-,"rhubarb, maple syrup, pecan, bacon",4
+5,7,Showstopper,Nancy,F,o,"salmon, horseradish, sesame",3
+5,7,Showstopper,Richard,T,+,"lavender, blueberry, rose, raspberry",4
+5,8,Signature,Chetna,F,o,"Dates, walnut, cocoa, cinnamon",4
+5,8,Signature,Luis,F,o,"Cinnamon, cherries, chocolate",3
+5,8,Signature,Martha,F,o,"Plum, cinnamon, flaked almonds, cassis, cloves, star anise",6
+5,8,Signature,Nancy,T,o,"Apricot, strawberries, masala wine, marzipan, cinnamon, nutmeg, orange zest, plum",8
+5,8,Signature,Richard,F,+,"Apricot, pecan, dried fruit, lemon",4
+5,8,Showstopper,Chetna,F,o,"potato, white chocolate, dark chocolate, ginger, cinnamon",5
+5,8,Showstopper,Luis,T,+,"irish liqueur, rasberry, mint jam",3
+5,8,Showstopper,Martha,F,o,"Lemon, poppy seed, Chocolate, passionfruit",4
+5,8,Showstopper,Nancy,F,o,"Limoncello, almond, Milk chocolate",3
+5,8,Showstopper,Richard,F,+,"Toffee, apple, salted caramel, Rhubarb, custard",5
+5,9,Signature,Chetna,T,o,"orange, chocolate, masala, chai",4
+5,9,Signature,Luis,T,o,"Rose, barberry; Cashews, almond, carrot, saffron",6
+5,9,Signature,Nancy,T,+,"Muesli, apple, Coffee, chocolate, orange, honey",6
+5,9,Signature,Richard,F,+,"Pistachio, rose, Walnut, almond, cinnamon, orange",6
+5,9,Showstopper,Chetna,T,+,"Praline, milk chocolate, orange, hazelnut; Coffee, cocoa",6
+5,9,Showstopper,Luis,F,+,"Chocolate, cherry; Pomegranate, fig, pistachio",5
+5,9,Showstopper,Nancy,T,+,"Lime, chocolate, passionfruit; Raspberry, almond, verbena jelly, chocolate",7
+5,9,Showstopper,Richard,T,o,"Grapefruit, almond, vanilla; Hazelnut, coffee",5
+5,10,Signature,Luis,F,o,"Apple, walnut, raisin, Cheshire cheese; White chocolate, raspberry",6
+5,10,Signature,Nancy,F,o,"Raspberry, almond; Lemon, apple",4
+5,10,Signature,Richard,F,-,"Pear, chocolate",2
+5,10,Showstopper,Luis,F,+,"Chocolate, vanilla, orange, almond, hazelnut, mint",6
+5,10,Showstopper,Nancy,F,+,"Ginger, caramel, passionfruit",3
+5,10,Showstopper,Richard,T,+,"Almond, raspberry, ginger, orange, elderflower",5
+4,1,Signature,Frances,T,o,"coconut, sugar paste, raspberry, rose",4
+4,1,Signature,Kimberley,T,+,blood orange,1
+4,1,Signature,Ruby,T,-,"rhubarb, custard, creme patissiere",3
+4,1,Signature,Beca,T,+,grapefruit,1
+4,1,Signature,Christine,T,o,"strawberry, vanilla, rosewater",3
+4,1,Signature,Glenn,F,o,"strawberry, cream",2
+4,1,Signature,Howard,T,+,"rice flour, xantham gum, passion fruit, coconut",4
+4,1,Signature,Rob,F,+,"pecan, apple",2
+4,1,Signature,Ali,T,+,"pistachio, lychee, rose",3
+4,1,Signature,Deborah,F,-,pineapple,1
+4,1,Signature,Mark,F,-,"lemon, poppy seed",2
+4,1,Signature,Lucy,T,+,"cardamom, rhubarb",2
+4,1,Signature,Toby,F,+,"spice, carrot",2
+4,1,Showstopper,Frances,F,+,"walnut, almond, hazelnut, chocolate",4
+4,1,Showstopper,Kimberley,F,+,"chocolate, raspberry, basil",3
+4,1,Showstopper,Ruby,F,+,"chocolate, ginger, dark chocolate",3
+4,1,Showstopper,Beca,F,+,"ginger, chocolate, cherry",3
+4,1,Showstopper,Christine,F,+,"chocolate, orange",2
+4,1,Showstopper,Glenn,F,-,"almond, chocolate, espresso",3
+4,1,Showstopper,Howard,F,+,"cream cheese, kirsch, dark chocolate",3
+4,1,Showstopper,Rob,F,+,"raspberry, chocolate, white chocolate, dark chocolate",4
+4,1,Showstopper,Ali,T,-,"raspberry, chocolate, passionfruit, passionfruit seed, white chocolate, dark chocolate",6
+4,1,Showstopper,Deborah,F,-,coffee,1
+4,1,Showstopper,Mark,F,-,"chocolate, buttermilk",2
+4,1,Showstopper,Lucy,T,o,"dark chocolate, thyme",2
+4,1,Showstopper,Toby,F,-,"dark chocolate, white chocolate",2
+4,2,Signature,Frances,T,o,"ginger, chili",2
+4,2,Signature,Kimberley,T,+,"nigella seed, parmesan, paprika",3
+4,2,Signature,Ruby,F,+,"jalapeño, paprika, cumin",3
+4,2,Signature,Beca,T,+,"fennel, chili, semolini",3
+4,2,Signature,Christine,F,o,oregano,1
+4,2,Signature,Glenn,T,o,"rosemary, parmesan, milk, butter",4
+4,2,Signature,Howard,T,o,"ras al hanout, rosemary, lemon",3
+4,2,Signature,Rob,F,+,"poppy seed, caraway seed, kalamata olive",3
+4,2,Signature,Ali,F,+,"garlic, parmesan, blue cheese",3
+4,2,Signature,Deborah,F,+,"fennel, chili",2
+4,2,Signature,Mark,F,+,"rosemary, raisin",2
+4,2,Signature,Lucy,F,o,sea salt,1
+4,2,Showstopper,Frances,F,+,sea salt,1
+4,2,Showstopper,Kimberley,T,+,"za'atar spice, garlic, saffron, onion",4
+4,2,Showstopper,Ruby,T,+,"white chocolate, orange",2
+4,2,Showstopper,Beca,F,o,"cinnamon, honey, sultana",3
+4,2,Showstopper,Christine,F,+,"onion, cheese, bacon",3
+4,2,Showstopper,Glenn,F,+,"shallot, sesame seed, poppy seed, date",4
+4,2,Showstopper,Howard,T,+,"oregano, orange",2
+4,2,Showstopper,Rob,F,o,plain,1
+4,2,Showstopper,Ali,T,+,"white chocolate, apricot, chicken tikka, paneer",4
+4,2,Showstopper,Deborah,T,-,walnut,1
+4,2,Showstopper,Mark,F,-,"garlic, sage",2
+4,2,Showstopper,Lucy,F,o,"tomato, garlic",2
+4,3,Signature,Frances,F,o,"apple, cinnamon",2
+4,3,Signature,Kimberley,F,+,"peach, almond, ginger, honeycomb",4
+4,3,Signature,Ruby,T,o,"rum, coconut, cardamom, banana, strawberry, mango",6
+4,3,Signature,Beca,F,-,"ginger, orange",2
+4,3,Signature,Christine,F,+,"mango, coconut, rum",3
+4,3,Signature,Glenn,F,+,"raspberry, almond",2
+4,3,Signature,Howard,T,o,"caramel, apple, macadamia",3
+4,3,Signature,Rob,F,-,"rhubarb, orange",2
+4,3,Signature,Ali,F,+,"coconut, raspberry, lemon",3
+4,3,Signature,Deborah,F,+,"orange, lemon, mango, Cointreau",4
+4,3,Signature,Mark,F,-,"ground ginger, stem ginger, root ginger, mango, passion fruit, dark rum",6
+4,3,Showstopper,Frances,F,+,"ginger, cardamom, white chocolate; buttercream",4
+4,3,Showstopper,Kimberley,F,o,"chocolate, lemon, pistachio, bergamot orange",4
+4,3,Showstopper,Ruby,F,+,"lemon, white chocolate, raspberry; chocolate, blackberry",5
+4,3,Showstopper,Beca,F,+,"limoncello, blueberry; apricot, chocolate, amaretto",5
+4,3,Showstopper,Christine,F,+,"amaretto, chocolate; brandy, raspberry, mascarpone, pistachio",6
+4,3,Showstopper,Glenn,F,o,"sea salt, caramel; orange, kumquat, buttercream",5
+4,3,Showstopper,Howard,T,-,"pear, white stilton; coffee, cardamom",4
+4,3,Showstopper,Rob,F,o,almond; turand,2
+4,3,Showstopper,Ali,F,-,"vanilla; lime, mint",3
+4,3,Showstopper,Deborah,T,o,"cherry, chocolate, pansy; rose",4
+4,3,Showstopper,Mark,T,-,"rose, pistachio; chocolate, raspberry",4
+4,4,Signature,Frances,F,-,"peach, almond, frangipane",3
+4,4,Signature,Kimberley,T,+,"rosemary, caramel, pecan, apple",4
+4,4,Signature,Ruby,F,+,"apple, sour cherry, marzipan",3
+4,4,Signature,Beca,F,o,"orange, rhubarb",2
+4,4,Signature,Christine,F,-,"apple, plum, cinnamon, allspice, nutmeg",5
+4,4,Signature,Glenn,F,-,"apple, sour cream, maple syrup, custard",4
+4,4,Signature,Howard,T,-,"polenta, apple, sultana, pistachio, sage",5
+4,4,Signature,Rob,T,+,"apple, pear, thyme, star anise",4
+4,4,Signature,Ali,F,-,"pecan, walnut, apple, ginger",4
+4,4,Showstopper,Frances,F,-,"cream cheese, ricotta, orange blossom honey, orange, lemon, morello cherry, pistachio",7
+4,4,Showstopper,Kimberley,T,+,"ras el hanout, chicken, bacon, turmeric, butternut squash, garlic, coriander, crackling",8
+4,4,Showstopper,Ruby,F,+,"almond, orange",2
+4,4,Showstopper,Beca,F,-,"butternut squash, almond, vegetables",3
+4,4,Showstopper,Christine,F,+,"feta, tomato, onion, lemon, bell pepper, zucchini, eggplant",7
+4,4,Showstopper,Glenn,F,+,"feta, spinach, walnut, dill",4
+4,4,Showstopper,Howard,F,+,"fig, feta",2
+4,4,Showstopper,Rob,F,o,mushroom,1
+4,4,Showstopper,Ali,F,o,"orange, cardamom, date, almond, pistachio",5
+4,5,Signature,Frances,T,+,"salted caramel, banana, toffee",3
+4,5,Signature,Kimberley,F,+,"almond, sour cherry, maraschino cherry, glace cherry, black cherry, damson",6
+4,5,Signature,Ruby,F,o,"blackberry, ginger, lemon",3
+4,5,Signature,Beca,F,+,"hazelnut, chocolate, cherry, white chocolate",4
+4,5,Signature,Christine,F,+,"almond, blackberry, raspberry, blueberry",4
+4,5,Signature,Glenn,F,+,"pistachio, apricot, dark chocolate, marshmallow",4
+4,5,Signature,Howard,F,o,"banana, oats, grapefruit, yogurt",4
+4,5,Showstopper,Rob,F,-,"orange, lemon, chocolate, edible glue",4
+4,5,Showstopper,Frances,F,o,"ginger; chocolate, vanilla; peanut butter",4
+4,5,Showstopper,Kimberley,T,o,"chocolate, caramel, buttercream, vanilla",4
+4,5,Showstopper,Ruby,F,+,"ginger, cinnamon; lemon, ginger, chocolate, buttercream",6
+4,5,Showstopper,Beca,F,-,"sugar, edible glue",2
+4,5,Showstopper,Christine,F,+,"orange, cardamom; lemon, lavender; chocolate; vanilla",6
+4,5,Showstopper,Glenn,F,+,"cherry, hazelnut, stem ginger, raspberry, white chocolate",5
+4,5,Showstopper,Howard,T,o,"green tea, earl grey",2
+4,5,Showstopper,Rob,F,o,"chocolate, lemon, orange",3
+4,6,Signature,Beca,F,+,"Tea, dried fruit, cranberries",3
+4,6,Signature,Christine,F,-,"Grape, Assam tea, apricots, walnut",4
+4,6,Signature,Frances,T,+,"Cinnamon, cardamom, ginger, tea",4
+4,6,Signature,Glenn,T,o,"Saffron, nutmeg, orange",3
+4,6,Signature,Howard,T,-,"Hemp flour, hemp oil, date, yogurt",4
+4,6,Signature,Kimberley,T,o,"Date, ginger, butter, cardamom, ginger, palm sugar",6
+4,6,Signature,Ruby,F,+,"Oranges, lemons",2
+4,6,Showstopper,Beca,T,o,"Chocolate, rum, prunes, cardamom, lemon",5
+4,6,Showstopper,Christine,F,+,"Cherry, raisin, vanilla, raspberry, cinnamon, caramel",6
+4,6,Showstopper,Frances,T,+,"Cinnamon, rhubarb, strawberry, cream",4
+4,6,Showstopper,Glenn,F,-,"Almond, apricot, cinnamon, caramel, hazelnuts",5
+4,6,Showstopper,Howard,F,-,"Peach, marzipan, cinnamon",3
+4,6,Showstopper,Kimberley,T,-,"Kumquat, chocolate, hazelnut, chamomile, apricot, almond, cardamom",7
+4,6,Showstopper,Ruby,T,+,"Cardamom, lemon, chocolate, saffron, currants",5
+4,7,Signature,Beca,T,+,"Lamb, red currant, leek, carrot",4
+4,7,Signature,Christine,F,+,"Ginger, vanilla, dried fruit",3
+4,7,Signature,Frances,T,+,"Fig, walnut, honey, goat's cheese, almond",5
+4,7,Signature,Glenn,T,o,"Prune, brandy, butterscotch",3
+4,7,Signature,Kimberley,T,+,"Barberry, apple, maple syrup, white chocolate",4
+4,7,Signature,Ruby,T,+,"Plum, ginger",2
+4,7,Showstopper,Beca,F,-,"Nectarine, chocolate, hazelnut, strawberry, cream",5
+4,7,Showstopper,Christine,F,+,"Currants, lemon, chocolate, strawberries, cream",5
+4,7,Showstopper,Frances,F,+,"Cream, chocolate, raspberry",3
+4,7,Showstopper,Glenn,F,-,"Apple, marzipan, chocolate, passionfruit, cinnamon",5
+4,7,Showstopper,Kimberley,T,+,"Pear, malt, butterscotch, blackberry, lemon, fig, orange, thyme, cream, caramel, verbena",11
+4,7,Showstopper,Ruby,F,o,"Raspberry, passionfruit, apple, cream, chocolate",5
+4,8,Signature,Beca,T,+,"Spelt, potato, rosemary",3
+4,8,Signature,Christine,T,+,"Tapioca, rice, potato, pumpkin seeds, sesame, sunflower seeds",6
+4,8,Signature,Frances,F,+,"Spelt, orange, apricots, honeycomb",4
+4,8,Signature,Kimberley,T,o,"Spelt, garlic, pesto, ham",4
+4,8,Signature,Ruby,T,o,"Spelt, mango, nigella",3
+4,8,Showstopper,Beca,T,-,"Butternut squash, peach, pecan, ginger",4
+4,8,Showstopper,Christine,T,-,"Sweet potato, passionfruit, marshmallow, pineapple",4
+4,8,Showstopper,Frances,F,-,"Beetroot, walnut, dark chocolate, orange zest, carrot, praline, coconut",7
+4,8,Showstopper,Kimberley,T,+,"Butternut squash, maple syrup, spices",3
+4,8,Showstopper,Ruby,T,+,"Cider vinegar, pistachio, carrot, poppy seed, dark chocolate, praline, caramel",7
+4,9,Signature,Beca,T,-,"Stilton, walnut, beetroot, salmon, horseradish, ale",6
+4,9,Signature,Frances,T,+,"Carrot, tomato, trout, paprika, cauliflower, lettuce, cheese, hummus",8
+4,9,Signature,Kimberley,T,+,"Pea, ham; crab, wasabi, lotus root; chicken",6
+4,9,Signature,Ruby,F,+,"Beetroot, rye, poppy seed, spinach, parmesan, quail egg, goat's cheese, red onion",8
+4,9,Showstopper,Beca,F,-,"Banana, toffee",2
+4,9,Showstopper,Frances,T,o,"White chocolate, lemon, lavender",3
+4,9,Showstopper,Kimberley,T,-,"Passionfruit, lime, dark chocolate",3
+4,9,Showstopper,Ruby,F,+,"Praline, saffron, vanilla, cream, dark chocolate",5
+4,10,Signature,Frances,F,+,"Rice, trout, turmeric, shallot, garlic, pine nut, red pepper, green bean, asparagus, mint, dill, parsley, lemon",13
+4,10,Signature,Kimberley,T,o,"Chicken, pancetta, pork, pistachio, black pudding",5
+4,10,Signature,Ruby,T,+,"Mozzarella, halloumi, couscous, tomato, oregano, basil",6
+4,10,Showstopper,Frances,T,+,"Rhubarb, ginger, lemon, raspberry, cream, carrot, apricot, orange, beetroot, mango, sweet potato, pineapple",12
+4,10,Showstopper,Kimberley,T,o,"Chocolate, raspberry, orange, pistachio, lemon, elderflower, poppy seed",7
+4,10,Showstopper,Ruby,F,o,"Passionfruit, raspberry, cream, lemon",4
