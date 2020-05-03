@@ -13,7 +13,7 @@ function App() {
 				@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 			</style>
       <TitleCard/>
-      <SlideCard/>
+      <SlideCard />
       <RiskBarchartScrollama />
       <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />
