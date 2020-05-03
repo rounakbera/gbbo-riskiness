@@ -1,6 +1,4 @@
 import React from 'react';
-import Slider, { Range } from 'rc-slider';
-import 'rc-slider/assets/index.css';
 import {
   VictoryChart,
   VictoryScatter,
@@ -9,6 +7,9 @@ import {
   VictoryTooltip, 
   VictoryAxis 
 } from 'victory';
+import WorkingHandle from './WorkingHandle';
+
+
 const bakerInfo = require('../data/bakerinfo.json')
 const allSeasons = require('../data/seasons.json')
 
@@ -20,7 +21,7 @@ export default class FinalViz extends React.Component {
       data: this.parseData(bakerInfo),
       animate: props.animate,
       animating: false,
-      placeLimit: props.placeLimit
+      placeLimit: 3
     }
   }
   calcLeaf(bakerList) {
@@ -76,42 +77,19 @@ export default class FinalViz extends React.Component {
     ticks.push(1);
     console.log(ticks);
     return (
+      <div>
+      <WorkingHandle />
       <VictoryChart 
         domain = {{y:[-0.025, 1.025]}}
-        width = {160}
-        height = {200}
+        width = {165}
+        height = {160}
         style={{ parent: { maxWidth: "75%" } }}
+        padding={{ top: 0, bottom: 50, right: 10, left: 30 }}
         containerComponent={<VictoryVoronoiContainer/>}>
         <VictoryVoronoi
+          padding={{ top: 0, bottom: 50, right: 0, left: 30 }}
           standalone = {false}
           style={{ data: { stroke: "#c43a31", strokeWidth: 0 } }}
-          events={[{
-            target: "data",
-            eventHandlers: {
-              onMouseOver: () => {
-                return [
-                  {
-                    target: "data",
-                    mutation: (({datum}) => <circle cx={datum.x} cy={datum.y} r={3} fill="#c43a31"/>)
-                  }, {
-                    target: "labels",
-                    mutation: () => ({ active: true })
-                  }
-                ];
-              },
-              onMouseOut: () => {
-                return [
-                  {
-                    target: "data",
-                    mutation: () => {}
-                  }, {
-                    target: "labels",
-                    mutation: () => ({ active: false })
-                  }
-                ];
-              }
-            }
-          }]}
           data={this.state.data}
           x="leaf"
           y="risk"
@@ -126,8 +104,8 @@ export default class FinalViz extends React.Component {
               cornerRadius={2}
               pointerOrientation = "left"
               centerOffset = {{x: 30, y: 15}}
-              dy = {0}
-              dx = {1}
+              dy = {16}
+              dx = {0}
               pointerLength={({ datum }) => this.getTooltipLength(datum.baker)}
               pointerWidth = {5}
           />}
@@ -145,21 +123,22 @@ export default class FinalViz extends React.Component {
           tickValues = {ticks}
           label = "Baker Average Risk Distribution"
           tickFormat = {(t) => t.toFixed(2)}
-          offsetX = {50}
+          offsetX = {30}
           x={10} y={300} 
-          padding = {50}
+          padding = {30}
           style={{
             axis: {strokeWidth: 5},
-            axisLabel: {fontSize: 5},
+            axisLabel: {fontSize: 5, padding: 20},
             tickLabels: { fontSize: 4, textAnchor: "middle" }
           }}  />
         <VictoryAxis tickValues = {Array.from({length: 4}, (x,i) => i)}
-          width = {200}
+          width = {100}
           style = {{
             axis: {strokeOpacity: 0},
             tickLabels: { fontSize: 0 }
           }}/>
         </VictoryChart>
+        </div>
     )
   }
 }

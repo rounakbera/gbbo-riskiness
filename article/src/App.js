@@ -31,8 +31,8 @@ function App() {
       <RiskRewardPieChart baker={"Mat"} />
       <StuScrollama/>
       <MatScrollama />
-      <NadiyaScrollama />    
-      <FinalViz placeLimit={5}/>
+      <NadiyaScrollama />
+      <FinalViz />
     </div>
   );
 }
