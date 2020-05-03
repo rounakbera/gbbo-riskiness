@@ -43,7 +43,6 @@ const Title = styled.div`
 `
 
 const TitleSpan = styled.span`
-	font-weight: 700;
 	background-color: crimson;
 	color: beige;
 	font-size: 5rem;
@@ -55,7 +54,7 @@ const TitleSpan = styled.span`
 `
 
 const Authors = styled.div`
-	padding: 5% 0;
+	padding: 1% 0;
 	width: 100%;
 	display: flex;
 	margin-top: 3vh;
@@ -66,9 +65,8 @@ const Authors = styled.div`
 `
 
 const AuthorName = styled.div`
-	color: brown;
 	width: 30%;
-	font-size: 2rem;
+	padding: 0;
 	@media (max-width: 900px) {
 		margin-bottom: -5vh;
 	}
@@ -95,12 +93,12 @@ class TitleCard extends Component {
 						Managing Risk in Your Competitive Baking Flavor Portfolio
 					</TitleSpan>
 					<Authors>
-						<AuthorName>Rounak Bera</AuthorName>
-						<AuthorName>Stacy Tao</AuthorName>
+						<AuthorName><h2>Rounak Bera</h2></AuthorName>
+						<AuthorName><h2>Stacy Tao</h2></AuthorName>
 					</Authors>
 					<Authors>
-						<AuthorName>Ria Garg</AuthorName>
-						<AuthorName>Tian Low</AuthorName>
+						<AuthorName><h2>Ria Garg</h2></AuthorName>
+						<AuthorName><h2>Tian Low</h2></AuthorName>
 					</Authors>
 					<Description>
 						<p>

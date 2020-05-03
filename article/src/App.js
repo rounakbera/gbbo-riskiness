@@ -5,7 +5,7 @@ import RiskRewardPieChart from './components/RiskRewardPieChart.js';
 import TitleCard from './components/TitleCard.js';
 import SlideCard from './components/SlideCard.js';
 import FinalViz from './components/FinalViz.js';
-import GlobalStyles from './components/GlobalStyles.js';
+import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
 
 function App() {
   return (
