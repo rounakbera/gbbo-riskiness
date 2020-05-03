@@ -1,52 +1,80 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import BreadTrophy from '../assets/bread-trophy.png';
+import TitleCake from '../assets/title-cake.png';
 
 const TitleWrapper = styled.div`
 	width: 100vw;
-	background-color: #EEEEEE;
+	background: linear-gradient(180deg, rgba(255,250,236,1) 0%, rgba(255,250,236,1) 95%, rgba(255,255,255,1) 100%);
 	display: flex;
+	height: auto;
+	padding-bottom: 10vh;
+	@media (max-width: 900px) {
+		display: block;
+		padding: 5vw;
+	}
 `
 const TitleImg = styled.img`
 	position: sticky;
-	height: 70vh;
+	max-height: 60vh;
 	top: 5vh;
 	left: 5vw;
+	margin-bottom: 5vh;
+	@media (max-width: 900px) {
+		position: static;
+		width: 70vw;
+		height: auto;
+		margin-bottom: 0;
+		margin-left: 10vw;
+	}
 `
 
 const Title = styled.div`
 	padding-top: 10vh;
-	width: 50vw;
+	width: 60vw;
 	height: 100vh;
 	margin-left: 5vw;
+	padding: 5%;
+	@media (max-width: 900px) {
+		padding-top: 5vh;
+		width: 90vw;
+		height: auto;
+		margin-left: 0;
+	}
 `
 
 const TitleSpan = styled.span`
 	background-color: crimson;
 	color: beige;
-	font-family: 'Concert One', sans-serif;
 	font-size: 5rem;
 	line-height: 6rem;
+	@media (max-width: 900px) {
+		font-size: 4rem;
+		line-height: 5rem;
+	}
 `
 
 const Authors = styled.div`
-	padding: 5%;
+	padding: 1% 0;
 	width: 100%;
 	display: flex;
 	margin-top: 3vh;
 	margin-bottom: -8vh;
+	@media (max-width: 900px) {
+		margin-bottom: 5vw;
+	}
 `
 
 const AuthorName = styled.div`
-	color: brown;
-	width: 50%;
-	font-size: 2rem;
+	width: 30%;
+	padding: 0;
+	@media (max-width: 900px) {
+		margin-bottom: -5vh;
+	}
 `
 
 const Description = styled.div`
-	width: 100%;
-	padding: 10%;
-	font-size: 1.5rem;
+	width: 90%;
+	padding-top: 5%;
 `
 
 class TitleCard extends Component {
@@ -59,25 +87,32 @@ class TitleCard extends Component {
 		return (
 			
 			<TitleWrapper>
-				<TitleImg src = {BreadTrophy}/>
+				<TitleImg src = {TitleCake}/>
 				<Title>
 					<TitleSpan>
 						Managing Risk in Your Competitive Baking Flavor Portfolio
 					</TitleSpan>
 					<Authors>
-						<AuthorName>Rounak Bera</AuthorName>
-						<AuthorName>Stacy Tao</AuthorName>
+						<AuthorName><h2>Rounak Bera</h2></AuthorName>
+						<AuthorName><h2>Stacy Tao</h2></AuthorName>
 					</Authors>
 					<Authors>
-						<AuthorName>Ria Garg</AuthorName>
-						<AuthorName>Tian Low</AuthorName>
+						<AuthorName><h2>Ria Garg</h2></AuthorName>
+						<AuthorName><h2>Tian Low</h2></AuthorName>
 					</Authors>
 					<Description>
-					In hac habitasse platea dictumst. Aliquam dictum euismod odio, quis porta magna dapibus in. Proin malesuada eleifend ante, id gravida dolor fringilla sodales. Aenean a mauris venenatis, maximus orci id, egestas eros. Curabitur in nisi fermentum, sollicitudin ipsum non, auctor ligula. Integer tincidunt augue non tristique laoreet. In a ante varius, pharetra urna nec, lacinia enim. Pellentesque iaculis odio quis ligula interdum faucibus eu sed nulla. Nam semper mollis purus, vel mollis est varius lacinia. Morbi eu auctor lacus. Ut consequat fermentum ante, elementum dapibus dolor pretium quis.
+						<p>
+						The Great British Bake Off. An amateur competition where home bakers clash in order to be named the United Kingdom’s best. All for exactly zero prize money. 
+						</p>
+						<p>
+						Even so, the sheer accomplishment of winning is definitely worth the effort–and that made us wonder, what does it truly take to win? How could a normal baker game the odds to increase their chances? 
+						</p>
+						<p>
+						Maybe it has to do with the flavors contestants choose. Or maybe it’s the risks they take. Read on to find out.
+						</p>
 					</Description>
 				</Title>
 			</TitleWrapper>
-		
 		)
 	}
 }		
