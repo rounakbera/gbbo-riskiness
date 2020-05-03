@@ -16,7 +16,7 @@ function App() {
       <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />
       <BarchartExample animate={500} />
-      <FinalViz/>
+      <FinalViz placeLimit={4}/>
       <ScrollamaExample />
     </div>
   );
