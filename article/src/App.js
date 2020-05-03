@@ -5,7 +5,7 @@ import RiskRewardPieChart from './components/RiskRewardPieChart.js';
 import ScrollamaExample from './components/ScrollamaExample.js';
 import TitleCard from './components/TitleCard.js';
 import FinalViz from './components/FinalViz.js';
-import MatScrollamaExample from './components/MatScrollamaExample.js';
+import MatScrollama from './components/MatScrollama.js';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <BarchartExample animate={500} />
       <FinalViz/>
       <ScrollamaExample />
-      <MatScrollamaExample />
+      <MatScrollama />
       
     </div>
   );
