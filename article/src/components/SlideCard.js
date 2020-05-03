@@ -39,9 +39,9 @@ const Image = styled.img`
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
-  width: 40vw;
-  margin-left: 10vw;
-  top: 55%;
+  width: 50vw;
+  margin-left: 5vw;
+  top: 45%;
 `
 const imageMap = {
     1: "",
