@@ -1,7 +1,6 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { Scrollama, Step } from 'react-scrollama';
-import BarchartExample from './BarchartExample.js';
 
 const Main = styled.div`
   padding: 70vh 2vw;
@@ -40,26 +39,23 @@ const Content = styled.div`
     margin-bottom: 0;
   }
 `
+const ImageWrapper = styled.div`
+  height: ${props => `${props.minHeight}px`};
+  width: ${props => `${props.minWidth}px`};
+`
+const Image = styled.img`
+  position: absolute;
+  opacity: ${props => props.display ? `1` : `0`};
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+`
 
-const chartMap = {
-  1: [
-    {quarter: 1, earnings: 10000},
-    {quarter: 2, earnings: 10000},
-    {quarter: 3, earnings: 10000},
-    {quarter: 4, earnings: 10000}
-  ],
-  2: [
-    {quarter: 1, earnings: 15000},
-    {quarter: 2, earnings: 10000},
-    {quarter: 3, earnings: 15000},
-    {quarter: 4, earnings: 8000}
-  ],
-  3: [
-    {quarter: 1, earnings: 20000},
-    {quarter: 2, earnings: 10000},
-    {quarter: 3, earnings: 10000},
-    {quarter: 4, earnings: 6000}
-  ]
+const imageMap = {
+  "1": "http://placekitten.com/g/400/300",
+  "2": "http://placekitten.com/g/200/300",
+  "3": "http://placekitten.com/g/300/300"
 };
 
 export default class ScrollamaExample extends React.Component {
@@ -68,9 +64,15 @@ export default class ScrollamaExample extends React.Component {
     this.state = {
       data: 0,
       steps: [1, 2, 3],
-      progress: 0,
+      progress: 0
     };
   };
+
+  getImages(imageMap, data) {
+    return Object.keys(imageMap).map((key => {
+      return (<Image src={imageMap[key]} display={key == data} />);
+    }));
+  }
 
   onStepEnter = ({ element, data }) => {
     element.style.backgroundColor = 'lightgoldenrodyellow';
@@ -84,10 +86,6 @@ export default class ScrollamaExample extends React.Component {
   onStepProgress = ({ element, progress }) => {
     // Commented out because it stalls animation
     // this.setState({ progress });
-  }
-
-  getCurrentChart = (data) => {
-    return chartMap[data] || chartMap[1];
   }
 
   render() {
@@ -116,7 +114,9 @@ export default class ScrollamaExample extends React.Component {
         </Scroller>
         <Graphic>
           <p>{data}</p>
-          <BarchartExample data={this.getCurrentChart(data)} />
+          <ImageWrapper minHeight={300} minWidth={400}>
+            {this.getImages(imageMap, data)}
+          </ImageWrapper>
         </Graphic>
       </Main>
     );
