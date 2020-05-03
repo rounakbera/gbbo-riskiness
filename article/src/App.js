@@ -13,7 +13,6 @@ function App() {
 			</style>
       <TitleCard/>
       <RiskBarchartScrollama />
-      <FlavorScatterplot data={data} />
       <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />
       <FinalViz/>
