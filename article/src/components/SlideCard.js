@@ -4,7 +4,7 @@ import { Scrollama, Step } from 'react-scrollama';
 import TextSection from './TextSection.js';
 
 const Main = styled.div`
-  padding: 0 2vw;
+  padding: 0 2vw 30vh 2vw;
   display: flex;
   font-family: Helvetica;
   justify-content: space-between;
@@ -41,7 +41,7 @@ const Image = styled.img`
   -o-transition: opacity 1s ease-in-out;
   width: 40vw;
   margin-left: 10vw;
-  top: 50%;
+  top: 55%;
 `
 const imageMap = {
     1: "",
