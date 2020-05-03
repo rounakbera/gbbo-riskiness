@@ -53,7 +53,7 @@ const Content = styled.div`
 
 const images = [Mat,Mat, MatCarrotCake,MatStrawberry ];
 
-export default class ScrollamaExample extends React.Component {
+export default class MatScrollama extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
