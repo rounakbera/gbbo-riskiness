@@ -6,6 +6,7 @@ import ScrollamaExample from './components/ScrollamaExample.js';
 import TitleCard from './components/TitleCard.js';
 import FinalViz from './components/FinalViz.js';
 import MatScrollamaExample from './components/MatScrollamaExample.js';
+import NadiyaScrollama from './components/NadiyaScrollama.js';
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
       <BarchartExample animate={500} />
       <FinalViz/>
       <ScrollamaExample />
+      <StuScrollama/>
       <MatScrollamaExample />
+      <NadiyaScrollama />
       
     </div>
   );
