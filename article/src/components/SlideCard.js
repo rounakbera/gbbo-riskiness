@@ -40,8 +40,13 @@ const Content = styled.div`
   }
 `
 
+const srcs = [
+    "http://placekitten.com/g/400/300",
+    "http://placekitten.com/g/200/300",
+    "http://placekitten.com/g/300/300"
+]
 
-export default class SlideCard extends React.Component {
+export default class ScrollamaExample extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -66,7 +71,7 @@ export default class SlideCard extends React.Component {
   }
 
   getCurrentChart = (data) => {
-    return chartMap[data] || chartMap[1];
+    return srcs[data] || srcs[0];
   }
 
   render() {
@@ -94,7 +99,8 @@ export default class SlideCard extends React.Component {
           </Scrollama>
         </Scroller>
         <Graphic>
-          <img src={source}/>
+          <p>{data}</p>
+          <img src={this.getCurrentChart(data)} />
         </Graphic>
       </Main>
     );
