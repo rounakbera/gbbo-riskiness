@@ -16,8 +16,7 @@ function App() {
       </style>
       <GlobalStyles/>
       <TitleCard/>
-      <TextSection title={"Section Header"} description={"Some good content."}/>
-      <SlideCard />
+      <SlideCard title = {["Show Structure","",""]} description={["Every episode of the Great British Bake Off has three challenges: the Signature, Technical, and Showstopper. However, bakers only really get to choose their ingredients in the Signature and Showstopper, so those are what we chose to focus on.","The Signature bake is intended for contestants to display their personality and creativity; dishes here are generally comparable to something you might make at home.","On the other hand, the Showstopper bake is designed to wow the judges, both visually and flavor-wise. Bakers usually go all-out on this final dish."]}/>
       <RiskBarchartScrollama />
       <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />

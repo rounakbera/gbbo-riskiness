@@ -5,9 +5,7 @@ const SectionWrapper = styled.div`
   padding: 5%;
 `
 const SectionTitle = styled.h2`
-	color: crimson;
-	font-family: 'Concert One', sans-serif;
-	font-size: 2rem;
+	font-weight: 700;
 `
 const SectionDescription = styled.div`
 	width: 100%;
@@ -24,7 +22,7 @@ export default class TextSection extends Component {
           {this.props.title}
         </SectionTitle>}
         <SectionDescription>
-        {this.props.description}
+        <p>{this.props.description}</p>
         </SectionDescription>
 			</SectionWrapper>
 		)

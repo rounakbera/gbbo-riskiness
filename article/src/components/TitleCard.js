@@ -93,12 +93,12 @@ class TitleCard extends Component {
 						Managing Risk in Your Competitive Baking Flavor Portfolio
 					</TitleSpan>
 					<Authors>
-						<AuthorName><h2>Rounak Bera</h2></AuthorName>
-						<AuthorName><h2>Stacy Tao</h2></AuthorName>
+						<AuthorName><h3>Rounak Bera</h3></AuthorName>
+						<AuthorName><h3>Stacy Tao</h3></AuthorName>
 					</Authors>
 					<Authors>
-						<AuthorName><h2>Ria Garg</h2></AuthorName>
-						<AuthorName><h2>Tian Low</h2></AuthorName>
+						<AuthorName><h3>Ria Garg</h3></AuthorName>
+						<AuthorName><h3>Tian Low</h3></AuthorName>
 					</Authors>
 					<Description>
 						<p>
