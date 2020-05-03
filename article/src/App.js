@@ -13,7 +13,7 @@ function App() {
 				@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 			</style>
       <TitleCard />
-      <TextSection />
+      <TextSection title={"Section Header"} description={"Some good content."}/>
       <RiskBarchartScrollama />
       <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />

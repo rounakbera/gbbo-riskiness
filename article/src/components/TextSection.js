@@ -19,11 +19,12 @@ export default class TextSection extends Component {
 		return (
 			
 			<SectionWrapper>
-        <SectionTitle>
-          Managing Risk in Your Competitive Baking Flavor Portfolio
-        </SectionTitle>
+        {this.props.title && 
+				<SectionTitle>
+          {this.props.title}
+        </SectionTitle>}
         <SectionDescription>
-        In hac habitasse platea dictumst. Aliquam dictum euismod odio, quis porta magna dapibus in. Proin malesuada eleifend ante, id gravida dolor fringilla sodales. Aenean a mauris venenatis, maximus orci id, egestas eros. Curabitur in nisi fermentum, sollicitudin ipsum non, auctor ligula. Integer tincidunt augue non tristique laoreet. In a ante varius, pharetra urna nec, lacinia enim. Pellentesque iaculis odio quis ligula interdum faucibus eu sed nulla. Nam semper mollis purus, vel mollis est varius lacinia. Morbi eu auctor lacus. Ut consequat fermentum ante, elementum dapibus dolor pretium quis.
+        {this.props.description}
         </SectionDescription>
 			</SectionWrapper>
 		)
