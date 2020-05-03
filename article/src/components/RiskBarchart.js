@@ -59,6 +59,7 @@ export default class BarchartExample extends React.Component {
             tickLabels: {
               angle: 270,
               fontSize: 10,
+              opacity: ({text}) => {return this.state.displayInfo[text] ? 1 : 0;},
               padding: 0,
               textAnchor: "end"
             }
