@@ -27,7 +27,8 @@ export default function WorkingHandle() {
   
   const Container = styled.div`
     width: 300px;
-    margin: 48px auto;
+    margin: 48px 48px;
+    float: right;
   `;
 
 function handle(props) {

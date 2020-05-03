@@ -11,8 +11,6 @@ import NadiyaScrollama from './components/NadiyaScrollama.js';
 import MatScrollama from './components/MatScrollama.js';
 
 import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
-import WorkingHandle from './components/WorkingHandle';
-
 
 function App() {
   return (
@@ -27,13 +25,9 @@ function App() {
       <RiskBarchartScrollama />
       <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />
-<<<<<<< HEAD
-      <WorkingHandle />
-=======
       <StuScrollama/>
       <MatScrollama />
       <NadiyaScrollama />    
->>>>>>> 1cee6a4c69a07f952fddf9ed314ed4d755626e41
       <FinalViz placeLimit={5}/>
     </div>
   );
