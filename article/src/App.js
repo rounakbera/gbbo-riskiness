@@ -15,7 +15,7 @@ function App() {
       </style>
       <GlobalStyles/>
       <TitleCard/>
-      <SlideCard/>
+      <SlideCard />
       <RiskBarchartScrollama />
       <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />
