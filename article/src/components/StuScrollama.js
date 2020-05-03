@@ -1,7 +1,16 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { Scrollama, Step } from 'react-scrollama';
 import BarchartExample from './BarchartExample.js';
+import RiskBarchart from './RiskBarchart.js';
+import Stu from './Stu.js';
+import StuMadeira from '../assets/stu-madeira.png';
+import StuPic from '../assets/mat.jpg';
+
+
+
+
+
 
 const Main = styled.div`
   padding: 70vh 2vw;
@@ -41,33 +50,14 @@ const Content = styled.div`
   }
 `
 
-const chartMap = {
-  1: [
-    {quarter: 1, earnings: 10000},
-    {quarter: 2, earnings: 10000},
-    {quarter: 3, earnings: 10000},
-    {quarter: 4, earnings: 10000}
-  ],
-  2: [
-    {quarter: 1, earnings: 15000},
-    {quarter: 2, earnings: 10000},
-    {quarter: 3, earnings: 15000},
-    {quarter: 4, earnings: 8000}
-  ],
-  3: [
-    {quarter: 1, earnings: 20000},
-    {quarter: 2, earnings: 10000},
-    {quarter: 3, earnings: 10000},
-    {quarter: 4, earnings: 6000}
-  ]
-};
+const images = [StuPic,StuPic, StuMadeira];
 
 export default class ScrollamaExample extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       data: 0,
-      steps: [1, 2, 3],
+      steps: [1, 2],
       progress: 0,
     };
   };
@@ -87,7 +77,7 @@ export default class ScrollamaExample extends React.Component {
   }
 
   getCurrentChart = (data) => {
-    return chartMap[data] || chartMap[1];
+    // return chartMap[data] || 
   }
 
   render() {
@@ -107,8 +97,9 @@ export default class ScrollamaExample extends React.Component {
             {steps.map(value => (
               <Step data={value} key={value}>
                 <Content>
-                  <p>step: {value}</p>
-                  <p>{value === data ? progress : "-"}</p>
+                  {/* <p>step: {value}</p> */}
+                  {/* <p>{value === data ? progress : "-"}</p> */}
+                  <Stu data={value}/>
                 </Content>
               </Step>
             ))}
@@ -116,7 +107,8 @@ export default class ScrollamaExample extends React.Component {
         </Scroller>
         <Graphic>
           <p>{data}</p>
-          <BarchartExample data={this.getCurrentChart(data)} />
+          <img src = {images[data]}/>
+          {/* <RiskBarchart data={this.getCurrentChart(data)} /> */}
         </Graphic>
       </Main>
     );
