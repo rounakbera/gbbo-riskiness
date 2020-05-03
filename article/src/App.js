@@ -9,6 +9,7 @@ import FinalViz from './components/FinalViz.js';
 import StuScrollama from './components/StuScrollama.js';
 import NadiyaScrollama from './components/NadiyaScrollama.js';
 import MatScrollama from './components/MatScrollama.js';
+import FlavorBarchartScrollama from './components/FlavorBarchartScrollama.js';
 
 import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
 
@@ -27,7 +28,8 @@ function App() {
       <RiskRewardPieChart baker={"Mat"} />
       <StuScrollama/>
       <MatScrollama />
-      <NadiyaScrollama />    
+      <NadiyaScrollama />   
+      <FlavorBarchartScrollama /> 
       <FinalViz placeLimit={5}/>
     </div>
   );
