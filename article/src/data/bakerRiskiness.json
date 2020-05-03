@@ -1,0 +1,62 @@
+[
+  {
+    "baker": "Alvin", 
+    "risk": 0.4166666666666667, 
+    "rank": 7
+  }, 
+  {
+    "baker": "Dorret", 
+    "risk": 0.3333333333333333, 
+    "rank":10
+  }, 
+  {
+    "baker": "Flora", 
+    "risk": 0.3888888888888889,
+    "rank":4
+  }, 
+  {
+    "baker": "Ian", 
+    "risk": 0.55, 
+    "rank":2
+  }, 
+  {
+    "baker": "Mat", 
+    "risk": 0.2857142857142857, 
+    "rank":6
+  }, 
+  {
+    "baker": "Nadiya", 
+    "risk": 0.65, 
+    "rank":1
+  }, 
+  {
+    "baker": "Paul", 
+    "risk": 0.375, 
+    "rank":5
+  }, 
+  {
+    "baker": "Sandy", 
+    "risk": 0.625, 
+    "rank":9
+  }, 
+  {
+    "baker": "Tamal", 
+    "risk": 0.4, 
+    "rank":3
+  }, 
+  {
+    "baker": "Ugne", 
+    "risk": 1.0, 
+    "rank":8
+  }, 
+  {
+    "baker": "Stu", 
+    "risk": 1.0, 
+    "rank":12
+  }, 
+  {
+    "baker": "Marie", 
+    "risk": 0.0, 
+    "rank":11
+  }
+]
