@@ -4,7 +4,6 @@ import { Handle } from "rc-slider";
 
 export function HandleFormat(props) {
   const { value, dragging, index, ...rest } = props;
-  console.log(value);
 
   return (
     <FlexHandle key={index} value={value} {...rest}>

@@ -75,7 +75,7 @@ export default class FinalViz extends React.Component {
   render () {
     var ticks = Array.from({length: 20}, (x,i) => i/20);
     ticks.push(1);
-    console.log(ticks);
+    console.log(this.state.placeLimit);
     return (
       <div>
       <WorkingHandle value = {this.state.placeLimit}/>
