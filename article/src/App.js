@@ -5,6 +5,8 @@ import RiskRewardPieChart from './components/RiskRewardPieChart.js';
 import ScrollamaExample from './components/ScrollamaExample.js';
 import TitleCard from './components/TitleCard.js';
 import FinalViz from './components/FinalViz.js';
+import MattIntro from './components/MattIntro.js';
+import MatScrollamaExample from './components/MatScrollamaExample.js';
 
 function App() {
   return (
@@ -16,8 +18,11 @@ function App() {
       <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />
       <BarchartExample animate={500} />
+      <MattIntro />
       <FinalViz/>
       <ScrollamaExample />
+      <MatScrollamaExample />
+      
     </div>
   );
 }
