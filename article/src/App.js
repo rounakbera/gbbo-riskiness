@@ -6,6 +6,8 @@ import TextSection from './components/TextSection.js';
 import TitleCard from './components/TitleCard.js';
 import SlideCard from './components/SlideCard.js';
 import FinalViz from './components/FinalViz.js';
+import MatScrollamaExample from './components/MatScrollamaExample.js';
+import NadiyaScrollama from './components/NadiyaScrollama.js';
 import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
 
 function App() {
@@ -21,6 +23,9 @@ function App() {
       <RiskBarchartScrollama />
       <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />
+      <StuScrollama/>
+      <MatScrollamaExample />
+      <NadiyaScrollama />    
       <FinalViz placeLimit={5}/>
     </div>
   );
