@@ -15,7 +15,6 @@ const SectionDescription = styled.div`
 export default class TextSection extends Component {
 	render() {
 		return (
-			
 			<SectionWrapper>
         {this.props.title && 
 				<SectionTitle>

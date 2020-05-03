@@ -1,6 +1,4 @@
-import React, { Component } from 'react';
 import { createGlobalStyle } from 'styled-components';
-import VictoryTheme from 'victory';
 import { assign } from 'lodash';
 
 const GlobalStyles = createGlobalStyle`
@@ -9,18 +7,18 @@ const GlobalStyles = createGlobalStyle`
   }
 
   span {
-	color: crimson;
-	font-family: 'Philosopher', sans-serif;
-    font-size: 3.5rem;
+    color: crimson;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 3rem;
     font-weight: 700;
 	@media (max-width: 900px) {
-		font-size: 2.8rem;
+		font-size: 2.5rem;
 	}
   }
 
   p {
     font-family: Muli, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   
   h2 {
@@ -28,12 +26,12 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Philosopher', sans-serif;
     font-size: 2rem;
   }
-
+  
   h3 {
-    font-weight: 700;
-	color: brown;
+    color: brown;
     font-family: Muli, sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
   }
 `
 
