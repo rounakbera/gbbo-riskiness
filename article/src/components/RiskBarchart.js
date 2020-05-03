@@ -4,7 +4,8 @@ import {
   VictoryChart, 
   VictoryAxis,
   VictoryTheme,
-  VictoryTooltip
+  VictoryTooltip,
+  VictoryLine
 } from 'victory';
 
 const data = require('../data/bakerRiskiness.json');
@@ -81,7 +82,7 @@ export default class BarchartExample extends React.Component {
             labels: { fontSize: ({ text }) => text.length > 5 ? 8 : 12 },
             parent: { border: "1px solid #ccc" }
           }}
-          labels={({ datum }) => `risk: ${datum.baker}, rank: ${datum.rank}`}
+          labels={({ datum }) => `risk: ${datum.risk}, rank: ${datum.rank}`}
           labelComponent={<VictoryTooltip dy={0} centerOffset={{ x: 25 }} />}
           sortKey= "rank"
           sortOrder="descending"
@@ -90,6 +91,18 @@ export default class BarchartExample extends React.Component {
             onExit: { duration: 1000 }
           }}
         />
+        <VictoryLine
+            data={[{x:'Stu', y: 1.07},{x:'Mat', y: .28},
+            {x:'Nadiya', y: .65}]}
+            scale={{x: "baker", y: "risk"}}
+            standalone={false}
+            domain= {{y :[0,1]}}
+            interpolation="natural"
+            animate={{
+              onEnter: { duration: 1000 },
+              onExit: { duration: 1000 }
+            }}
+          />
       </VictoryChart>
     )
   }

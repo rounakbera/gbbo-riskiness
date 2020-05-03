@@ -4,7 +4,8 @@ import {
   VictoryChart, 
   VictoryAxis,
   VictoryTheme,
-  VictoryTooltip
+  VictoryTooltip,
+  VictoryLine
 } from 'victory';
 
 const data = require('../data/bakerAvgFlavors.json');
@@ -77,11 +78,11 @@ export default class BarchartExample extends React.Component {
           z="rank"
           alignment="start"
           style={{
-            data: { fill: "purple" },
+            data: { fill: "darkred" },
             labels: { fontSize: ({ text }) => text.length > 5 ? 8 : 12 },
             parent: { border: "1px solid #ccc" }
           }}
-          labels={({ datum }) => `flavors: ${datum.baker}, rank: ${datum.rank}`}
+          labels={({ datum }) => `flavors: ${datum.nflavors}, rank: ${datum.rank}`}
           labelComponent={<VictoryTooltip dy={0} centerOffset={{ x: 25 }} />}
           sortKey= "rank"
           sortOrder="descending"
@@ -90,6 +91,18 @@ export default class BarchartExample extends React.Component {
             onExit: { duration: 1000 }
           }}
         />
+          <VictoryLine
+            data={[
+              {x: 'Stu', y: 2.75},
+              {x: 'Nadiya', y: 3.25}
+            ]}
+            domain={{
+              y: [0, 4]
+            }}
+            scale={{x: "baker", y: "flavors"}}
+            standalone={false}
+            // style={styles.lineThree}
+          />
       </VictoryChart>
     )
   }
