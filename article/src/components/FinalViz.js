@@ -1,6 +1,4 @@
 import React from 'react';
-import Slider, { Range } from 'rc-slider';
-import 'rc-slider/assets/index.css';
 import {
   VictoryChart,
   VictoryScatter,
@@ -85,33 +83,6 @@ export default class FinalViz extends React.Component {
         <VictoryVoronoi
           standalone = {false}
           style={{ data: { stroke: "#c43a31", strokeWidth: 0 } }}
-          events={[{
-            target: "data",
-            eventHandlers: {
-              onMouseOver: () => {
-                return [
-                  {
-                    target: "data",
-                    mutation: (({datum}) => <circle cx={datum.x} cy={datum.y} r={3} fill="#c43a31"/>)
-                  }, {
-                    target: "labels",
-                    mutation: () => ({ active: true })
-                  }
-                ];
-              },
-              onMouseOut: () => {
-                return [
-                  {
-                    target: "data",
-                    mutation: () => {}
-                  }, {
-                    target: "labels",
-                    mutation: () => ({ active: false })
-                  }
-                ];
-              }
-            }
-          }]}
           data={this.state.data}
           x="leaf"
           y="risk"

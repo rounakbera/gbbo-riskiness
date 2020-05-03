@@ -6,6 +6,8 @@ import TitleCard from './components/TitleCard.js';
 import SlideCard from './components/SlideCard.js';
 import FinalViz from './components/FinalViz.js';
 import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
+import WorkingHandle from './components/WorkingHandle';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <RiskBarchartScrollama />
       <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />
+      <WorkingHandle />
       <FinalViz placeLimit={5}/>
     </div>
   );
