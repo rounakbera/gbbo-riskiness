@@ -2,6 +2,10 @@ import { createGlobalStyle } from 'styled-components';
 import { assign } from 'lodash';
 
 const GlobalStyles = createGlobalStyle`
+  html{
+    scroll-behavior: smooth;
+  }
+
   body {
     background-color: white;
   }
