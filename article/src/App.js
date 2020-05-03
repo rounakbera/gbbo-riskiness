@@ -1,7 +1,6 @@
 import React from 'react';
-import BarchartExample from './components/BarchartExample.js';
 import FlavorScatterplot from './components/FlavorScatterplot.js';
-import ScrollamaExample from './components/ScrollamaExample.js';
+import RiskBarchartScrollama from './components/RiskBarchartScrollama.js';
 import TitleCard from './components/TitleCard.js';
 
 const data = require('./data/flavorRiskinessToPerformance.json');
@@ -14,8 +13,7 @@ function App() {
 			</style>
       <TitleCard/>
       <FlavorScatterplot data={data} />
-      <BarchartExample animate={500} />
-      <ScrollamaExample />
+      <RiskBarchartScrollama />
     </div>
   );
 }
