@@ -15,13 +15,7 @@ function App() {
       <RiskBarchartScrollama />
       <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />
-<<<<<<< HEAD
-      <BarchartExample animate={500} />
-      <FinalViz placeLimit={4}/>
-      <ScrollamaExample />
-=======
-      <FinalViz/>
->>>>>>> f6e11ad534947e44086c59d32ec6c76198aefb62
+      <FinalViz placeLimit={5}/>
     </div>
   );
 }
