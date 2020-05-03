@@ -9,7 +9,7 @@ import {
 
 const data = require('../data/flavorRiskinessToPerformance.json');
 
-export default class BarchartExample extends React.Component {
+export default class FlavorScatterplot extends React.Component {
   constructor(props) {
     super(props);
     

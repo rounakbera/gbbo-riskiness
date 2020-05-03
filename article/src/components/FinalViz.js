@@ -7,6 +7,7 @@ import {
   VictoryTooltip, 
   VictoryAxis 
 } from 'victory';
+import PieChartPointWrapper from './PieChartPointWrapper';
 import WorkingHandle from './WorkingHandle';
 
 
@@ -81,8 +82,8 @@ export default class FinalViz extends React.Component {
       <WorkingHandle />
       <VictoryChart 
         domain = {{y:[-0.025, 1.025]}}
-        width = {165}
-        height = {160}
+        width = {100}
+        height = {200}
         style={{ parent: { maxWidth: "75%" } }}
         padding={{ top: 0, bottom: 50, right: 10, left: 30 }}
         containerComponent={<VictoryVoronoiContainer/>}>
@@ -96,11 +97,12 @@ export default class FinalViz extends React.Component {
         />
         <VictoryScatter
           data={this.state.data}
+          dataComponent={ <PieChartPointWrapper /> }
           x="leaf"
           y="risk"
           labels={({ datum }) => this.getLabel(datum.baker, datum.place, datum.season)}
           labelComponent={
-          <VictoryTooltip
+            <VictoryTooltip
               cornerRadius={2}
               pointerOrientation = "left"
               centerOffset = {{x: 30, y: 15}}
@@ -108,7 +110,8 @@ export default class FinalViz extends React.Component {
               dx = {0}
               pointerLength={({ datum }) => this.getTooltipLength(datum.baker)}
               pointerWidth = {5}
-          />}
+            />
+          }
           style={{
             data: { 
               fill: "black",
@@ -124,7 +127,8 @@ export default class FinalViz extends React.Component {
           label = "Baker Average Risk Distribution"
           tickFormat = {(t) => t.toFixed(2)}
           offsetX = {30}
-          x={10} y={300} 
+          x={10} 
+          y={300} 
           padding = {30}
           style={{
             axis: {strokeWidth: 5},
