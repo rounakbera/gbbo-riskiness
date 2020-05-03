@@ -25,9 +25,8 @@ const GlobalStyles = createGlobalStyle`
     color: crimson;
     font-family: 'Philosopher', sans-serif;
     font-size: 2rem;
-    font-weight: 700;
   }
-
+  
   h3 {
     color: brown;
     font-family: Muli, sans-serif;

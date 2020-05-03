@@ -1,9 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Scrollama, Step } from 'react-scrollama';
+import TextSection from './TextSection.js';
 
 const Main = styled.div`
-  padding: 70vh 2vw;
+  padding: 0 2vw 30vh 2vw;
   display: flex;
   font-family: Helvetica;
   justify-content: space-between;
@@ -15,12 +16,6 @@ const Graphic = styled.div`
   padding: 2rem 0;
   top: 1rem;
   align-self: flex-start;
-  background-color: #aaa;
-  & p {
-    font-size: 2rem;
-    text-align: center;
-    color: #fff;
-  }
 `
 const Scroller = styled.div`
   flex-basis: 35%;
@@ -29,19 +24,13 @@ const Content = styled.div`
   margin: 0 auto 2rem auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  border: 1px solid #333;
-  & p {
-    text-align: center;
-    padding: 1rem;
-    font-size: 1.5rem;
-  }
   &:last-child {
     margin-bottom: 0;
   }
 `
 const ImageWrapper = styled.div`
-  height: ${props => `${props.minHeight}px`};
-  width: ${props => `${props.minWidth}px`};
+    height: ${props => `${props.minHeight}px`};
+    width: ${props => `${props.minWidth}px`};
 `
 const Image = styled.img`
   position: absolute;
@@ -50,13 +39,15 @@ const Image = styled.img`
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
+  width: 40vw;
+  margin-left: 10vw;
+  top: 55%;
 `
-
 const imageMap = {
-  "1": "http://placekitten.com/g/400/300",
-  "2": "http://placekitten.com/g/200/300",
-  "3": "http://placekitten.com/g/300/300"
-};
+    1: "",
+    2: "",
+    3: ""
+  };
 
 export default class ScrollamaExample extends React.Component {
   constructor(props) {
@@ -66,7 +57,12 @@ export default class ScrollamaExample extends React.Component {
       steps: [1, 2, 3],
       progress: 0
     };
+    Object.keys(imageMap).map((key => {
+        imageMap[key] = this.props.images[key-1]
+      }))
   };
+
+
 
   getImages(imageMap, data) {
     return Object.keys(imageMap).map((key => {
@@ -75,7 +71,7 @@ export default class ScrollamaExample extends React.Component {
   }
 
   onStepEnter = ({ element, data }) => {
-    element.style.backgroundColor = 'lightgoldenrodyellow';
+    // element.style.backgroundColor = 'lightgoldenrodyellow';
     this.setState({ data });
   };
 
@@ -105,15 +101,13 @@ export default class ScrollamaExample extends React.Component {
             {steps.map(value => (
               <Step data={value} key={value}>
                 <Content>
-                  <p>step: {value}</p>
-                  <p>{value === data ? progress : "-"}</p>
+                  <TextSection title = {this.props.title[value-1]} description = {this.props.description[value-1]}/>
                 </Content>
               </Step>
             ))}
           </Scrollama>
         </Scroller>
         <Graphic>
-          <p>{data}</p>
           <ImageWrapper minHeight={300} minWidth={400}>
             {this.getImages(imageMap, data)}
           </ImageWrapper>
