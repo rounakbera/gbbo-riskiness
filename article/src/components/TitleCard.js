@@ -18,9 +18,9 @@ const TitleWrapper = styled.div`
 const TitleImg = styled.img`
 	position: sticky;
 	max-height: 60vh;
-	top: 10vh;
-	left: 5vw;
-	margin-bottom: 10vh;
+	top: 15vh;
+	left: 7vw;
+	margin-bottom: 25vh;
 	@media (max-width: 900px) {
 		position: static;
 		width: 70vw;

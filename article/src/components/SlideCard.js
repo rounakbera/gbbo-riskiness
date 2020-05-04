@@ -10,7 +10,7 @@ const Main = styled.div`
   justify-content: space-between;
 `
 const Graphic = styled.div`
-  flex-basis: 60%;
+  flex-basis: 65%;
   position: sticky;
   width: 100%;
   padding: 2rem 0;
@@ -18,12 +18,11 @@ const Graphic = styled.div`
   align-self: flex-start;
 `
 const Scroller = styled.div`
-  flex-basis: 35%;
+  flex-basis: 40%;
 `
 const Content = styled.div`
   margin: 0 auto 2rem auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 20vh 0 20vh 5vw;
   &:last-child {
     margin-bottom: 0;
   }
