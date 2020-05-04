@@ -61,8 +61,6 @@ export default class ScrollamaExample extends React.Component {
       }))
   };
 
-
-
   getImages(imageMap, data) {
     return Object.keys(imageMap).map((key => {
       return (<Image src={imageMap[key]} display={key == data} />);
@@ -70,7 +68,6 @@ export default class ScrollamaExample extends React.Component {
   }
 
   onStepEnter = ({ element, data }) => {
-    // element.style.backgroundColor = 'lightgoldenrodyellow';
     this.setState({ data });
   };
 
@@ -100,7 +97,10 @@ export default class ScrollamaExample extends React.Component {
             {steps.map(value => (
               <Step data={value} key={value}>
                 <Content>
-                  <TextSection title = {this.props.title[value-1]} description = {this.props.description[value-1]}/>
+                  <TextSection 
+                    title={this.props.title[value-1]} 
+                    description={this.props.description[value-1]}
+                  />
                 </Content>
               </Step>
             ))}

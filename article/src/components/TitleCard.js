@@ -103,13 +103,16 @@ class TitleCard extends Component {
 					</Authors>
 					<Description>
 						<p>
-						The Great British Bake Off. An amateur competition where home bakers clash in order to be named the United Kingdom’s best. All for exactly zero prize money. 
+						The Great British Bake Off—an amateur competition where home bakers 
+						clash in order to be named the United Kingdom’s best, and all for 
+						exactly zero prize money. Even so, the sheer accomplishment of winning 
+						is definitely worth the effort. 
 						</p>
 						<p>
-						Even so, the sheer accomplishment of winning is definitely worth the effort–and that made us wonder, what does it truly take to win? How could a normal baker game the odds to increase their chances? 
-						</p>
-						<p>
-						Maybe it has to do with the flavors contestants choose. Or maybe it’s the risks they take. Read on to find out.
+						That made us wonder, what does it truly take to win? How could a normal 
+						baker game the odds to increase their chances? Maybe it has to do with 
+						the flavors contestants choose. Or maybe it’s the risks they take. Read 
+						on to find out.
 						</p>
 					</Description>
 				</Title>
