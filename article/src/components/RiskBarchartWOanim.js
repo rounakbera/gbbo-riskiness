@@ -5,7 +5,8 @@ import {
   VictoryAxis,
   VictoryTheme,
   VictoryTooltip,
-  VictoryLine
+  VictoryLine,
+  VictoryLabel
 } from 'victory';
 
 var data= require('../data/s5bakerRiskiness.json');
@@ -68,6 +69,7 @@ export default class BarchartExample extends React.Component {
         theme={VictoryTheme.material}
         domainPadding={1}
       >
+        <VictoryLabel text= {"Series "+ this.state.series} x={175} y={30} textAnchor="middle"/>
         <VictoryAxis
           label="Baker"
           tickFormat={(x) => (`${x}`)}
