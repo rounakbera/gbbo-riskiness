@@ -88,7 +88,7 @@ export default class ScrollamaExample extends React.Component {
     const { data, steps, progress } = this.state;
 
     return (
-      <Main>
+      <Main id="content">
         <Scroller>
           <Scrollama
             onStepEnter={this.onStepEnter}
