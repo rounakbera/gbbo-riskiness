@@ -12,6 +12,7 @@ import FlavorBarchartScrollama from './components/FlavorBarchartScrollama.js';
 import ImportantText from './components/ImportantText.js';
 import ImportantTextScrollama from './components/ImportantTextScrollama.js';
 import BarchartsCompiled from './components/BarchartsCompiled.js';
+import QuoteScrollama from './components/QuoteScrollama.js';
 
 import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
 
@@ -38,6 +39,7 @@ function App() {
       <ImportantTextScrollama />
       <FlavorBarchartScrollama /> 
       <BarchartsCompiled/>
+      <QuoteScrollama />
       <FinalViz />
     </div>
   );
