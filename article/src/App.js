@@ -12,7 +12,7 @@ import MatScrollama from './components/MatScrollama.js';
 import IntroGif from './assets/intro.gif';
 import Challenges from './assets/challenges.png';
 import DataCollection from './assets/data-collection.png';
-import ImportantText from './components/ImportantText.js'
+import ImportantText from './components/ImportantText.js';
 
 import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
 
