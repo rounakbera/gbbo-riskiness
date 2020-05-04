@@ -1,8 +1,30 @@
 import React from 'react';
+import styled from 'styled-components';
 import SlideCard from './SlideCard';
 import IntroGif from '../assets/intro.gif';
 import Challenges from '../assets/challenges.png';
 import DataCollection from '../assets/data-collection.png';
+
+const Risky = styled.span`
+	background-color: #656054;
+	color: white;
+`
+const Safe = styled.span`
+	background-color: #D6CCBF;
+	color: black;
+`
+const Good = styled.span`
+	background-color: #769A47;
+	color: white;
+`
+const Bad = styled.span`
+	background-color: #C56854;
+	color: white;
+`
+const Okay = styled.span`
+	background-color: #C3AD5E;
+	color: white;
+`
 
 const showStructure = (
   <div>
@@ -38,13 +60,16 @@ const dataCollection = (
     <p> 
       We watched three seasons of the show (Series 4, 5, and 6) and took 
       meticulous notes on the <b>flavors</b> each baker used. 
-      We also noted the judges’ evaluation of the <b>riskiness</b> of choices and their 
-      overall reaction to their bakes.
     </p>
     <p> 
-      The qualitative risk measurement was recorded for each dish as 
-      either risky or safe, and the judges' grade was recorded as 
-      positive, negative, or ambiguous.
+      We also noted the judges’ evaluation of the <b>riskiness</b> of choices and their 
+      overall reaction to their bakes, such as commenting whether their flavor choices
+      were "brave" or "daring." In this way, we recorded the riskiness of each bake as 
+      either <Risky>risky</Risky> or <Safe>safe</Safe>.
+    </p>
+    <p> 
+      Finally, the judges' feedback for each bake was recorded 
+      as <Good>good</Good>, <Okay>okay</Okay>, or <Bad>bad</Bad>.
     </p>
   </div>
 );

@@ -17,7 +17,7 @@ export default class ImportantText extends Component {
     render(){
         return(
             <TextWrapper>
-                <Text>{this.props.text}</Text>
+                <h1><Text>{this.props.text}</Text></h1>
             </TextWrapper>
         )
     }
