@@ -6,7 +6,7 @@ import StuMadeira from '../assets/stu-madeira.png';
 import StuPic from '../assets/stu.jpg';
 
 const Main = styled.div`
-  padding: 0 2vw 0 2vw;
+  padding: 10vh 2vw;
   display: flex;
   font-family: Helvetica;
   justify-content: space-between;
@@ -50,7 +50,7 @@ const imageMap = {
   2: StuMadeira
 };
 
-export default class ScrollamaExample extends React.Component {
+export default class StuScrollama extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
