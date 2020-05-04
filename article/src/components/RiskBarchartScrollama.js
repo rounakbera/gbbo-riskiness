@@ -171,7 +171,7 @@ export default class RiskBarchartScrollama extends React.Component {
     super(props);
     this.state = {
       data: 0,
-      steps: [1, 2, 3],
+      steps: Object.keys(contentMap),
       progress: 0,
     };
   };

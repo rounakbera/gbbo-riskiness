@@ -32,6 +32,20 @@ const Content = styled.div`
 
 const displayMap = {
   1: {
+    "Alvin": false,
+    "Dorret": false,
+    "Flora": false,
+    "Ian": false,
+    "Mat": true,
+    "Nadiya": true,
+    "Paul": false,
+    "Sandy": false,
+    "Tamal": false,
+    "Ugne": false,
+    "Stu": true,
+    "Marie": false
+  },
+  2: {
     "Alvin": true,
     "Dorret": true,
     "Flora": true,
@@ -45,32 +59,34 @@ const displayMap = {
     "Stu": true,
     "Marie": true
   },
-  2: {
-    "Alvin": false,
-    "Dorret": false,
-    "Flora": false,
-    "Ian": false,
+  3: {
+    "Alvin": true,
+    "Dorret": true,
+    "Flora": true,
+    "Ian": true,
     "Mat": true,
     "Nadiya": true,
-    "Paul": false,
-    "Sandy": false,
-    "Tamal": false,
-    "Ugne": false,
+    "Paul": true,
+    "Sandy": true,
+    "Tamal": true,
+    "Ugne": true,
     "Stu": true,
-    "Marie": false
+    "Marie": true
   }
 };
 
 const contentMap = {
   1: <TextSection title={"Lorem Ipsum"} description={<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Mi in nulla posuere sollicitudin aliquam. Non enim praesent elementum facilisis leo. Quis varius quam quisque id diam vel quam.</p>} />,
-  2: <TextSection description={[<br/>,<br/>,<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Mi in nulla posuere sollicitudin aliquam. Non enim praesent elementum facilisis leo. Quis varius quam quisque id diam vel quam.</p>]} />
+  2: <TextSection description={[<br/>,<br/>,<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Mi in nulla posuere sollicitudin aliquam. Non enim praesent elementum facilisis leo. Quis varius quam quisque id diam vel quam.</p>]} />,
+  3: <TextSection description={[<br/>,<br/>,<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Mi in nulla posuere sollicitudin aliquam. Non enim praesent elementum facilisis leo. Quis varius quam quisque id diam vel quam.</p>]} />
 }
+
 export default class FlavorBarchartScrollama extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       data: 0,
-      steps: [1, 2],
+      steps: Object.keys(contentMap),
       progress: 0,
     };
   };
@@ -119,7 +135,7 @@ export default class FlavorBarchartScrollama extends React.Component {
           </Scrollama>
         </Scroller>
         <Graphic>
-          <FlavorBarchart displayInfo={this.getDisplayInfo(data)} />
+          <FlavorBarchart displayInfo={this.getDisplayInfo(data)} showRegression={data > 2} />
         </Graphic>
       </Main>
     );

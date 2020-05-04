@@ -60,7 +60,7 @@ export default class ImportantTextScrollama extends React.Component {
     super(props);
     this.state = {
       data: 0,
-      steps: [1, 2],
+      steps: Object.keys(quoteMap),
       progress: 0,
     };
   };
