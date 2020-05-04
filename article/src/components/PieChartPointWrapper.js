@@ -7,7 +7,7 @@ import RiskRewardPieChart from './RiskRewardPieChart';
 export default class PieChartPointWrapper extends React.Component {
   render() {
     const {datum, x, y} = this.props;
-    const diameter = 100 + 5; // nothing <= 100 is visible
+    const diameter = 100 + 6; // nothing <= 100 is visible
 
     return (
       <g transform={
