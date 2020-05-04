@@ -78,7 +78,7 @@ export default class ScrollamaExample extends React.Component {
     // Commented out because it stalls animation
     // this.setState({ progress });
   }
-
+  
   render() {
     const { data, steps, progress } = this.state;
 
