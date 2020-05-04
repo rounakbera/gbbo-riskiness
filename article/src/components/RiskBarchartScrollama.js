@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Scrollama, Step } from 'react-scrollama';
 import RiskBarchart from './RiskBarchart.js';
-import S5RiskBarchart from './S5RiskBarchart.js';
 
 
 const Main = styled.div`
@@ -129,7 +128,7 @@ export default class RiskBarchartScrollama extends React.Component {
   }
 
   getDisplayInfo = (data) => {
-    return displayMapRank[data] || displayMapRank[1];
+    return displayMap[data] || displayMap[1];
   }
 
   render() {

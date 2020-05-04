@@ -10,6 +10,8 @@ import StuScrollama from './components/StuScrollama.js';
 import NadiyaScrollama from './components/NadiyaScrollama.js';
 import MatScrollama from './components/MatScrollama.js';
 import FlavorBarchartScrollama from './components/FlavorBarchartScrollama.js';
+import RiskBarchartWOanim from './components/RiskBarchartWOanim.js';
+import FlavorBarchartWOanim from './components/FlavorBarchartWOanim.js';
 
 import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
 
@@ -30,6 +32,8 @@ function App() {
       <MatScrollama />
       <NadiyaScrollama />   
       <FlavorBarchartScrollama /> 
+      <RiskBarchartWOanim series = {5}/>
+      <FlavorBarchartWOanim series = {4}/>
       <FinalViz placeLimit={5}/>
     </div>
   );

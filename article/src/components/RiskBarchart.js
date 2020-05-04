@@ -30,15 +30,15 @@ export default class BarchartExample extends React.Component {
     }
   }
 
-  getBakerDisplayInfo(rank, displayInfo) {
-    return displayInfo[rank];
+  getBakerDisplayInfo(baker, displayInfo) {
+    return displayInfo[baker];
   }
 
   getDataWithDisplayInfo(displayInfo) {
     return data.map((datum) => {
       return {
         ...datum,
-        "risk": displayInfo[datum.rank] ? datum.risk : 0
+        "risk": displayInfo[datum.baker] ? datum.risk : 0
       };
     });
   }
@@ -52,6 +52,7 @@ export default class BarchartExample extends React.Component {
       >
         <VictoryAxis
           label="Baker"
+          tickFormat={(x) => (`${x}`)}
           style={{
             axisLabel: {
               fontSize: 15,
@@ -67,9 +68,15 @@ export default class BarchartExample extends React.Component {
           }}
         />
         <VictoryAxis
+          label= "Riskiness"
           dependentAxis
           domain={[0, 1]}
           tickFormat={(x) => (`${x}`)}
+          style= {{
+            axisLabel : {
+              padding : 35
+            }
+          }}
         />
         <VictoryBar
           data={this.getDataWithDisplayInfo(this.state.displayInfo)}
