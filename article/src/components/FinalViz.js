@@ -22,7 +22,7 @@ float: right;
 text-align: center;
 `;
 const ContainerLabel = styled.p`
-padding: 10px;
+padding: 30px;
 font-size: 20;
 font-weight: bold;
 color: #ff6347;
@@ -107,7 +107,7 @@ export default class FinalViz extends React.Component {
           width = {165}
           height = {160}
           style={{ parent: { maxWidth: "65%" } }}
-          padding={{ top: 0, bottom: 50, right: 10, left: 30 }}
+          padding={{ top: 20, bottom: 20, right: 10, left: 30 }}
           containerComponent={<VictoryVoronoiContainer/>}>
           <VictoryVoronoi
             padding={{ top: 0, bottom: 50, right: 0, left: 30 }}
