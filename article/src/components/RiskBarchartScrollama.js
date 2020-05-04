@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { Scrollama, Step } from 'react-scrollama';
 import RiskBarchart from './RiskBarchart.js';
+import S5RiskBarchart from './S5RiskBarchart.js';
+
 
 const Main = styled.div`
   padding: 70vh 2vw;
@@ -71,6 +73,36 @@ const displayMap = {
     "Marie": false
   }
 };
+const displayMapRank = {
+  1: {
+    1: true,
+    2: true,
+    3: true,
+    4: true,
+    5: true,
+    6: true,
+    7: true,
+    8: true,
+    9: true,
+    10: true,
+    11: true,
+    12: true
+  },
+  2: {
+    1: true,
+    2: false,
+    3: false,
+    4: false,
+    5: false,
+    6: true,
+    7: false,
+    8: false,
+    9: false,
+    10: false,
+    11: false,
+    12: true
+  }
+};
 
 export default class RiskBarchartScrollama extends React.Component {
   constructor(props) {
@@ -97,7 +129,7 @@ export default class RiskBarchartScrollama extends React.Component {
   }
 
   getDisplayInfo = (data) => {
-    return displayMap[data] || displayMap[1];
+    return displayMapRank[data] || displayMapRank[1];
   }
 
   render() {

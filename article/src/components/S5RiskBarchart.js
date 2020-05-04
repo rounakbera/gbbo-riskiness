@@ -8,7 +8,7 @@ import {
   VictoryLine
 } from 'victory';
 
-const data = require('../data/bakerRiskiness.json');
+const data = require('../data/s5bakerRiskiness.json');
 
 export default class BarchartExample extends React.Component {
   constructor(props) {
@@ -30,15 +30,23 @@ export default class BarchartExample extends React.Component {
     }
   }
 
-  getBakerDisplayInfo(rank, displayInfo) {
-    return displayInfo[rank];
+  getBakerDisplayInfo(baker, displayInfo) {
+    return displayInfo[baker];
   }
 
   getDataWithDisplayInfo(displayInfo) {
     return data.map((datum) => {
       return {
         ...datum,
-        "risk": displayInfo[datum.rank] ? datum.risk : 0
+        "risk": displayInfo[datum.baker] ? datum.risk : 0
+      };
+    });
+  }
+  getDataWithDisplayInfo(displayInfo) {
+    return data.map((datum) => {
+      return {
+        ...datum,
+        "risk": displayInfo[datum.baker] ? datum.risk : 0
       };
     });
   }
@@ -91,10 +99,8 @@ export default class BarchartExample extends React.Component {
             onExit: { duration: 1000 }
           }}
         />
-        <VictoryLine
-            // data={[{x:'Stu', y: 1.07},{x:'Mat', y: .28},
-            // {x:'Nadiya', y: .65}]}
-            y= {(data) => 1.110743827-0.2151723771*data.x+ 0.0148058048 *Math.pow(data.x,2)}
+        {/* <VictoryLine
+            y= {(data) => 0.885187986-0.224116039*data.rank+ 0.02038586534 *Math.pow(data.rank,2)}
             scale={{x: "baker", y: "risk"}}
             standalone={false}
             domain= {{y :[0,1]}}
@@ -103,7 +109,7 @@ export default class BarchartExample extends React.Component {
               onEnter: { duration: 1000 },
               onExit: { duration: 1000 }
             }}
-          />
+          /> */}
       </VictoryChart>
     )
   }
