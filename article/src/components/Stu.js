@@ -82,7 +82,7 @@ So this was a Good Bake but Not Risky
                 <ul>
                     <li>He’s a professional musician from Surrey </li>
                     <li>He took make some risky choices the first episode that didn’t pay off</li>
-                    <li>He was the first contestant to be eliminated</li>
+                    <li>Leading to him being the first elimination of the season</li>
                 </ul>
                 
             </div>
@@ -97,7 +97,7 @@ So this was a Good Bake but Not Risky
                     He makes the cake half <Ingredients>chocolate</Ingredients> and covers it with a <Ingredients>rum</Ingredients> and <Ingredients>lime</Ingredients> glaze
                 </Paragraph>
                 <Paragraph>
-                The judges say the flavors wrong for madeira cakes and the glaze is too hard to bite into. 
+                    The judges say the flavors wrong for madeira cakes and the glaze is too hard to bite into. 
                 </Paragraph>
                 <Paragraph>
                     Due to the judges reactions and the unconventional flavor choices this is considered a  <BadBake>Bad Bake</BadBake> that is <Risky>Risky</Risky>

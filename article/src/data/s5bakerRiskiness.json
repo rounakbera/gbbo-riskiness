@@ -1,0 +1,62 @@
+[
+    {
+       "baker":"Chetna",
+       "risk":0.6111111111111112,
+       "rank":4
+    },
+    {
+       "baker":"Claire",
+       "risk":0.0,
+       "rank": 12
+    },
+    {
+       "baker":"Diana",
+       "risk":0.375,
+       "rank":8
+    },
+    {
+       "baker":"Enwezor",
+       "risk":1.0,
+       "rank":11
+    },
+    {
+       "baker":"Iain",
+       "risk":0.42857142857142855,
+       "rank":9
+    },
+    {
+       "baker":"Jordan",
+       "risk":0.6666666666666666,
+       "rank":10
+    },
+    {
+       "baker":"Kate",
+       "risk":0.15384615384615385,
+       "rank":6
+    },
+    {
+       "baker":"Luis",
+       "risk":0.6,
+       "rank":2
+    },
+    {
+       "baker":"Martha",
+       "risk":0.375,
+       "rank": 5
+    },
+    {
+       "baker":"Nancy",
+       "risk":0.55,
+       "rank":1
+    },
+    {
+       "baker":"Norman",
+       "risk":0.2,
+       "rank": 7
+    },
+    {
+       "baker":"Richard",
+       "risk":0.3,
+       "rank": 3
+    }
+ ]

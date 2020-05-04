@@ -1,0 +1,62 @@
+[
+    {
+       "baker":"Chetna",
+       "nflavors":3.2777777777777777,
+       "rank": 4
+    },
+    {
+       "baker":"Claire",
+       "nflavors":3.0,
+       "rank": 12
+    },
+    {
+       "baker":"Diana",
+       "nflavors":2.5,
+       "rank": 8
+    },
+    {
+       "baker":"Enwezor",
+       "nflavors":2.5,
+       "rank": 11
+    },
+    {
+       "baker":"Iain",
+       "nflavors":3.857142857142857,
+       "rank": 9
+    },
+    {
+       "baker":"Jordan",
+       "nflavors":4.0,
+       "rank": 10
+    },
+    {
+       "baker":"Kate",
+       "nflavors":3.1538461538461537,
+       "rank": 6
+    },
+    {
+       "baker":"Luis",
+       "nflavors":4.55,
+       "rank": 2
+    },
+    {
+       "baker":"Martha",
+       "nflavors":3.1875,
+       "rank": 5
+    },
+    {
+       "baker":"Nancy",
+       "nflavors":3.8,
+       "rank": 1
+    },
+    {
+       "baker":"Norman",
+       "nflavors":2.8,
+       "rank": 7
+    },
+    {
+       "baker":"Richard",
+       "nflavors":3.7,
+       "rank": 3
+    }
+ ]
