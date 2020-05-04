@@ -49,6 +49,18 @@ const Content = styled.div`
     margin-bottom: 0;
   }
 `
+const ImageWrapper = styled.div`
+  height: ${props => `${props.minHeight}px`};
+  width: ${props => `${props.minWidth}px`};
+`
+const Image = styled.img`
+  position: absolute;
+  opacity: ${props => props.display ? `1` : `0`};
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+`
 
 const images = [StuPic,StuPic, StuMadeira];
 
@@ -79,6 +91,11 @@ export default class ScrollamaExample extends React.Component {
   getCurrentChart = (data) => {
     // return chartMap[data] || 
   }
+  getImages(imageMap, data){
+    return Object.keys(imageMap).map((key => {
+      return (<Image src={imageMap[key]} display={key == data} />);
+    }));
+  }
 
   render() {
     const { data, steps, progress } = this.state;
@@ -106,9 +123,9 @@ export default class ScrollamaExample extends React.Component {
           </Scrollama>
         </Scroller>
         <Graphic>
-          <p>{data}</p>
-          <img src = {images[data]}/>
-          {/* <RiskBarchart data={this.getCurrentChart(data)} /> */}
+          <ImageWrapper minHeight={300} minWidth={400}>
+            {this.getImages(images, data)}
+          </ImageWrapper>
         </Graphic>
       </Main>
     );

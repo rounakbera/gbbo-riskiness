@@ -126,12 +126,9 @@ export default class ScrollamaExample extends React.Component {
           </Scrollama>
         </Scroller>
         <Graphic>
-          {/* <p>{data}</p> */}
-          {/* <img src = {images[data]}/> */}
           <ImageWrapper minHeight={300} minWidth={400}>
             {this.getImages(images, data)}
           </ImageWrapper>
-          {/* <RiskBarchart data={this.getCurrentChart(data)} /> */}
         </Graphic>
       </Main>
     );

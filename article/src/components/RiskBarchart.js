@@ -46,6 +46,7 @@ export default class BarchartExample extends React.Component {
   render() {
     return (
       <VictoryChart
+        text= {"Series "+ this.state.series}
         animate={{ duration: this.state.animate }}
         theme={VictoryTheme.material}
         domainPadding={1}
