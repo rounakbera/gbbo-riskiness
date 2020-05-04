@@ -44,29 +44,38 @@ So this was a Good Bake but Not Risky
                 title={"This is Mat!"}
                 description={
                     <div>
-                        <p>He is a firefighter from London. </p>
-                        <p>He made it all the way to week 7.</p>
-                        <p>He says his "greatest ambition is to own a dishwasher"</p>
+                        <p>
+                            He is a firefighter from London who made it all the way to week 7.
+                            He says his "greatest ambition is to own a dishwasher."
+                        </p>
+                        <p>
+                            Mat employs a whimsical nature in his bakes, such as creating a 
+                            Firetruck Gingerbread houses and some Piña Colada Frangipane Tarts that 
+                            charmed both audiences and the judges.
+                        </p>
                     </div>
                 }
             />
          )
     } else if(this.state.step==2){
         return (
-            
             <div>
                 <p>
-                    In Episode 4, the alternative ingredients episode, Mat attempts a <b>Sugar Free Carrot Cake</b>
+                    In Episode 4, with the theme of alternative ingredients, 
+                    at attempts a <b>Sugar Free Carrot Cake</b>.
                 </p>
                 <p>
-                    He used mostly classic ingredients including <b>dates</b> and <b>honey</b>
-                     to sweeten and <b>cinnamon</b> and <b>ginger</b> to flavor
+                    He used mostly classic ingredients including <b>dates</b> and <b>honey</b> to 
+                    sweeten and <b>cinnamon</b> and <b>ginger</b> to flavor.
                 </p>
                 <p>
                     He attempts a simpler flavor palette in order to get the bake right. 
                 </p>
                 <p>
-                    He did well in the bake, the judges were both impressed. However, it was not the most original. Another baker, Paul, even did a similar carrot cake for the challenge.</p>
+                    He did well in the bake, the judges were both impressed. However, 
+                    it was not the most original. Another baker, Paul, even did a similar 
+                    carrot cake for the challenge.
+                </p>
                 <p>
                     So this was a <Good>good bake</Good> but <Safe>not risky</Safe>.
                 </p>    
@@ -77,19 +86,21 @@ So this was a Good Bake but Not Risky
         return (
             <div>
                 <p>
-                    Later in episode 7, Mat makes a <b>Strawberry Charlotte Russe Cake</b>
+                    Later in episode 7, Mat makes a <b>Strawberry Charlotte Russe Cake</b>.
                 </p>
                 <p>
-                    He flavors his jelly and bavarois creme with <b>strawberry</b>
+                    He flavors his jelly and bavarois creme with <b>strawberry</b>.
                 </p>
                 <p>
                     He attempts a simpler flavor palette in order to get the bake right. 
                 </p>
                 <p>
-                    Paul and Mary think it is delicious but there are problems with the bake: His sponge is split and the jelly isn’t set. The judges are disappointed, as they expected perfection out of this simpler choice.
+                    Paul and Mary think it is delicious but there are problems with the bake: 
+                    His sponge is split and the jelly isn’t set. The judges are disappointed, 
+                    as they expected perfection out of this simpler choice.
                 </p>
                 <p>
-                    We consider this an <Okay>okay bake</Okay> that is <Safe>not risky</Safe>
+                    We consider this an <Okay>okay bake</Okay> that is <Safe>not risky</Safe>.
                 </p>    
             </div>
         )

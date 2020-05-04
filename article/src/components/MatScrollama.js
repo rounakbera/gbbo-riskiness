@@ -48,9 +48,8 @@ const Image = styled.img`
 
 const imageMap = {
   1: Mat,
-  2: Mat, 
-  3: MatCarrotCake,
-  4: MatStrawberry 
+  2: MatCarrotCake,
+  3: MatStrawberry 
 };
 
 export default class MatScrollama extends React.Component {
@@ -58,7 +57,7 @@ export default class MatScrollama extends React.Component {
     super(props);
     this.state = {
       data: 0,
-      steps: [1, 2, 3, 4],
+      steps: [1, 2, 3],
       progress: 0,
     };
   };
