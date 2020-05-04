@@ -55,7 +55,7 @@ export default class StuScrollama extends React.Component {
     super(props);
     this.state = {
       data: 0,
-      steps: [1, 2],
+      steps: Object.keys(imageMap),
       progress: 0,
     };
   };

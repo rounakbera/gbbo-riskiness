@@ -10,20 +10,22 @@ import {
 
 const data = require('../data/bakerAvgFlavors.json');
 
-export default class BarchartExample extends React.Component {
+export default class FlavorBarchart extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       displayInfo: props.displayInfo,
+      showRegression: this.props.showRegression,
       animate: props.animate,
       animating: false
     }
   }
 
   componentDidUpdate(prevProps) {
-    if (!this.state.animating && this.props.displayInfo !== prevProps.displayInfo) {
+    if (!this.state.animating && this.props !== prevProps) {
       this.setState({
         displayInfo: this.props.displayInfo,
+        showRegression: this.props.showRegression,
         animating: true
       });
       setTimeout(() => this.setState({animating: false}), this.state.animate);
@@ -91,6 +93,7 @@ export default class BarchartExample extends React.Component {
             onExit: { duration: 1000 }
           }}
         />
+        {this.state.showRegression && (
           <VictoryLine
             data={[
               {x: 'Stu', y: 2.75},
@@ -101,8 +104,12 @@ export default class BarchartExample extends React.Component {
             }}
             scale={{x: "baker", y: "flavors"}}
             standalone={false}
-            // style={styles.lineThree}
+            animate={{
+              onEnter: { duration: 1000 },
+              onExit: { duration: 1000 }
+            }}
           />
+        )}
       </VictoryChart>
     )
   }

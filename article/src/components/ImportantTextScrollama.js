@@ -41,17 +41,12 @@ const TextWrapper = styled.div`
   -o-transition: opacity 1s ease-in-out;
 `
 
-const contentMap = {
-  1: ["Since using multiple flavors can be risky, creating successful combinations helps to exemplify a great baker."],
-  2: ["With this in mind, let's see how the ", <b>number of flavors</b>, " that a baker chooses affects their overall performance."],
-};
-
 export default class ImportantTextScrollama extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       data: 0,
-      steps: [1, 2],
+      steps: Object.keys(props.content),
       progress: 0,
     };
   };
@@ -102,7 +97,7 @@ export default class ImportantTextScrollama extends React.Component {
         </Scroller>
         <Graphic>
           <ContentWrapper minHeight={300} minWidth={400}>
-            {this.getContent(contentMap, data)}
+            {this.getContent(this.props.content, data)}
           </ContentWrapper>
         </Graphic>
       </Main>

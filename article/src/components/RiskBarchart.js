@@ -10,7 +10,7 @@ import {
 
 const data = require('../data/bakerRiskiness.json');
 
-export default class BarchartExample extends React.Component {
+export default class RiskBarchart extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,7 +21,7 @@ export default class BarchartExample extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (!this.state.animating && this.props.displayInfo !== prevProps.displayInfo) {
+    if (!this.state.animating && this.props !== prevProps) {
       this.setState({
         displayInfo: this.props.displayInfo,
         showRegression: this.props.showRegression,

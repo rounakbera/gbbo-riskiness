@@ -16,7 +16,7 @@ const Graphic = styled.div`
   align-self: flex-start;
   flex-basis: 100%;
   width: 100%;
-  top: 10%;
+  top: 15%;
 `
 const Scroller = styled.div`
   flex-basis: 0%;
@@ -60,7 +60,7 @@ export default class ImportantTextScrollama extends React.Component {
     super(props);
     this.state = {
       data: 0,
-      steps: [1, 2],
+      steps: Object.keys(quoteMap),
       progress: 0,
     };
   };

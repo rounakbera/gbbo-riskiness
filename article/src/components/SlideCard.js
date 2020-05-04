@@ -53,7 +53,7 @@ export default class ScrollamaExample extends React.Component {
     super(props);
     this.state = {
       data: 0,
-      steps: [1, 2, 3],
+      steps: Object.keys(imageMap),
       progress: 0
     };
     Object.keys(imageMap).map((key => {
