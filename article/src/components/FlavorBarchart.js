@@ -8,7 +8,7 @@ import {
   VictoryLine
 } from 'victory';
 
-const data = require('../data/bakerRiskiness.json');
+const data = require('../data/bakerAvgFlavors.json');
 
 export default class BarchartExample extends React.Component {
   constructor(props) {
@@ -38,7 +38,7 @@ export default class BarchartExample extends React.Component {
     return data.map((datum) => {
       return {
         ...datum,
-        "risk": displayInfo[datum.baker] ? datum.risk : 0
+        "flavors": displayInfo[datum.baker] ? datum.nflavors : 0
       };
     });
   }
@@ -52,7 +52,6 @@ export default class BarchartExample extends React.Component {
       >
         <VictoryAxis
           label="Baker"
-          tickFormat={(x) => (`${x}`)}
           style={{
             axisLabel: {
               fontSize: 15,
@@ -68,28 +67,22 @@ export default class BarchartExample extends React.Component {
           }}
         />
         <VictoryAxis
-          label= "Riskiness"
           dependentAxis
           domain={[0, 1]}
           tickFormat={(x) => (`${x}`)}
-          style= {{
-            axisLabel : {
-              padding : 35
-            }
-          }}
         />
         <VictoryBar
           data={this.getDataWithDisplayInfo(this.state.displayInfo)}
           x="baker"
-          y="risk"
+          y="flavors"
           z="rank"
           alignment="start"
           style={{
-            data: { fill: "purple" },
+            data: { fill: "darkred" },
             labels: { fontSize: ({ text }) => text.length > 5 ? 8 : 12 },
             parent: { border: "1px solid #ccc" }
           }}
-          labels={({ datum }) => `risk: ${datum.risk}, rank: ${datum.rank}`}
+          labels={({ datum }) => `flavors: ${datum.nflavors}, rank: ${datum.rank}`}
           labelComponent={<VictoryTooltip dy={0} centerOffset={{ x: 25 }} />}
           sortKey= "rank"
           sortOrder="descending"
@@ -98,18 +91,17 @@ export default class BarchartExample extends React.Component {
             onExit: { duration: 1000 }
           }}
         />
-        <VictoryLine
-            // data={[{x:'Stu', y: 1.07},{x:'Mat', y: .28},
-            // {x:'Nadiya', y: .65}]}
-            y= {(data) => 1.110743827-0.2151723771*data.x+ 0.0148058048 *Math.pow(data.x,2)}
-            scale={{x: "baker", y: "risk"}}
-            standalone={false}
-            domain= {{y :[0,1]}}
-            interpolation="natural"
-            animate={{
-              onEnter: { duration: 1000 },
-              onExit: { duration: 1000 }
+          <VictoryLine
+            data={[
+              {x: 'Stu', y: 2.75},
+              {x: 'Nadiya', y: 3.25}
+            ]}
+            domain={{
+              y: [0, 4]
             }}
+            scale={{x: "baker", y: "flavors"}}
+            standalone={false}
+            // style={styles.lineThree}
           />
       </VictoryChart>
     )
