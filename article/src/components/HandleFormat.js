@@ -25,7 +25,7 @@ const FlexHandle = styled(Handle)`
 const Value = styled.div`
   margin-top: -32px;
   white-space: nowrap;
-  color: red;
   font-size: 16px;
+  color: black;
   font-weight: bold;
 `;
