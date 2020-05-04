@@ -16,7 +16,7 @@ const Graphic = styled.div`
   align-self: flex-start;
   flex-basis: 100%;
   width: 100%;
-  top: 10%;
+  top: 15%;
 `
 const Scroller = styled.div`
   flex-basis: 0%;
