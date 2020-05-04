@@ -7,11 +7,20 @@ import {
   VictoryTooltip, 
   VictoryAxis 
 } from 'victory';
-import WorkingHandle from './WorkingHandle';
+import styled from "styled-components";
+import Slider from "rc-slider";
+import "rc-slider/assets/index.css";
+import { HandleFormat } from "./HandleFormat";
 
 
 const bakerInfo = require('../data/bakerinfo.json')
 const allSeasons = require('../data/seasons.json')
+const Container = styled.div`
+width: 300px;
+margin: 48px 48px;
+float: right;
+`;
+
 
 export default class FinalViz extends React.Component {
   constructor(props) {
@@ -21,7 +30,7 @@ export default class FinalViz extends React.Component {
       data: this.parseData(bakerInfo),
       animate: props.animate,
       animating: false,
-      placeLimit: React.createRef()
+      placeLimit: 1
     }
   }
   calcLeaf(bakerList) {
@@ -60,25 +69,28 @@ export default class FinalViz extends React.Component {
   getTooltipLength(string) {
     return string.split("\n")[0].length;
   }
-  componentDidUpdate(prevProps) {
-    if (!this.state.animating && this.props.data !== prevProps.data) {
-      this.setState({
-        data: this.props.data,
-        animating: true
-      });
-      setTimeout(() => this.setState({animating: false}), this.state.animate);
-    }
-  }
   getBorderColor(place) {
     return place > this.state.placeLimit ? "black" : "tomato";
+  }
+  changePlaceLimit = (placeLimit) =>{
+    this.setState({placeLimit});
   }
   render () {
     var ticks = Array.from({length: 20}, (x,i) => i/20);
     ticks.push(1);
-    console.log(this.state.placeLimit);
     return (
       <div>
-      <WorkingHandle/>
+      <Container>
+          <Slider
+            min={1}
+            max={13}
+            value={this.state.placeLimit}
+            step={1}
+            marks={{ 1: "1", 13: "13" }}
+            onChange={this.changePlaceLimit}
+            handle={HandleFormat}
+          />
+      </Container>
       <VictoryChart 
         domain = {{y:[-0.025, 1.025]}}
         width = {165}
