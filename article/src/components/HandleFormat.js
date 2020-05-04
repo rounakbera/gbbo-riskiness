@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Handle } from "rc-slider";
 
+//Code source for entire file and related slider material in handle: https://codesandbox.io/s/zealous-snyder-0bj4r?file=/src/App.js
+
 export function HandleFormat(props) {
   const { value, dragging, index, ...rest } = props;
 
@@ -23,7 +25,7 @@ const FlexHandle = styled(Handle)`
 const Value = styled.div`
   margin-top: -32px;
   white-space: nowrap;
-  color: red;
   font-size: 16px;
+  color: black;
   font-weight: bold;
 `;
