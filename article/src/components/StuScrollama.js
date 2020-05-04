@@ -40,8 +40,8 @@ const Image = styled.img`
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
-  width: 50vw;
-  margin-left: 5vw;
+  width: 25vw;
+  margin-left: 20vw;
   top: 25%;
 `
 

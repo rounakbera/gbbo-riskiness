@@ -16,12 +16,13 @@ const TitleWrapper = styled.div`
 		padding: 5vw;
 	}
 `
-const TitleImg = styled.img`
+
+const ImgWrapper = styled.div`
 	position: sticky;
-	max-height: 60vh;
-	top: 15vh;
-	left: 7vw;
-	margin-bottom: 25vh;
+	width: 35vw;
+	height: 70vh;
+	top: 5vh;
+	left: 5vw;
 	@media (max-width: 900px) {
 		position: static;
 		width: 70vw;
@@ -29,6 +30,11 @@ const TitleImg = styled.img`
 		margin-bottom: 0;
 		margin-left: 10vw;
 	}
+`
+const TitleImg = styled.img`
+	margin-bottom: 5vh;
+	width: 100%;
+	max-height: 60vh;
 `
 
 const Title = styled.div`
@@ -81,8 +87,10 @@ class TitleCard extends Component {
 		return (
 			
 			<TitleWrapper>
-				<Chevron/>
-				<TitleImg src = {TitleCake}/>
+				<ImgWrapper>
+					<TitleImg src = {TitleCake}/>
+					<Chevron/>
+				</ImgWrapper>
 				<Title>
 					<h1><TitleSpan>
 						Managing Risk in Your Competitive Baking Flavor Portfolio
