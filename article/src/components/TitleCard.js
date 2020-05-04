@@ -9,6 +9,7 @@ const TitleWrapper = styled.div`
 	display: flex;
 	height: auto;
 	padding-bottom: 2vh;
+	margin-bottom: 10vh;
 	@media (max-width: 900px) {
 		margin-bottom: 0;
 		display: block;
@@ -59,7 +60,7 @@ const Authors = styled.div`
 
 const AuthorName = styled.div`
 	width: 30%;
-	padding: 0;
+	padding-right: 2em;
 	@media (max-width: 900px) {
 		margin-bottom: -5vh;
 	}

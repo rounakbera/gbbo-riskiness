@@ -18,8 +18,8 @@ const GlobalStyles = createGlobalStyle`
   h1 {
     color: #A3352C;
     font-family: 'Philosopher', sans-serif;
-    font-size: 4.5rem;
-    line-height: 5rem;
+    font-size: 4rem;
+    line-height: 4.5rem;
     margin: 0;
 	@media (max-width: 900px) {
 		font-size: 3.5rem;

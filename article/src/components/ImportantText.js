@@ -6,6 +6,7 @@ const TextWrapper = styled.div`
     height: auto;
     text-align: center;
     padding: 5vh 10vw;
+    margin-top: 15vh;
 `
 const Text = styled.span`
     color: rgba(255,250,236,1);

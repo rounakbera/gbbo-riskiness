@@ -21,7 +21,11 @@ function App() {
       <GlobalStyles/>
       <TitleCard/>
       <IntroMethodology />
-      <ImportantText text={["And we started questioning–what does it take to win this show? Is it ", <strong>flavor combinations</strong>, ", " , <strong>innovative ideas</strong>, ", or simply being ", <strong>a solid baker</strong> , "?"]}/>
+      <ImportantText 
+        text={
+          ["With this data, can we find out if certain ",<b>risks</b>," and ",<b>flavor choices</b>," help win the Great British Bake Off?"]
+        }
+      />
       <RiskBarchartScrollama />
       <FlavorScatterplot />
       <RiskRewardPieChart baker={"Mat"} />

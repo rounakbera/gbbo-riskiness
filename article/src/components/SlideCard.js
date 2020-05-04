@@ -4,7 +4,7 @@ import { Scrollama, Step } from 'react-scrollama';
 import TextSection from './TextSection.js';
 
 const Main = styled.div`
-  padding: 0 2vw 30vh 2vw;
+  padding: 0 2vw 0 2vw;
   display: flex;
   font-family: Helvetica;
   justify-content: space-between;
@@ -22,14 +22,14 @@ const Scroller = styled.div`
 `
 const Content = styled.div`
   margin: 0 auto 2rem auto;
-  padding: 20vh 0 20vh 5vw;
+  padding: 15vh 0 5vh 5vw;
   &:last-child {
     margin-bottom: 0;
   }
 `
 const ImageWrapper = styled.div`
-    height: ${props => `${props.minHeight}px`};
-    width: ${props => `${props.minWidth}px`};
+  height: ${props => `${props.minHeight + 150}px`};
+  width: ${props => `${props.minWidth}px`};
 `
 const Image = styled.img`
   position: absolute;
@@ -40,7 +40,7 @@ const Image = styled.img`
   -o-transition: opacity 1s ease-in-out;
   width: 50vw;
   margin-left: 5vw;
-  top: 45%;
+  top: 25%;
 `
 const imageMap = {
     1: "",
