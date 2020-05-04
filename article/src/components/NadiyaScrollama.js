@@ -7,7 +7,7 @@ import NadiyaVolAuVents from '../assets/nadiya-volauvents.png';
 import NadiyaPic from '../assets/nadiya.jpg';
 
 const Main = styled.div`
-  padding: 0 2vw 0 2vw;
+  padding: 10vh 2vw;
   display: flex;
   font-family: Helvetica;
   justify-content: space-between;
@@ -52,7 +52,7 @@ const imageMap = {
   3: NadiyaIcedBuns
 };
 
-export default class ScrollamaExample extends React.Component {
+export default class NadiyaScrollama extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

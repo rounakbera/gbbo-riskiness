@@ -10,6 +10,7 @@ import NadiyaScrollama from './components/NadiyaScrollama.js';
 import MatScrollama from './components/MatScrollama.js';
 import FlavorBarchartScrollama from './components/FlavorBarchartScrollama.js';
 import ImportantText from './components/ImportantText.js';
+import ImportantTextScrollama from './components/ImportantTextScrollama.js';
 import BarchartsCompiled from './components/BarchartsCompiled.js';
 
 import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
@@ -29,11 +30,12 @@ function App() {
         }
       />
       <RiskBarchartScrollama />
-      <FlavorScatterplot />
-      <RiskRewardPieChart baker={"Mat"} />
+      {/* <FlavorScatterplot /> */}
+      {/* <RiskRewardPieChart baker={"Mat"} /> */}
       <StuScrollama/>
       <MatScrollama />
       <NadiyaScrollama />   
+      <ImportantTextScrollama />
       <FlavorBarchartScrollama /> 
       <BarchartsCompiled/>
       <FinalViz />
