@@ -43,10 +43,10 @@ const Image = styled.img`
   top: 25%;
 `
 const imageMap = {
-    1: "",
-    2: "",
-    3: ""
-  };
+  1: "",
+  2: "",
+  3: ""
+};
 
 export default class ScrollamaExample extends React.Component {
   constructor(props) {
@@ -57,8 +57,8 @@ export default class ScrollamaExample extends React.Component {
       progress: 0
     };
     Object.keys(imageMap).map((key => {
-        imageMap[key] = this.props.images[key-1]
-      }))
+      imageMap[key] = this.props.images[key-1]
+    }));
   };
 
   getImages(imageMap, data) {

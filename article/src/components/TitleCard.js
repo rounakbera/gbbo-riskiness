@@ -68,7 +68,7 @@ const AuthorName = styled.div`
 
 const Description = styled.div`
 	width: 90%;
-	padding-top: 5%;
+	padding-top: 2%;
 `
 
 class TitleCard extends Component {
