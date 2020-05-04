@@ -28,7 +28,7 @@ const Wrapper = styled.div`
     width: 5vw;
     height: 5vw;
     position: sticky;
-    top: 90vh;
+    top: 92vh;
     left: 49vw;
 `
 
