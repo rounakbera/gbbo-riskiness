@@ -74,7 +74,7 @@ export default class BarchartExample extends React.Component {
           style={{
             axisLabel: {
               fontSize: 15,
-              padding: 35
+              padding: 37
             },
             tickLabels: {
               angle: 270,

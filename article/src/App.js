@@ -16,6 +16,7 @@ import IntroGif from './assets/intro.gif';
 import Challenges from './assets/challenges.png';
 import DataCollection from './assets/data-collection.png';
 import ImportantText from './components/ImportantText.js';
+import BarchartsCompiled from './components/BarchartsCompiled.js';
 
 import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
 
@@ -36,9 +37,7 @@ function App() {
       <MatScrollama />
       <NadiyaScrollama />   
       <FlavorBarchartScrollama /> 
-      <RiskBarchartWOanim series = {5}/>
-      <FlavorBarchartWOanim series = {4}/>
-      <NadiyaScrollama />
+      <BarchartsCompiled/>
       <FinalViz />
     </div>
   );
