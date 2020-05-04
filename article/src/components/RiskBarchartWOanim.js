@@ -5,18 +5,28 @@ import {
   VictoryAxis,
   VictoryTheme,
   VictoryTooltip,
-  VictoryLine
+  VictoryLine,
+  VictoryLabel
 } from 'victory';
 
-const data = require('../data/bakerRiskiness.json');
+var data= require('../data/s5bakerRiskiness.json');
+
 
 export default class BarchartExample extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      displayInfo: props.displayInfo,
+      //displayInfo: props.displayInfo,
+      series : props.series,
       animate: props.animate,
-      animating: false
+      animating: false,
+    }
+    if (this.state.series== 5){
+      data = require('../data/s5bakerRiskiness.json');
+    } else if(this.state.series== 4){
+      data = require('../data/s4bakerRiskiness.json');
+    }else {
+      data = require('../data/bakerRiskiness.json');
     }
   }
 
@@ -24,7 +34,6 @@ export default class BarchartExample extends React.Component {
     if (!this.state.animating && this.props.displayInfo !== prevProps.displayInfo) {
       this.setState({
         displayInfo: this.props.displayInfo,
-        showRegression: this.props.showRegression,
         animating: true
       });
       setTimeout(() => this.setState({animating: false}), this.state.animate);
@@ -43,27 +52,36 @@ export default class BarchartExample extends React.Component {
       };
     });
   }
+  getRegressionPoints(x){
+    if(this.state.series==6){
+      return 1.110743827-0.2151723771*x+ 0.0148058048 *Math.pow(x,2)
+    } else if(this.state.series==5){
+      return 1.416890726-0.3059164602*x+ 0.0203858653 *Math.pow(x,2)
+    }else{
+      return 0.696847257-0.1499537858*x+0.01130886736 *Math.pow(x,2)
+    }
+  }
 
   render() {
     return (
       <VictoryChart
-        text= {"Series "+ this.state.series}
         animate={{ duration: this.state.animate }}
         theme={VictoryTheme.material}
         domainPadding={1}
       >
+        <VictoryLabel text= {"Series "+ this.state.series} x={175} y={30} textAnchor="middle"/>
         <VictoryAxis
           label="Baker"
           tickFormat={(x) => (`${x}`)}
           style={{
             axisLabel: {
               fontSize: 15,
-              padding: 35
+              padding: 37
             },
             tickLabels: {
               angle: 270,
               fontSize: 10,
-              opacity: ({text}) => {return this.state.displayInfo[text] ? 1 : 0;},
+             // opacity: ({text}) => {return this.state.displayInfo[text] ? 1 : 0;},
               padding: 0,
               textAnchor: "end"
             }
@@ -81,7 +99,7 @@ export default class BarchartExample extends React.Component {
           }}
         />
         <VictoryBar
-          data={this.getDataWithDisplayInfo(this.state.displayInfo)}
+          data={data}
           x="baker"
           y="risk"
           z="rank"
@@ -100,9 +118,10 @@ export default class BarchartExample extends React.Component {
             onExit: { duration: 1000 }
           }}
         />
-        {this.state.showRegression && (
-          <VictoryLine
-            y= {(data) => 1.110743827-0.2151723771*data.x+ 0.0148058048 *Math.pow(data.x,2)}
+        <VictoryLine
+            // data={[{x:'Stu', y: 1.07},{x:'Mat', y: .28},
+            // {x:'Nadiya', y: .65}]}
+            y= {(data) => this.getRegressionPoints(data.x)}
             scale={{x: "baker", y: "risk"}}
             standalone={false}
             domain= {{y :[0,1]}}
@@ -112,7 +131,6 @@ export default class BarchartExample extends React.Component {
               onExit: { duration: 1000 }
             }}
           />
-        )}
       </VictoryChart>
     )
   }

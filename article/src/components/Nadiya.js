@@ -1,128 +1,111 @@
 import React from 'react';
 import styled from 'styled-components';
+import TextSection from './TextSection';
 
-
-const Description = styled.div`
-    padding-top: 10vh;
-    padding-bottom: 10vw;
-    padding-right: 10vh;
-    padding-left: 10vh;
-`
-const Paragraph = styled.div`
-    padding-top: 2vh;
-    padding-bottom: 2vw;
-    color: #595959;
-    
-`
-
-const TitleSpan = styled.span`
-	background-color: crimson;
-	color: beige;
-	font-family: 'Concert One', sans-serif;
-	font-size: 5rem;
-    line-height: 6rem;
-`
-const Ingredients = styled.span`
-    color: #a64d79;
-    font-weight: bold;
-    font-family: 'Ariel', sans-serif;
-`
-const GoodBake = styled.span`
-    color: #38761d;
-    font-weight: bold;
-    font-family: 'Ariel', sans-serif;
-`
-const OkayBake = styled.span`
-    color: #bf9000;
-    font-weight: bold;
-    font-family: 'Ariel', sans-serif;
-`
-const NotRisky = styled.span`
-    color: #990000;
-    font-weight: bold;
-    font-family: 'Ariel', sans-serif;
-`
 const Risky = styled.span`
-    color: #38761d;
-    font-weight: bold;
-    font-family: 'Ariel', sans-serif;
+	background-color: #656054;
+	color: white;
 `
-const Bake = styled.span`
-    font-weight: bold;
-    font-family: 'Ariel', sans-serif;
+const Safe = styled.span`
+	background-color: #D6CCBF;
+	color: black;
 `
-const Quote = styled.span`
-    font-style: italic;
-    font-family: 'Ariel', sans-serif;
+const Good = styled.span`
+	background-color: #769A47;
+	color: white;
 `
-
-
+const Bad = styled.span`
+	background-color: #C56854;
+	color: white;
+`
+const Okay = styled.span`
+	background-color: #C3AD5E;
+	color: white;
+`
 export default class NadiyaIntro extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
         step: props.data
     }
-
   }
-
   
   render() {
     if(this.state.step==1){
         return (
-            <Paragraph>
-                <Paragraph>
-                    This is Nadiya!
-                </Paragraph>
-                <ul>
-                    <li>She is a full-time mom living in Leeds with her family. </li>
-                    <li>Her bakes are often inspired by her family and her Bangladeshi background</li>
-                    <li>She was the winner of Series 6</li>
-                </ul>
-                
-            </Paragraph>
+            <TextSection
+                title={"This is Nadiya!"}
+                description={
+                    <div>
+                        <p>
+                            She is a full-time mom living in Leeds with her family. 
+                            Her bakes are often inspired by her family and her Bangladeshi background.
+                            She was the winner of Series 6.
+                        </p>
+                        <p>
+                            She struggled a bit at the beginning, but around halfway through 
+                            she hit a stride. The judges were consistently impressed by the 
+                            technicality behind her bakes and inspired by the creativity behind her 
+                            ideas. All this led her to be crowned The Great British Bake Off champion.
+                        </p>
+                    </div>
+                }
+            />
          )
     } else if(this.state.step==2){
         return (
-            
-            <div>
-                <Paragraph>
-                    For the episode 6 Showstopper, Nadiya makes two types of <Bake> Vol-au-Vents</Bake>
-                </Paragraph>
-                <Paragraph>
-                    The first is a <Ingredients>clementine</Ingredients> and <Ingredients>cod</Ingredients> combination she borrows from her mom and grandmother’s recipe.
-                </Paragraph>
-                <Paragraph>
-                The next is a Bengali korma that has <Ingredients>chicken</Ingredients>, <Ingredients>cardamom</Ingredients>, <Ingredients>cinnamon</Ingredients>, <Ingredients>star anise</Ingredients>, and <Ingredients>clove</Ingredients> 
-                </Paragraph>
-                <Paragraph>
-                    The judges were surprised by her flavor choices but found them delicious. She had a bit of trouble with the pastry and had to restart, so she couldn’t let the dough chill for the time needed, and they didn’t come out quite right. But despite that, the judges thought she demonstrated mastery of the pastry and the fillings were great.
-                </Paragraph>
-                <Paragraph>
-                    This was considered an <OkayBake>Okay Bake</OkayBake> that is <Risky>Risky</Risky>
-                </Paragraph>    
-            </div>
-                
+            <TextSection
+            description = {
+                <div>
+                    <p>
+                        For the episode 6 Showstopper, Nadiya makes two types of <b> Vol-au-Vents</b>.
+                    </p>
+                    <p>
+                        The first is a <b>clementine</b> and <b>cod</b> combination 
+                        she borrows from her mom and grandmother’s recipe. 
+                        The next is a Bengali korma that 
+                        has <b>chicken</b>, <b>cardamom</b>, <b>cinnamon</b>, <b>star anise</b>, and <b>clove</b>.
+                    </p>
+                    <p>
+                        The judges were surprised by her flavor choices but found 
+                        them delicious. She had a bit of trouble with the pastry and 
+                        had to restart. Without enough time, the final pastry wasn't
+                        very successful, which neutralized the grade we assigned her.
+                    </p>
+                    <p>
+                        This was considered an <Okay>okay bake</Okay> that is <Risky>risky</Risky>.
+                    </p>    
+                </div>
+            }
+            />
         )
     } else {
         return (
-            <div>
-                <Paragraph>
-                This is Nadiya’s final Signature Challenge: <Bake>Iced Buns</Bake>
-                </Paragraph>
-                <Paragraph>
-                    The fingers are flavored with sour cherry <Ingredients>jam</Ingredients> and <Ingredients>nutmeg</Ingredients> buns
-                </Paragraph>
-                <Paragraph>
-                    The buns are flavored with <Ingredients>cardamom</Ingredients> buns and <Ingredients>almond</Ingredients> creme patissieres 
-                </Paragraph>
-                <Paragraph>
-                Paul says both <Quote>“tick all the boxes. They’re neat, they’re full of flavor, and they are so different as well”</Quote>. This all-around solid bake helped Nadiya clench the series victory.
-                </Paragraph>
-                <Paragraph>
-                    For obvious reasons, this is a <GoodBake>Good Bake</GoodBake> that is also <Risky>Risky</Risky>
-                </Paragraph>    
-            </div>
+            <TextSection
+            description={
+                <div>
+                    <p>
+                        This is Nadiya’s final Signature Challenge: <b>Iced Buns</b>.
+                    </p>
+                    <p>
+                        The fingers are flavored with sour cherry <b>jam</b> and <b>nutmeg</b> buns.
+                    </p>
+                    <p>
+                        The buns are flavored with <b>cardamom</b> buns and <b>almond</b> creme 
+                        patissieres.
+                    </p>
+                    <p>
+                        Paul says both <i>“tick all the boxes. They’re neat, they’re full of flavor, 
+                        and they are so different as well.”</i> This all-around solid bake helped 
+                        Nadiya clench the series victory.
+                    </p>
+                    <p>
+                        Clearly, this is a <Good>good bake</Good> that is 
+                        also <Risky>risky</Risky>.
+                    </p>    
+                </div>
+            }
+            />
         )
     }
 }}
