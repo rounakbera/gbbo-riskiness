@@ -27,9 +27,8 @@ const Arrow = styled.span`
 const Wrapper = styled.div`
     width: 5vw;
     height: 5vw;
-    position: sticky;
-    top: 92vh;
-    left: 49vw;
+    display: block;
+    padding-left: 47%;
 `
 
 export default class Chevron extends Component {
