@@ -48,9 +48,8 @@ const Image = styled.img`
 
 const imageMap = {
   1: NadiyaPic,
-  2: NadiyaPic, 
-  3: NadiyaVolAuVents,
-  4: NadiyaIcedBuns
+  2: NadiyaVolAuVents,
+  3: NadiyaIcedBuns
 };
 
 export default class ScrollamaExample extends React.Component {
@@ -58,7 +57,7 @@ export default class ScrollamaExample extends React.Component {
     super(props);
     this.state = {
       data: 0,
-      steps: [1, 2, 3, 4],
+      steps: [1, 2, 3],
       progress: 0,
     };
   };

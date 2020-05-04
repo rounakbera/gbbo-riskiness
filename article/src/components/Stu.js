@@ -45,9 +45,13 @@ So this was a Good Bake but Not Risky
                 title={"This is Stu!"}
                 description={
                     <div>
-                        <p>He’s a professional musician from Surrey </p>
-                        <p>He took make some risky choices the first episode that didn’t pay off</p>
-                        <p>Leading to him being the first elimination of the season</p>
+                        <p>
+                            He’s a professional musician from Surrey.
+                        </p>
+                        <p>
+                            He made some bold flavor choices the first episode that didn’t pay 
+                            off, leading to him being the first elimination of the season.
+                        </p>
                     </div>
                 }
             />
@@ -58,16 +62,19 @@ So this was a Good Bake but Not Risky
                 description={
                     <div>
                         <p>
-                            For his signature bake, Stu makes a <b>Marley Madeira Cake</b>
+                            For his signature bake, Stu makes a <b>Marley Madeira Cake</b>.
                         </p>
                         <p>
-                            He makes the cake half <b>chocolate</b> and covers it with a <b>rum</b> and <b>lime</b> glaze
+                            He makes half of the cake in <b>chocolate</b> and covers it with 
+                            a <b>rum</b> and <b>lime</b> glaze.
                         </p>
                         <p>
-                            The judges say the flavors wrong for madeira cakes and the glaze is too hard to bite into. 
+                            Unfortunately, the judges say the flavors are not fit for madeira 
+                            cakes and the glaze is too hard to bite into. 
                         </p>
                         <p>
-                            Due to the judges reactions and the unconventional flavor choices this is considered a <Bad>bad bake</Bad> that is <Risky>risky</Risky>.
+                            Due to the judges reactions and the unconventional flavor choices 
+                            this is considered a <Bad>bad bake</Bad> that is <Risky>risky</Risky>.
                         </p>    
                     </div>
                 }
