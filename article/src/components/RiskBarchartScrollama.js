@@ -46,6 +46,20 @@ const displayMap = {
     "Marie": true
   },
   2: {
+    "Alvin": true,
+    "Dorret": true,
+    "Flora": true,
+    "Ian": true,
+    "Mat": true,
+    "Nadiya": true,
+    "Paul": true,
+    "Sandy": true,
+    "Tamal": true,
+    "Ugne": true,
+    "Stu": true,
+    "Marie": true
+  },
+  3: {
     "Alvin": false,
     "Dorret": false,
     "Flora": false,
@@ -61,6 +75,20 @@ const displayMap = {
   }
 };
 const displayMapRank = {
+  1: {
+    1: true,
+    2: true,
+    3: true,
+    4: true,
+    5: true,
+    6: true,
+    7: true,
+    8: true,
+    9: true,
+    10: true,
+    11: true,
+    12: true
+  },
   1: {
     1: true,
     2: true,
@@ -92,8 +120,50 @@ const displayMapRank = {
 };
 
 const contentMap = {
-  1: <TextSection title={"Lorem Ipsum"} description={<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Mi in nulla posuere sollicitudin aliquam. Non enim praesent elementum facilisis leo. Quis varius quam quisque id diam vel quam.</p>} />,
-  2: <TextSection description={[<br/>,<br/>,<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Mi in nulla posuere sollicitudin aliquam. Non enim praesent elementum facilisis leo. Quis varius quam quisque id diam vel quam.</p>]} />
+  1: <TextSection 
+    title={"Risk-taking in Series 6"} 
+    description={
+      <div>
+        <p>
+          Moving on to the rest of the season: here are the contestants of 
+          series six ordered from left to right by how far they made it in the 
+          competition. Nadiya is the right-most bar, as she won this series.
+        </p>
+        <p>
+          On the Y-axis is the average riskiness score we calculated by 
+          noting every time a judge points out the unusualness of a flavor. 
+          Plotted here is the proportion of bakes considered risky over the 
+          course of the entire series for each individual baker. 
+        </p>
+      </div>
+    } 
+  />,
+  2: <TextSection 
+    description={
+      <div>
+        <p>
+          Here we added a trend line using quadratic regression. 
+        </p>
+        <p>
+          As you can see, average riskiness seems to be higher on each end: both in those 
+          who left earlier in the competition and those who made it til the end. 
+        </p>
+      </div>
+    } 
+  />,
+  3: <TextSection 
+    description={
+      <div>
+        <p>
+          Let’s dive deeper into three contestants and look how they performed.
+        </p>
+        <p>
+          We will look at <b>Stu</b> who was eliminated first, <b>Mat</b> who made it a 
+          little past halfway, and <b>Nadiya</b> who won the competition.
+        </p>
+      </div>
+    } 
+  />
 }
 
 export default class RiskBarchartScrollama extends React.Component {
@@ -101,7 +171,7 @@ export default class RiskBarchartScrollama extends React.Component {
     super(props);
     this.state = {
       data: 0,
-      steps: [1, 2],
+      steps: [1, 2, 3],
       progress: 0,
     };
   };
@@ -150,7 +220,7 @@ export default class RiskBarchartScrollama extends React.Component {
           </Scrollama>
         </Scroller>
         <Graphic>
-          <RiskBarchart displayInfo={this.getDisplayInfo(data)} />
+          <RiskBarchart displayInfo={this.getDisplayInfo(data)} showRegression={data > 1}/>
         </Graphic>
       </Main>
     );
