@@ -1,52 +1,27 @@
 import React from 'react';
 import styled from 'styled-components';
+import TextSection from './TextSection';
 
-
-const Description = styled.div`
-    padding-top: 10vh;
-    padding-bottom: 10vw;
-    padding-right: 10vh;
-    padding-left: 10vh;
+const Risky = styled.span`
+	background-color: #656054;
+	color: white;
 `
-const Paragraph = styled.div`
-    padding-top: 2vh;
-    padding-bottom: 2vw;
-    color: #595959;
-    
+const Safe = styled.span`
+	background-color: #D6CCBF;
+	color: black;
 `
-
-const TitleSpan = styled.span`
-	background-color: crimson;
-	color: beige;
-	font-family: 'Concert One', sans-serif;
-	font-size: 5rem;
-    line-height: 6rem;
+const Good = styled.span`
+	background-color: #769A47;
+	color: white;
 `
-const Ingredients = styled.span`
-    color: #a64d79;
-    font-weight: bold;
-    font-family: 'Ariel', sans-serif;
+const Bad = styled.span`
+	background-color: #C56854;
+	color: white;
 `
-const GoodBake = styled.span`
-    color: #38761d;
-    font-weight: bold;
-    font-family: 'Ariel', sans-serif;
+const Okay = styled.span`
+	background-color: #C3AD5E;
+	color: white;
 `
-const OkayBake = styled.span`
-    color: #bf9000;
-    font-weight: bold;
-    font-family: 'Ariel', sans-serif;
-`
-const NotRisky = styled.span`
-    color: #990000;
-    font-weight: bold;
-    font-family: 'Ariel', sans-serif;
-`
-const Bake = styled.span`
-    font-weight: bold;
-    font-family: 'Ariel', sans-serif;
-`
-
 
 export default class MatIntro extends React.Component {
   constructor(props) {
@@ -65,58 +40,57 @@ So this was a Good Bake but Not Risky
   render() {
     if(this.state.step==1){
         return (
-            <div>
-                <Paragraph>
-                    This is Mat!
-                </Paragraph>
-                <ul>
-                    <li>He is a firefighter from London. </li>
-                    <li>He made it all the way to week 7.</li>
-                    <li>He says his "greatest ambition is to own a dishwasher"</li>
-                </ul>
-                
-            </div>
+            <TextSection
+                title={"This is Mat!"}
+                description={
+                    <div>
+                        <p>He is a firefighter from London. </p>
+                        <p>He made it all the way to week 7.</p>
+                        <p>He says his "greatest ambition is to own a dishwasher"</p>
+                    </div>
+                }
+            />
          )
     } else if(this.state.step==2){
         return (
             
             <div>
-                <Paragraph>
-                    In Episode 4, the alternative ingredients episode, Mat attempts a <Bake>Sugar Free Carrot Cake</Bake>
-                </Paragraph>
-                <Paragraph>
-                    He used mostly classic ingredients including <Ingredients>dates</Ingredients> and <Ingredients>honey </Ingredients>
-                     to sweeten and <Ingredients>cinnamon</Ingredients> and  <Ingredients>ginger</Ingredients> to flavor
-                </Paragraph>
-                <Paragraph>
+                <p>
+                    In Episode 4, the alternative ingredients episode, Mat attempts a <b>Sugar Free Carrot Cake</b>
+                </p>
+                <p>
+                    He used mostly classic ingredients including <b>dates</b> and <b>honey</b>
+                     to sweeten and <b>cinnamon</b> and <b>ginger</b> to flavor
+                </p>
+                <p>
                     He attempts a simpler flavor palette in order to get the bake right. 
-                </Paragraph>
-                <Paragraph>
-                    He did well in the bake, the judges were both impressed. However, it was not the most original. Another baker, Paul, even did a similar carrot cake for the challenge.</Paragraph>
-                <Paragraph>
-                    So this was a <GoodBake>Good Bake</GoodBake> but <NotRisky>Not Risky</NotRisky>
-                </Paragraph>    
+                </p>
+                <p>
+                    He did well in the bake, the judges were both impressed. However, it was not the most original. Another baker, Paul, even did a similar carrot cake for the challenge.</p>
+                <p>
+                    So this was a <Good>good bake</Good> but <Safe>not risky</Safe>.
+                </p>    
             </div>
                 
         )
     } else {
         return (
             <div>
-                <Paragraph>
-                    Later in episode 7, Mat makes a <Bake>Strawberry Charlotte Russe Cake</Bake>
-                </Paragraph>
-                <Paragraph>
-                    He flavors his jelly and bavarois creme with <Ingredients>strawberry</Ingredients>
-                </Paragraph>
-                <Paragraph>
+                <p>
+                    Later in episode 7, Mat makes a <b>Strawberry Charlotte Russe Cake</b>
+                </p>
+                <p>
+                    He flavors his jelly and bavarois creme with <b>strawberry</b>
+                </p>
+                <p>
                     He attempts a simpler flavor palette in order to get the bake right. 
-                </Paragraph>
-                <Paragraph>
+                </p>
+                <p>
                     Paul and Mary think it is delicious but there are problems with the bake: His sponge is split and the jelly isn’t set. The judges are disappointed, as they expected perfection out of this simpler choice.
-                </Paragraph>
-                <Paragraph>
-                    We consider this an <OkayBake>Okay Bake</OkayBake> that is <NotRisky>Not Risky</NotRisky>
-                </Paragraph>    
+                </p>
+                <p>
+                    We consider this an <Okay>okay bake</Okay> that is <Safe>not risky</Safe>
+                </p>    
             </div>
         )
     }
