@@ -72,7 +72,7 @@ export default class BarchartExample extends React.Component {
           style={{
             axisLabel: {
               fontSize: 15,
-              padding: 36
+              padding: 37
             },
             tickLabels: {
               angle: 270,
@@ -84,9 +84,15 @@ export default class BarchartExample extends React.Component {
           }}
         />
         <VictoryAxis
+          label= "Avg Flavors Used"
           dependentAxis
           domain={[0, 1]}
           tickFormat={(x) => (`${x}`)}
+          style= {{
+            axisLabel : {
+              padding : 35
+            }
+          }}
         />
         <VictoryBar
           data={data}
