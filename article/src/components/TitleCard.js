@@ -9,6 +9,7 @@ const TitleWrapper = styled.div`
 	display: flex;
 	height: auto;
 	padding-bottom: 2vh;
+	margin-bottom: 10vh;
 	@media (max-width: 900px) {
 		margin-bottom: 0;
 		display: block;
@@ -18,9 +19,9 @@ const TitleWrapper = styled.div`
 const TitleImg = styled.img`
 	position: sticky;
 	max-height: 60vh;
-	top: 10vh;
-	left: 5vw;
-	margin-bottom: 10vh;
+	top: 15vh;
+	left: 7vw;
+	margin-bottom: 25vh;
 	@media (max-width: 900px) {
 		position: static;
 		width: 70vw;
@@ -44,21 +45,14 @@ const Title = styled.div`
 `
 
 const TitleSpan = styled.span`
-	background-color: crimson;
+	background-color: #A3352C;
 	color: beige;
-	font-size: 4.5rem;
-	line-height: 5.5rem;
-	@media (max-width: 900px) {
-		font-size: 3.5rem;
-		line-height: 4.5rem;
-	}
 `
 
 const Authors = styled.div`
 	width: 100%;
 	display: flex;
 	margin-top: 2vh;
-	margin-bottom: -5vh;
 	@media (max-width: 900px) {
 		margin-bottom: 5vw;
 	}
@@ -66,7 +60,7 @@ const Authors = styled.div`
 
 const AuthorName = styled.div`
 	width: 30%;
-	padding: 0;
+	padding-right: 2em;
 	@media (max-width: 900px) {
 		margin-bottom: -5vh;
 	}
@@ -74,7 +68,7 @@ const AuthorName = styled.div`
 
 const Description = styled.div`
 	width: 90%;
-	padding-top: 5%;
+	padding-top: 2%;
 `
 
 class TitleCard extends Component {
@@ -90,9 +84,9 @@ class TitleCard extends Component {
 				<Chevron/>
 				<TitleImg src = {TitleCake}/>
 				<Title>
-					<TitleSpan>
+					<h1><TitleSpan>
 						Managing Risk in Your Competitive Baking Flavor Portfolio
-					</TitleSpan>
+					</TitleSpan></h1>
 					<Authors>
 						<AuthorName><h3>Rounak Bera</h3></AuthorName>
 						<AuthorName><h3>Stacy Tao</h3></AuthorName>
@@ -103,13 +97,16 @@ class TitleCard extends Component {
 					</Authors>
 					<Description>
 						<p>
-						The Great British Bake Off. An amateur competition where home bakers clash in order to be named the United Kingdom’s best. All for exactly zero prize money. 
+						The Great British Bake Off—an amateur competition where home bakers 
+						clash in order to be named the United Kingdom’s best, and all for 
+						exactly zero prize money. Even so, the sheer accomplishment of winning 
+						is definitely worth the effort. 
 						</p>
 						<p>
-						Even so, the sheer accomplishment of winning is definitely worth the effort–and that made us wonder, what does it truly take to win? How could a normal baker game the odds to increase their chances? 
-						</p>
-						<p>
-						Maybe it has to do with the flavors contestants choose. Or maybe it’s the risks they take. Read on to find out.
+						That made us wonder, what does it truly take to win? How could a normal 
+						baker game the odds to increase their chances? Maybe it has to do with 
+						the flavors contestants choose. Or maybe it’s the risks they take. Read 
+						on to find out.
 						</p>
 					</Description>
 				</Title>

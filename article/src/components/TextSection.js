@@ -21,7 +21,7 @@ export default class TextSection extends Component {
           {this.props.title}
         </SectionTitle>}
         <SectionDescription>
-        <p>{this.props.description}</p>
+        {this.props.description}
         </SectionDescription>
 			</SectionWrapper>
 		)

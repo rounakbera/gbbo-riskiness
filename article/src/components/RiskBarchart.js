@@ -24,6 +24,7 @@ export default class BarchartExample extends React.Component {
     if (!this.state.animating && this.props.displayInfo !== prevProps.displayInfo) {
       this.setState({
         displayInfo: this.props.displayInfo,
+        showRegression: this.props.showRegression,
         animating: true
       });
       setTimeout(() => this.setState({animating: false}), this.state.animate);
@@ -46,6 +47,7 @@ export default class BarchartExample extends React.Component {
   render() {
     return (
       <VictoryChart
+        text= {"Series "+ this.state.series}
         animate={{ duration: this.state.animate }}
         theme={VictoryTheme.material}
         domainPadding={1}
@@ -98,9 +100,8 @@ export default class BarchartExample extends React.Component {
             onExit: { duration: 1000 }
           }}
         />
-        <VictoryLine
-            // data={[{x:'Stu', y: 1.07},{x:'Mat', y: .28},
-            // {x:'Nadiya', y: .65}]}
+        {this.state.showRegression && (
+          <VictoryLine
             y= {(data) => 1.110743827-0.2151723771*data.x+ 0.0148058048 *Math.pow(data.x,2)}
             scale={{x: "baker", y: "risk"}}
             standalone={false}
@@ -111,6 +112,7 @@ export default class BarchartExample extends React.Component {
               onExit: { duration: 1000 }
             }}
           />
+        )}
       </VictoryChart>
     )
   }
