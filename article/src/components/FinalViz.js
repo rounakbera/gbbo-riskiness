@@ -21,7 +21,7 @@ export default class FinalViz extends React.Component {
       data: this.parseData(bakerInfo),
       animate: props.animate,
       animating: false,
-      placeLimit: 3
+      placeLimit: React.createRef()
     }
   }
   calcLeaf(bakerList) {
@@ -78,7 +78,7 @@ export default class FinalViz extends React.Component {
     console.log(this.state.placeLimit);
     return (
       <div>
-      <WorkingHandle value = {this.state.placeLimit}/>
+      <WorkingHandle/>
       <VictoryChart 
         domain = {{y:[-0.025, 1.025]}}
         width = {165}

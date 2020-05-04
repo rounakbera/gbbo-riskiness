@@ -16,12 +16,15 @@ export default class WorkingHandle extends React.Component {
       super(props);
       
       this.state = {
-        value: props.value
+        value: 3
       }
     }
 
+    changeValue = (e) =>{
+      this.setState({value: e.value});
+    }
+
     render() {
-      console.log(this.state.value);
       return (
         <Container>
           <Slider
@@ -30,7 +33,7 @@ export default class WorkingHandle extends React.Component {
             value={this.state.value}
             step={1}
             marks={{ 1: "1", 10: "10" }}
-            onChange={() => this.setState({value: this.state.value, placeLimit: this.state.value})}
+            onChange={this.changeValue}
             handle={HandleFormat}
           />
         </Container>
