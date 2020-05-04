@@ -2,41 +2,29 @@ import React from 'react';
 import styled from 'styled-components';
 import { Scrollama, Step } from 'react-scrollama';
 import RiskBarchart from './RiskBarchart.js';
-
+import TextSection from './TextSection.js';
 
 const Main = styled.div`
-  padding: 70vh 2vw;
+  padding: 0 2vw 0 2vw;
   display: flex;
   font-family: Helvetica;
   justify-content: space-between;
 `
 const Graphic = styled.div`
-  flex-basis: 60%;
+  flex-basis: 45%;
   position: sticky;
   width: 100%;
-  padding: 2rem 0;
+  padding: 10vh 5vw 0 5vw;
   top: 1rem;
   align-self: flex-start;
-  background-color: #aaa;
-  & p {
-    font-size: 2rem;
-    text-align: center;
-    color: #fff;
-  }
 `
 const Scroller = styled.div`
-  flex-basis: 35%;
+  flex-basis: 50%;
 `
 const Content = styled.div`
   margin: 0 auto 2rem auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  border: 1px solid #333;
-  & p {
-    text-align: center;
-    padding: 1rem;
-    font-size: 1.5rem;
-  }
+  min-height: 50vh;
+  padding: 5vh 0 10vh 5vw;
   &:last-child {
     margin-bottom: 0;
   }
@@ -103,6 +91,11 @@ const displayMapRank = {
   }
 };
 
+const contentMap = {
+  1: <TextSection title={"Lorem Ipsum"} description={<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Mi in nulla posuere sollicitudin aliquam. Non enim praesent elementum facilisis leo. Quis varius quam quisque id diam vel quam.</p>} />,
+  2: <TextSection description={[<br/>,<br/>,<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla posuere sollicitudin aliquam. Mi in nulla posuere sollicitudin aliquam. Non enim praesent elementum facilisis leo. Quis varius quam quisque id diam vel quam.</p>]} />
+}
+
 export default class RiskBarchartScrollama extends React.Component {
   constructor(props) {
     super(props);
@@ -114,12 +107,10 @@ export default class RiskBarchartScrollama extends React.Component {
   };
 
   onStepEnter = ({ element, data }) => {
-    element.style.backgroundColor = 'lightgoldenrodyellow';
     this.setState({ data });
   };
 
   onStepExit = ({ element }) => {
-    element.style.backgroundColor = '#fff';
   };
 
   onStepProgress = ({ element, progress }) => {
@@ -129,6 +120,10 @@ export default class RiskBarchartScrollama extends React.Component {
 
   getDisplayInfo = (data) => {
     return displayMap[data] || displayMap[1];
+  }
+
+  getContent = (value) => {
+    return contentMap[value] || contentMap[1];
   }
 
   render() {
@@ -148,15 +143,13 @@ export default class RiskBarchartScrollama extends React.Component {
             {steps.map(value => (
               <Step data={value} key={value}>
                 <Content>
-                  <p>step: {value}</p>
-                  <p>{value === data ? progress : "-"}</p>
+                  {this.getContent(value)}
                 </Content>
               </Step>
             ))}
           </Scrollama>
         </Scroller>
         <Graphic>
-          <p>{data}</p>
           <RiskBarchart displayInfo={this.getDisplayInfo(data)} />
         </Graphic>
       </Main>

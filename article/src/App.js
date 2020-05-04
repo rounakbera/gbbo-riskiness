@@ -9,8 +9,6 @@ import StuScrollama from './components/StuScrollama.js';
 import NadiyaScrollama from './components/NadiyaScrollama.js';
 import MatScrollama from './components/MatScrollama.js';
 import FlavorBarchartScrollama from './components/FlavorBarchartScrollama.js';
-import RiskBarchartWOanim from './components/RiskBarchartWOanim.js';
-import FlavorBarchartWOanim from './components/FlavorBarchartWOanim.js';
 import ImportantText from './components/ImportantText.js';
 import BarchartsCompiled from './components/BarchartsCompiled.js';
 
