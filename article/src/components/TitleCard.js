@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import TitleCake from '../assets/title-cake.png';
+import Chevron from './Chevron.js';
 
 const TitleWrapper = styled.div`
 	width: 100vw;
 	background: linear-gradient(180deg, rgba(255,250,236,1) 0%, rgba(255,250,236,1) 95%, rgba(255,255,255,1) 100%);
 	display: flex;
 	height: auto;
-	padding-bottom: 10vh;
+	padding-bottom: 2vh;
 	@media (max-width: 900px) {
+		margin-bottom: 0;
 		display: block;
 		padding: 5vw;
 	}
@@ -18,7 +20,7 @@ const TitleImg = styled.img`
 	max-height: 60vh;
 	top: 10vh;
 	left: 5vw;
-	margin-bottom: 5vh;
+	margin-bottom: 10vh;
 	@media (max-width: 900px) {
 		position: static;
 		width: 70vw;
@@ -29,11 +31,10 @@ const TitleImg = styled.img`
 `
 
 const Title = styled.div`
-	padding-top: 10vh;
+	padding: 5% 5% 0 5%;
 	width: 60vw;
 	height: 100vh;
 	margin-left: 5vw;
-	padding: 5%;
 	@media (max-width: 900px) {
 		padding-top: 5vh;
 		width: 90vw;
@@ -86,6 +87,7 @@ class TitleCard extends Component {
 		return (
 			
 			<TitleWrapper>
+				<Chevron/>
 				<TitleImg src = {TitleCake}/>
 				<Title>
 					<TitleSpan>
