@@ -59,7 +59,7 @@ So this was a Good Bake but Not Risky
          )
     } else if(this.state.step==2){
         return (
-            <div>
+            <div style={{padding: "5%"}}>
                 <p>
                     In Episode 4, with the theme of alternative ingredients, 
                     at attempts a <b>Sugar Free Carrot Cake</b>.
@@ -84,7 +84,7 @@ So this was a Good Bake but Not Risky
         )
     } else {
         return (
-            <div>
+            <div style={{padding: "5%"}}>
                 <p>
                     Later in episode 7, Mat makes a <b>Strawberry Charlotte Russe Cake</b>.
                 </p>
