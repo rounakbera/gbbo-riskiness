@@ -11,7 +11,7 @@ import {
   VictoryAxis
 } from 'victory';
 
-const data = require('../data/flavorRiskinessToPerformance.json');
+//const data = require('../data/flavorRiskinessToPerformance.json');
 const VictoryZoomVoronoiContainer = createContainer("zoom", "voronoi");
 
 export default class BarchartExample extends React.Component {
@@ -19,8 +19,9 @@ export default class BarchartExample extends React.Component {
     super(props);
     
     this.state = {
+      data: props.scatterdata,
       domain: props.domain,
-      data: props.data || data,
+      //data: props.data || data,
       animate: props.animate,
       animating: false
     }
@@ -29,9 +30,10 @@ export default class BarchartExample extends React.Component {
   componentDidUpdate(prevProps) {
     if (!this.state.animating && this.props !== prevProps ) {
       this.setState({
-        data: this.props.data,
+        //data: this.props.data,
+        data: this.props.scatterdata,
+        domain: this.props.domain,
         animating: true,
-        domain: this.props.domain
       });
       setTimeout(() => this.setState({animating: false}), this.state.animate);
     }
@@ -50,22 +52,16 @@ export default class BarchartExample extends React.Component {
     return "circle";
   }
 
-  handleZoom(domainin) {
-    this.setState({ domain: domainin });
-  }
+  
   // containerComponent={<VictoryVoronoiContainer/>}
   render() {
     return (
       <VictoryChart
         containerComponent={<VictoryZoomVoronoiContainer 
                                 allowZoom={false} 
-                                zoomDomain= {this.state.domain}
-                                onZoomChange= {this.state.domain}
-                                animate = {{
-                                  onEnter: { duration: 1000 },
-                                }}/>}
+                                />}
                                 
-        domain={{ x: [0, 1], y: [0, 100] }}
+        domain={this.state.domain}
         theme={VictoryTheme.material}
       >
        <VictoryLabel text= {"Flavor Riskiness vs Number of Times Used"} x={175} y={30} textAnchor="middle"/>
@@ -91,7 +87,7 @@ export default class BarchartExample extends React.Component {
           }}
         />
         <VictoryScatter
-          data={data}
+          data={this.state.data}
           labels={({ datum }) => datum.flavor}
           labelComponent={<VictoryTooltip pointerLength={0} />}
           size={3.3}
@@ -101,6 +97,17 @@ export default class BarchartExample extends React.Component {
             },
             labels: {
               fontSize: 5
+            }
+          }}
+          animate={{
+            onExit: {
+              duration: 500,
+             before: () => ({ opacity: 0.3, _y: 0 })
+            },
+            onEnter: {
+              duration: 500,
+              before: () => ({ opacity: 0.3, _y: 0 }),
+             after: (datum) => ({ opacity: 1, _y: datum._y })
             }
           }}
           symbol={({ datum }) => this.getShape(datum.performance)}
