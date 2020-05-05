@@ -14,6 +14,7 @@ import BarchartsCompiled from './components/BarchartsCompiled.js';
 import QuoteScrollama from './components/QuoteScrollama.js';
 
 import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
+import Dropdown from './components/Dropdown.js';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
       <BarchartsCompiled/>
       <QuoteScrollama />
       <FinalViz />
+      <Dropdown/>
     </div>
   );
 }

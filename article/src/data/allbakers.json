@@ -1,0 +1,4502 @@
+[
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Alvin",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Orange, vanilla, fig",
+    "# of Flavors": 3,
+    "Flavors": "orange, vanilla, fig"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Dorret",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Simple w candied lemon",
+    "# of Flavors": 1,
+    "Flavors": "candied lemon"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Flora",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "blood orange",
+    "# of Flavors": 1,
+    "Flavors": "blood orange"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Ian",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Jamacan ginger, lime mojitos, coconut",
+    "# of Flavors": 3,
+    "Flavors": "ginger, lime, coconut"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Mat",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Gin and tonic",
+    "# of Flavors": 2,
+    "Flavors": "gin, tonic"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Nadiya",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Orange zest, green cardamom",
+    "# of Flavors": 2,
+    "Flavors": "orange, cardamom"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Paul",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Lemon, ginger and caraway seed",
+    "# of Flavors": 3,
+    "Flavors": "lemon, ginger, caraway seed"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Sandy",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Almond Liqueur and chopped apricots",
+    "# of Flavors": 2,
+    "Flavors": "almond liqueur, apricot"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Tamal",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Rose water to moisten his pistachio cake",
+    "# of Flavors": 2,
+    "Flavors": "rosewater, pistachio"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Ugné",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Lemon and Thyme",
+    "# of Flavors": 2,
+    "Flavors": "lemon, thyme"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Stu",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "* Lime and chocolate, * Topped w rum and lime glaze",
+    "# of Flavors": 3,
+    "Flavors": "lime, chocolate, rum"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Marie",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Citrus orange/lemon",
+    "# of Flavors": 2,
+    "Flavors": "orange, lemon"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Alvin",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "* Chocolate almond sponge, and covered in chocolate mirrored glaze",
+    "# of Flavors": 2,
+    "Flavors": "chocolate, almond"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Dorret",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Cherry chocolate ganache, chocolate mousse",
+    "# of Flavors": 2,
+    "Flavors": "cherry, chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Flora",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "cherry and chocolate layered sponge, w fresh cream",
+    "# of Flavors": 3,
+    "Flavors": "cherry, chocolate, cream"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Ian",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Chocolate macaroon, genoise sponge, Carmel for structure and covered in chocolate",
+    "# of Flavors": 2,
+    "Flavors": "chocolate, caramel"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Mat",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Cherry and kirsch flavored jam, and chocolate brownie cakes",
+    "# of Flavors": 3,
+    "Flavors": "cherry, kirsch, chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Nadiya",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "* Cherry ganache and cherry jam, covered in chocolate mirror glaze",
+    "# of Flavors": 2,
+    "Flavors": "cherry, chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Paul",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Outside decorated with cream and tempered choc trees",
+    "# of Flavors": 2,
+    "Flavors": "cream, chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Sandy",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Layered with cherries and fresh cream and 3 chocolate sponges and shortbread base",
+    "# of Flavors": 3,
+    "Flavors": "cherry, cream, chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Tamal",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Dark chocolate sponge, with a cherry ganache, with tempered chocolate outside",
+    "# of Flavors": 3,
+    "Flavors": "dark chocolate, cherry, chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Ugné",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Buttermilk chocolate sponges, tea setting decoration",
+    "# of Flavors": 2,
+    "Flavors": "buttermilk, chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Stu",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Beetroot (moisture), mascarpone cream, covered in meringue (weird)",
+    "# of Flavors": 5,
+    "Flavors": "beetroot, mascarpone, cream, cherry, chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Marie",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Genoise sponge, fresh cream and cherry syrup, tempered choc trees",
+    "# of Flavors": 3,
+    "Flavors": "cream, cherry, chocolate"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Alvin",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Jackfruit (Filipino childhood), pistachio, macadamia",
+    "# of Flavors": 3,
+    "Flavors": "jackfruit, pistachio, macadamia"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Dorret",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Amber sugar crystal, almond and apricot biscotti",
+    "# of Flavors": 2,
+    "Flavors": "almond, apricot"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Flora",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Fennel Seeds and sesame seeds (Italian recipe)",
+    "# of Flavors": 2,
+    "Flavors": "fennel seed, sesame seed"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Ian",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Orange, cranberry, almond, rosemary, instead of sugar used orange caramel",
+    "# of Flavors": 5,
+    "Flavors": "orange, cranberry, almond, rosemary, orange caramel"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Mat",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Cranberry, white chocolate, pistachio",
+    "# of Flavors": 3,
+    "Flavors": "cranberry, white chocolate, pistachio"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Nadiya",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Coconut, fennel seeds, and pistachio",
+    "# of Flavors": 3,
+    "Flavors": "coconut, fennel seed, pistachio"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Paul",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Fig, hazelnuts, chocolate, chocolate dough",
+    "# of Flavors": 4,
+    "Flavors": "fig, hazelnut, chocolate, chocolate"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Sandy",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Chocolate chunk, hazelnut",
+    "# of Flavors": 2,
+    "Flavors": "chocolate, hazelnut"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Tamal",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Physalis+cranberries+barberries, cinnamon, maple syrup and cranberry",
+    "# of Flavors": 5,
+    "Flavors": "physalis, cranberry, barberry, cinnamon, maple syrup"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Ugné",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "White wine, goji berry",
+    "# of Flavors": 2,
+    "Flavors": "white wine, goji berry"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Marie",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Pistachio, apricot, cranberry biscotti",
+    "# of Flavors": 3,
+    "Flavors": "pistachio, apricot, cranberry"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Alvin",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Brandy snaps in a gingerbread box",
+    "# of Flavors": 2,
+    "Flavors": "brandy, gingerbread"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Dorret",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Green tea, cocoa bean cookies in a gingerbread box",
+    "# of Flavors": 3,
+    "Flavors": "green tea, cocoa bean, gingerbread"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Flora",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Honey and earl grey shortbread box, Earl grey tea infused biscuits",
+    "# of Flavors": 5,
+    "Flavors": "honey, earl grey tea; gingerbread, earl grey tea, lemon"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Ian",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Shortbread box with macaron biscuits",
+    "# of Flavors": 1,
+    "Flavors": ""
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Mat",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Gingerbread box with Earl gray tea, lemon biscuits",
+    "# of Flavors": 3,
+    "Flavors": "gingerbread, earl grey tea, lemon"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Nadiya",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "ginger and cayenne pepper gingerbread box with fortune cookies",
+    "# of Flavors": 3,
+    "Flavors": "ginger, cayenne, gingerbread"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Paul",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Gingerbread box, biscuits pink macaroon. Memory box with memory decorations",
+    "# of Flavors": 1,
+    "Flavors": "gingerbread"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Sandy",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "* Sun-dried tomato cheese biscuit box,  * Biscuits are Parmesan rounds filled w cream cheese",
+    "# of Flavors": 4,
+    "Flavors": "sun-dried tomato, cheese; parmesan, cream cheese"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Tamal",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "* Gingerbread box, * Checkered shortbread cookies",
+    "# of Flavors": 1,
+    "Flavors": "gingerbread"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Ugné",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "* Lithuanian Honeycake box, marshmallow fondant for décor, * Lithuanian cottage cheese cookies with cinnamon and sugar",
+    "# of Flavors": 4,
+    "Flavors": "honey, marshmallow; cottage cheese, cinnamon"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Marie",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "* Russian Gingerbread box, * Shortbread biscuits-orange and cinnamon",
+    "# of Flavors": 3,
+    "Flavors": "gingerbread; orange, cinnamon"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Alvin",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Manchego, prosciutto and balsamic onion",
+    "# of Flavors": 3,
+    "Flavors": "manchego, prosciutto, balsamic onion"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Dorret",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Waldorf inspired- Walnut, sultanas, blue cheese",
+    "# of Flavors": 3,
+    "Flavors": "walnut, sultana, blue cheese"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Flora",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Fig and Hazelnut rye breads",
+    "# of Flavors": 3,
+    "Flavors": "fig, hazelnut, rye"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Ian",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Tipo 00 flour, garlic, pesto",
+    "# of Flavors": 2,
+    "Flavors": "garlic, pesto"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Mat",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Smoked salt, jalapeno Mexican cheddar",
+    "# of Flavors": 2,
+    "Flavors": "smoked salt, jalapeño cheddar"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Nadiya",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Cumin, coriander with tomato salsa",
+    "# of Flavors": 3,
+    "Flavors": "cumin, coriander, tomato"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Paul",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Cranberry and orange sweet soda bread, Sweet soda bread (unusual) HANDSHAKE",
+    "# of Flavors": 3,
+    "Flavors": "cranberry, orange, soda bread"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Sandy",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Smoked bacon and onion bread",
+    "# of Flavors": 2,
+    "Flavors": "smoked bacon, onion"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Tamal",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Fig, walnut, goat cheese",
+    "# of Flavors": 3,
+    "Flavors": "fig, walnut, goat cheese"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Ugné",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Chocolate, salted caramel sauce",
+    "# of Flavors": 2,
+    "Flavors": "chocolate, salted caramel"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Alvin",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Balsamic onion rolls - Wheat sheaf, Pain de provence, Enriched dough plaits",
+    "# of Flavors": 1,
+    "Flavors": "balsamic onion"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Dorret",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Raisin and fennel head board - Mattress stuffed w marzipan and grace cherries and enriched dough duvet",
+    "# of Flavors": 4,
+    "Flavors": "raisin, fennel, marzipan, cherry"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Flora",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Courgette, pesto, 3 herbs",
+    "# of Flavors": 3,
+    "Flavors": "courgette, pesto, herbs"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Ian",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Black olive and parmesan plant, rose and rosemary",
+    "# of Flavors": 4,
+    "Flavors": "black olive, parmesan, rose, rosemary"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Mat",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "sag aloo, curry spiced, lime-pickle",
+    "# of Flavors": 3,
+    "Flavors": "sag aloo, curry spice, lime pickle"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Nadiya",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Cardamom, cayenne, Zaatar, garlic and parsley flutes, Snake: fried onions+chili",
+    "# of Flavors": 7,
+    "Flavors": "cardamom, cayenne, za'atar, garlic, parsley; onion, chili"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Paul",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "White bread head, whole meal tail and body filled w figs and walnuts",
+    "# of Flavors": 2,
+    "Flavors": "fig, walnut"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Sandy",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Blue cheese and walnut basket, Wholemeal flour, Pesto stocks",
+    "# of Flavors": 3,
+    "Flavors": "blue cheese, walnut, pesto"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Tamal",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Filling is marzipan and cranberries, Fennel and lemon dough, Chai spiced dough",
+    "# of Flavors": 5,
+    "Flavors": "marzipan, cranberry, fennel, lemon, chai"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Ugné",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Truffle, maple syrup, bacon, coffee and cardamom",
+    "# of Flavors": 5,
+    "Flavors": "truffle, maple syrup, bacon, coffee, cardamom"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Alvin",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Blackberry",
+    "# of Flavors": 1,
+    "Flavors": "blackberry"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Flora",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Rhubarb, ginger",
+    "# of Flavors": 2,
+    "Flavors": "rhubarb, ginger"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Ian",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Pomegranate (double)",
+    "# of Flavors": 1,
+    "Flavors": "pomegranate"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Mat",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Coconut",
+    "# of Flavors": 1,
+    "Flavors": "coconut"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Nadiya",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "cinnamon, english breakfast tea, blackberry, mint",
+    "# of Flavors": 4,
+    "Flavors": "cinnamon, english breakfast tea, blackberry, mint"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Paul",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Almonds",
+    "# of Flavors": 1,
+    "Flavors": "almond"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Sandy",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Licorice",
+    "# of Flavors": 1,
+    "Flavors": "licorice"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Tamal",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Rhubarb, ginger",
+    "# of Flavors": 2,
+    "Flavors": "rhubarb, ginger"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Ugné",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Marula fruit",
+    "# of Flavors": 1,
+    "Flavors": "marula fruit"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Alvin",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Blueberry, blackberry, lemon, vanilla, strawberry",
+    "# of Flavors": 5,
+    "Flavors": "blueberry, blackberry, lemon, vanilla, strawberry"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Flora",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Elderflower",
+    "# of Flavors": 1,
+    "Flavors": "elderflower"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Ian",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Tarragon, rosemary, Sichuan peppercorns, strawberry, pecan, apple, salted caramel",
+    "# of Flavors": 7,
+    "Flavors": "tarragon, rosemary, sichuan peppercorns, strawberry, pecan, apple, salted caramel"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Mat",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Honeycomb, coconut, peanut butter, chocolate",
+    "# of Flavors": 4,
+    "Flavors": "honeycomb, coconut, peanut butter, chocolate"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Nadiya",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Ginger, lemon, cream soda, white chocolate",
+    "# of Flavors": 4,
+    "Flavors": "ginger, lemon, cream soda, white chocolate"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Paul",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Blueberry, blackberry, raspberry, vanilla, lemon, white chocolate, brandy, vodka",
+    "# of Flavors": 8,
+    "Flavors": "blueberry, blackberry, raspberry, vanilla, lemon, white chocolate, brandy, vodka"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Sandy",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Cassata, whiskey, orange, apple, ricotta, sour cream",
+    "# of Flavors": 6,
+    "Flavors": "cassata, whiskey, orange, apple, ricotta, sour cream"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Tamal",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Mango, rosemary, hazelnut, honey",
+    "# of Flavors": 4,
+    "Flavors": "mango, rosemary, hazelnut, honey"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Ugné",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Lime, chocolate, hazelnut, chili, almond, coconut",
+    "# of Flavors": 6,
+    "Flavors": "lime, chocolate, hazelnut, chili, almond, coconut"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Alvin",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "pineapple, agave nectar",
+    "# of Flavors": 2,
+    "Flavors": "pineapple, agave nectar"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Flora",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "apple, pistachio, cardamom, cream cheese",
+    "# of Flavors": 4,
+    "Flavors": "apple, pistachio, cardamom, cream cheese"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Ian",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "pear, root ginger, honey, walnut",
+    "# of Flavors": 4,
+    "Flavors": "pear, root ginger, honey, walnut"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Mat",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "carrot, date, honey, raisin, cinnamon, ginger, orange zest",
+    "# of Flavors": 7,
+    "Flavors": "carrot, date, honey, raisin, cinnamon, ginger, orange"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Nadiya",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "blueberry, caraway seed, mulberry molasses",
+    "# of Flavors": 3,
+    "Flavors": "blueberry, caraway seed, mulberry molasses"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Paul",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "agave nectar, sultana, pecan, cream cheese, maple syrup",
+    "# of Flavors": 5,
+    "Flavors": "agave nectar, sultana, pecan, cream cheese, maple syrup"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Tamal",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "polenta, grapefruit zest, grapefruit juice, blood orange juice, honey, maple syrup",
+    "# of Flavors": 5,
+    "Flavors": "polenta, grapefruit, blood orange, honey, maple syrup"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Ugné",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "quinoa flour, almond flour, hazelnut flour, chocolate, hazelnut, agave nectar",
+    "# of Flavors": 6,
+    "Flavors": "quinoa flour, almond flour, hazelnut flour, chocolate, hazelnut, agave nectar"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Alvin",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "coconut milk, buko pandan, mango jam, passionfruit jam",
+    "# of Flavors": 4,
+    "Flavors": "coconut, buko pandan, mango, passionfruit"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Flora",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "coconut milk, pear, chocolate, macadamia nut",
+    "# of Flavors": 4,
+    "Flavors": "coconut, pear, chocolate, macadamia"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Ian",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "coconut custard, mango, stem ginger, caramel, chocolate",
+    "# of Flavors": 5,
+    "Flavors": "coconut, mango, stem ginger, caramel, chocolate"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Mat",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "coconut syrup, raspberry jam",
+    "# of Flavors": 2,
+    "Flavors": "coconut, raspberry"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Nadiya",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "coconut milk, chocolate, strawberry, lime",
+    "# of Flavors": 4,
+    "Flavors": "coconut, chocolate, strawberry, lime"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Paul",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "coconut, raspberry",
+    "# of Flavors": 5,
+    "Flavors": "almond, coconut, mango, lime, pineapple"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Tamal",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "passionfruit, pineapple jam, lemon",
+    "# of Flavors": 3,
+    "Flavors": "passionfruit, pineapple, lemon"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Ugné",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "peanut butter, grape jelly, chocolate",
+    "# of Flavors": 3,
+    "Flavors": "peanut butter, grape, chocolate"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Alvin",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "plum",
+    "# of Flavors": 1,
+    "Flavors": "plum"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Flora",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "apricot jam, rosemary",
+    "# of Flavors": 2,
+    "Flavors": "apricot, rosemary"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Ian",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "pear, raspberry, calvados, star anise, lemon syrup",
+    "# of Flavors": 5,
+    "Flavors": "pear, raspberry, calvados, star anise, lemon"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Mat",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "pineapple, coconut, rum",
+    "# of Flavors": 3,
+    "Flavors": "pineapple, coconut, rum"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Nadiya",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "toasted almonds, bay leaf rong tea, pear, arrowroot",
+    "# of Flavors": 4,
+    "Flavors": "almond, bay leaf rong tea, pear, arrowroot"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Paul",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "pear, orange, cinnamon, clove, mixed spice, apricot jam, almond",
+    "# of Flavors": 7,
+    "Flavors": "pear, orange, cinnamon, clove, mixed spice, apricot, almond"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Tamal",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "mulled wine (red wine, pomegranate juice, raspberry puree), pear, blackberries",
+    "# of Flavors": 3,
+    "Flavors": "mulled wine, pear, blackberry"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Alvin",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "smoked salmon, creme fraiche, dill; chicken a la king (chicken, mushroom, red pepper)",
+    "# of Flavors": 6,
+    "Flavors": "smoked salmon, creme fraiche, dill; chicken, mushroom, red pepper"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Flora",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "chocolate puff pastry, chocolate ganache, hazelnut, praline; asparagus, parma ham",
+    "# of Flavors": 5,
+    "Flavors": "chocolate, hazelnut, praline; asparagus, parma ham"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Ian",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "mushroom, horse chestnut, porcini, truffle oil, lemon thyme; scallop, squid ink, bacon, vermouth",
+    "# of Flavors": 9,
+    "Flavors": "mushroom, horse chestnut, porcini, truffle, lemon thyme; scallop, squid ink, bacon, vermouth"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Mat",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "smoked trout, horseradish; sausage, bacon, quail egg",
+    "# of Flavors": 5,
+    "Flavors": "smoked trout, horseradish; sausage, bacon, quail egg"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Nadiya",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "cod, clementine; chicken korma, cardamom, cinnamon, star anise, clove",
+    "# of Flavors": 7,
+    "Flavors": "cod, clementine; chicken korma, cardamom, cinnamon, star anise, clove"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Paul",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "garlic, chili, prawn, risotto, pea; creme patisserie, raspberry coulis, raspberry, cream",
+    "# of Flavors": 8,
+    "Flavors": "garlic, chili, prawn, risotto, pea; creme patissiere, raspberry, cream"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Tamal",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "pork, fennel, rosemary; chicken, chili, coriander",
+    "# of Flavors": 6,
+    "Flavors": "pork, fennel, rosemary; chicken, chili, coriander"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Flora",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "pheasant, pigeon, rabbit, pork belly, sage, herbs, shallot, Muscat wine",
+    "# of Flavors": 8,
+    "Flavors": "pheasant, pigeon, rabbit, pork belly, sage, herbs, shallot, muscat wine"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Ian",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "venison, partridge, guinea fowl, sausage, streaky bacon",
+    "# of Flavors": 5,
+    "Flavors": "venison, partridge, guinea fowl, sausage, streaky bacon"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Mat",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "venison, pigeon, pork belly, bacon, mixed herbs",
+    "# of Flavors": 5,
+    "Flavors": "venison, pigeon, pork belly, bacon, herbs"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Nadiya",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "pheasant, venison, duck, Chinese five spice (orange, star anise, ginger, fennel, cassias bark)",
+    "# of Flavors": 8,
+    "Flavors": "pheasant, venison, duck, orange, star anise, ginger, fennel, cassias bark"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Paul",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "venison, pheasant, pigeon, wild boar, cayenne pepper, juniper berry, shallot",
+    "# of Flavors": 7,
+    "Flavors": "venison, pheasant, pigeon, wild boar, cayenne, juniper berry, shallot"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Tamal",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "rabbit, pigeon, venison, minced lamb, ras el hanout, cinnamon, almond, apricot",
+    "# of Flavors": 8,
+    "Flavors": "rabbit, pigeon, venison, minced lamb, ras el hanout, cinnamon, almond, apricot"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Flora",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "raspberry sponge, champagne, pomegranate juice, raspberry, white chocolate bavarois, pomegranate seed",
+    "# of Flavors": 5,
+    "Flavors": "raspberry, champagne, pomegranate, white chocolate, pomegranate seed"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Ian",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "rhubarb compote, ginger jelly, lemon verbena",
+    "# of Flavors": 3,
+    "Flavors": "rhubarb, ginger, lemon verbena"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Mat",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "strawberry",
+    "# of Flavors": 1,
+    "Flavors": "strawberry"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Nadiya",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "raspberry bavarois, mango bavarois, mango jelly",
+    "# of Flavors": 2,
+    "Flavors": "raspberry, mango"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Paul",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "strawberry bavarois cream, rhubarb / orange / rosemary jelly, almond, strawberry, apple",
+    "# of Flavors": 6,
+    "Flavors": "strawberry, rhubarb, orange, rosemary, almond, apple"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Tamal",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "raspberry / ginger, blackberry / apple, cardamom / rosewater / orange blossom bavarois",
+    "# of Flavors": 7,
+    "Flavors": "raspberry, ginger, blackberry, apple, cardamom, rosewater, orange blossom"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Flora",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Peach, lemon, thyme; smoked almond, butterscotch",
+    "# of Flavors": 5,
+    "Flavors": "peach, lemon, thyme; smoked almond, butterscotch"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Ian",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "chocolate puff pastry, mont blanc, black forest gateau",
+    "# of Flavors": 4,
+    "Flavors": "chestnut; cherry, kirsch, chocolate"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Nadiya",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Rose, pistachio, mocha, hazelnut",
+    "# of Flavors": 4,
+    "Flavors": "rose, pistachio; mocha, hazelnut"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Paul",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Cafe tipple, banana",
+    "# of Flavors": 4,
+    "Flavors": "coffee, vanilla; custard, banana"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Tamal",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Lime, mascarpone, malt",
+    "# of Flavors": 4,
+    "Flavors": "lime, mascarpone; malt, honeycomb"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Flora",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Lime, basil, coconut, white chocolate",
+    "# of Flavors": 4,
+    "Flavors": "lime, basil, coconut, white chocolate"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Ian",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Coffee, cardamom",
+    "# of Flavors": 2,
+    "Flavors": "coffee, cardamom"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Nadiya",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Bubblegum essence, peppermint",
+    "# of Flavors": 2,
+    "Flavors": "bubblegum essence, peppermint"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Paul",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Banana essence, banana",
+    "# of Flavors": 2,
+    "Flavors": "banana essence, banana"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Tamal",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Passionfruit, mango, pistachio, raspberry",
+    "# of Flavors": 4,
+    "Flavors": "passionfruit, mango, pistachio, raspberry"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Signature",
+    "Baker": "Flora",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Passionfruit, chocolate",
+    "# of Flavors": 2,
+    "Flavors": "passionfruit, chocolate"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Signature",
+    "Baker": "Ian",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Chocolate, bay",
+    "# of Flavors": 2,
+    "Flavors": "chocolate, bay"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Signature",
+    "Baker": "Nadiya",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Peanut, salted caramel, chocolate",
+    "# of Flavors": 3,
+    "Flavors": "peanut, salted caramel, chocolate"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Signature",
+    "Baker": "Tamal",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Chocolate, pecans",
+    "# of Flavors": 2,
+    "Flavors": "chocolate, pecan"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Showstopper",
+    "Baker": "Flora",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Chocolate, rice puff, cake, biscuit",
+    "# of Flavors": 2,
+    "Flavors": "chocolate, rice puff"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Showstopper",
+    "Baker": "Ian",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Chocolate, biscuit, lemon, lemon oil",
+    "# of Flavors": 2,
+    "Flavors": "chocolate, lemon"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Showstopper",
+    "Baker": "Nadiya",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Chocolate, Rice puff, biscuit",
+    "# of Flavors": 1,
+    "Flavors": "chocolate"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Showstopper",
+    "Baker": "Tamal",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Chocolate, biscuit",
+    "# of Flavors": 1,
+    "Flavors": "chocolate"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Signature",
+    "Baker": "Ian",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Elderflower, lemon, spices",
+    "# of Flavors": 3,
+    "Flavors": "elderflower, lemon, mixed spice"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Signature",
+    "Baker": "Nadiya",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Cardamom, almond, nutmeg, sour cherry",
+    "# of Flavors": 4,
+    "Flavors": "cardamom, almond, nutmeg, sour cherry"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Signature",
+    "Baker": "Tamal",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Cinnamon, apple, toffee, citrus marmalade",
+    "# of Flavors": 4,
+    "Flavors": "cinnamon, apple, toffee, citrus marmalade"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Showstopper",
+    "Baker": "Ian",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Carrot, star anise",
+    "# of Flavors": 2,
+    "Flavors": "carrot, star anise"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Showstopper",
+    "Baker": "Nadiya",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Marshmallow, lemon",
+    "# of Flavors": 2,
+    "Flavors": "marshmallow, lemon"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Showstopper",
+    "Baker": "Tamal",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Sticky toffee pudding",
+    "# of Flavors": 1,
+    "Flavors": "toffee"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Chetna",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Cardamom, Pistachio and Coffee",
+    "# of Flavors": 3,
+    "Flavors": "cardamom, pistachio, coffee"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Claire",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "orange jelly, milk chocolate, orange",
+    "# of Flavors": 3,
+    "Flavors": "orange, milk chocolate, orange"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Diana",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Lemon Curd",
+    "# of Flavors": 1,
+    "Flavors": "lemon"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Enwezor",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Raspberry, Lemon, buttercream",
+    "# of Flavors": 3,
+    "Flavors": "raspberry, lemon, buttercream"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Iain",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Apricot, Basil, Mascarpone, White Chocolate, Cream",
+    "# of Flavors": 5,
+    "Flavors": "apricot, basil, mascarpone, white chocolate, cream"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Jordan",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Strawberry, creme patisserie",
+    "# of Flavors": 2,
+    "Flavors": "strawberry, creme patissiere"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Kate",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Red Velvet, White Chocolate, buttercream, white chocolate",
+    "# of Flavors": 4,
+    "Flavors": "red velvet, white chocolate, buttercream, white chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Luis",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Orange, aniseed, honey",
+    "# of Flavors": 3,
+    "Flavors": "orange, aniseed, honey"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Martha",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Tiramisu, macadamia, alcohol",
+    "# of Flavors": 3,
+    "Flavors": "tiramisu, macadamia, alcohol"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Nancy",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Coffee, Hazelnut",
+    "# of Flavors": 2,
+    "Flavors": "coffee, hazelnut"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Norman",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Morello cherry jam, dark chocolate, cocoa powder",
+    "# of Flavors": 3,
+    "Flavors": "morello cherry, dark chocolate, cocoa"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Richard",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Pistachio, strawberry",
+    "# of Flavors": 2,
+    "Flavors": "pistachio, strawberry"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Chetna",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Lemon Curd, Raspberry, Cream",
+    "# of Flavors": 3,
+    "Flavors": "lemon, raspberry, cream"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Claire",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Chocolate, Morello Cherry",
+    "# of Flavors": 2,
+    "Flavors": "chocolate, morello cherry"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Diana",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Chocolate",
+    "# of Flavors": 1,
+    "Flavors": "chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Enwezor",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "walnut sponge, coffee, buttercream",
+    "# of Flavors": 3,
+    "Flavors": "walnut, coffee, buttercream"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Iain",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Lemon Drizzle, Mascarpone, poppy seeds, lavender, Candied Lemon",
+    "# of Flavors": 5,
+    "Flavors": "lemon, mascarpone, poppy seed, lavender, candied lemon"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Jordan",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "genoise sponge, Lemon Drizzle, Blueberry, Lemon Curd, lavender, honeycomb, hazelnut",
+    "# of Flavors": 7,
+    "Flavors": "genoise, lemon, blueberry, lemon, lavender, honeycomb, hazelnut"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Kate",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "raspberry",
+    "# of Flavors": 1,
+    "Flavors": "raspberry"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Luis",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Genoise sponge, Raspberry, Buttercream, Lemon, Elderflower syrup",
+    "# of Flavors": 5,
+    "Flavors": "genoise, raspberry, buttercream, lemon, elderflower syrup"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Martha",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Lemon thyme, mascarpone, lemon curd",
+    "# of Flavors": 3,
+    "Flavors": "lemon thyme, mascarpone, lemon"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Nancy",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Vanilla sponge, Cointreau, orange jelly, buttercream, dark chocolate",
+    "# of Flavors": 5,
+    "Flavors": "vanilla, cointreau, orange, buttercream, dark chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Norman",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Almond sponge, Raspberry, cream",
+    "# of Flavors": 3,
+    "Flavors": "almond, raspberry, cream"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "coffee, walnut",
+    "# of Flavors": 2,
+    "Flavors": "coffee, walnut"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Chetna",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Fenugreek leaf, Carom seed",
+    "# of Flavors": 2,
+    "Flavors": "fenugreek leaf, carom seed"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Diana",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Parmesan, chive, thyme",
+    "# of Flavors": 3,
+    "Flavors": "parmesan, chive, thyme"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Enwezor",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Pumpkin and Sunflower",
+    "# of Flavors": 2,
+    "Flavors": "pumpkin, sunflower"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Iain",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Za'atar, oatmeal, Fig",
+    "# of Flavors": 3,
+    "Flavors": "za'atar, oatmeal, fig"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Jordan",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Parmesan, arbol, cascabel, chipotle",
+    "# of Flavors": 4,
+    "Flavors": "parmesan, arbol, cascabel, chipotle"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Kate",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Parmesan, Apple",
+    "# of Flavors": 2,
+    "Flavors": "parmesan, apple"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Luis",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Oatmeal, sweet paprika, Black Olive, Rosemary, Onion",
+    "# of Flavors": 5,
+    "Flavors": "oatmeal, sweet paprika, black olive, rosemary, onion"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Martha",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Onion, Goat's Cheese",
+    "# of Flavors": 2,
+    "Flavors": "onion, goat cheese"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Nancy",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Fennel, Rye",
+    "# of Flavors": 2,
+    "Flavors": "fennel, rye"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Norman",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "lard",
+    "# of Flavors": 1,
+    "Flavors": "lard"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Poppy seed, Rosemary",
+    "# of Flavors": 2,
+    "Flavors": "poppy seed, rosemary"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Chetna",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Vanilla",
+    "# of Flavors": 1,
+    "Flavors": "vanilla"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Diana",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Gingerbread, cocoa, vanilla",
+    "# of Flavors": 3,
+    "Flavors": "gingerbread, cocoa, vanilla"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Enwezor",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Fondant, gingerbread",
+    "# of Flavors": 2,
+    "Flavors": ", gingerbread"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Iain",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "oatmeal, chocolate, chili, pistachio, rose water",
+    "# of Flavors": 5,
+    "Flavors": "oatmeal, chocolate, chili, pistachio, rosewater"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Jordan",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Custard, bourbon",
+    "# of Flavors": 2,
+    "Flavors": "custard, bourbon"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Kate",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "lemon, lime",
+    "# of Flavors": 2,
+    "Flavors": "lemon, lime"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Luis",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Chili, chocolate, sweet paprika, orange, cardamom, almond",
+    "# of Flavors": 6,
+    "Flavors": "chili, chocolate, sweet paprika, orange, cardamom, almond"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Martha",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Coffee, hot chocolate, mulled wine, marshmallow",
+    "# of Flavors": 4,
+    "Flavors": "coffee, hot chocolate, mulled wine, marshmallow"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Nancy",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Gingerbread, brandy, orange, green tea",
+    "# of Flavors": 4,
+    "Flavors": "gingerbread, brandy, orange, green tea"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Norman",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "vanilla",
+    "# of Flavors": 1,
+    "Flavors": "vanilla"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Gingerbread, peanut butter",
+    "# of Flavors": 2,
+    "Flavors": "gingerbread, peanut butter"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Chetna",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Onion, Pine Nut, lentil chutney",
+    "# of Flavors": 3,
+    "Flavors": "onion, pine nut, lentil chutney"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Diana",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Shropshire blue cheese, stilton cheese, walnut",
+    "# of Flavors": 3,
+    "Flavors": "shropshire blue cheese, stilton, walnut"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Iain",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Cranberry, Walnut, orange zest",
+    "# of Flavors": 3,
+    "Flavors": "cranberry, walnut, orange"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Jordan",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Lemon, honey, poppy seed, spelt",
+    "# of Flavors": 4,
+    "Flavors": "lemon, honey, poppy seed, spelt"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Kate",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Cardamom, orange syrup",
+    "# of Flavors": 2,
+    "Flavors": "cardamom, orange syrup"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Luis",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Fennel, parsnip, carrot, coffee, chocolate",
+    "# of Flavors": 5,
+    "Flavors": "fennel, parsnip, carrot, coffee, chocolate"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Martha",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Date, Walnut, black treacle, honey",
+    "# of Flavors": 4,
+    "Flavors": "date, walnut, black treacle, honey"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Nancy",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "pear Cider, dried pear, and Walnut oil",
+    "# of Flavors": 3,
+    "Flavors": "pear cider, dried pear, walnut oil"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Norman",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Caraway seeds, sultana, black treacle",
+    "# of Flavors": 3,
+    "Flavors": "caraway seed, sultana, black treacle"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "treacle, coffee, cinnamon, Cranberry, caraway seeds",
+    "# of Flavors": 5,
+    "Flavors": "treacle, coffee, cinnamon, cranberry, caraway seed"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Chetna",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "cauliflower, potato, tomato, onion, curry leaves, mango",
+    "# of Flavors": 6,
+    "Flavors": "cauliflower, potato, tomato, onion, curry leaf, mango"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Diana",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Parmesan, spinach, ham, chili",
+    "# of Flavors": 4,
+    "Flavors": "parmesan, spinach, ham, chili"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Iain",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "black olives, broad beans, lemon, cumin, paprika",
+    "# of Flavors": 5,
+    "Flavors": "black olive, broad bean, lemon, cumin, paprika"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Jordan",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Strawberry, raspberry, vanilla, cream cheese",
+    "# of Flavors": 4,
+    "Flavors": "strawberry, raspberry, vanilla, cream cheese"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Kate",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Prosciutto, Olive, Coriander",
+    "# of Flavors": 3,
+    "Flavors": "prosciutto, olive, coriander"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Luis",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Saffron, Manchego, Serrano ham",
+    "# of Flavors": 3,
+    "Flavors": "saffron, manchego, serrano ham"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Martha",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Epoisses cheese, apricot, fig",
+    "# of Flavors": 3,
+    "Flavors": "epoisses cheese, apricot, fig"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Nancy",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Sausage, quail eggs, tomato, bacon, mushroom, ketchup",
+    "# of Flavors": 6,
+    "Flavors": "sausage, quail egg, tomato, bacon, mushroom, ketchup"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Norman",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Chicken, pesto, vegetables, sun-dried tomatoes, rosemary, olive oil, sea salt, oregano",
+    "# of Flavors": 8,
+    "Flavors": "chicken, pesto, vegetable, sun-dried tomato, rosemary, olive oil, sea salt, oregano"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "pesto, feta, walnut, vegetables",
+    "# of Flavors": 4,
+    "Flavors": "pesto, feta, walnut, vegetable"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Chetna",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Rhubarb, Strawberry, Caramel, Orange",
+    "# of Flavors": 4,
+    "Flavors": "rhubarb, strawberry, caramel, orange"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Diana",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Orange, Lemon Curd",
+    "# of Flavors": 2,
+    "Flavors": "orange, lemon"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Iain",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "dark chocolate, Lime, Raspberry, mint",
+    "# of Flavors": 4,
+    "Flavors": "dark chocolate, lime, raspberry, mint"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Kate",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Chocolate, Salted Caramel, almond",
+    "# of Flavors": 3,
+    "Flavors": "chocolate, salted caramel, almond"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Luis",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Cinnamon, almond, Pear",
+    "# of Flavors": 3,
+    "Flavors": "cinnamon, almond, pear"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Martha",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Peanut Butter, Chocolate, peanut",
+    "# of Flavors": 3,
+    "Flavors": "peanut butter, chocolate, peanut"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Nancy",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Pistachio, Chocolate",
+    "# of Flavors": 2,
+    "Flavors": "pistachio, chocolate"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Norman",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Toffee, treacle",
+    "# of Flavors": 2,
+    "Flavors": "toffee, treacle"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "chocolate, cherry",
+    "# of Flavors": 2,
+    "Flavors": "chocolate, cherry"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Chetna",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Mango, Raspberry, Coconut",
+    "# of Flavors": 3,
+    "Flavors": "mango, raspberry, coconut"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Diana",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Raspberry, Joconde sponge",
+    "# of Flavors": 2,
+    "Flavors": "raspberry, joconde"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Kate",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Pistachio, Raspberry, Chocolate",
+    "# of Flavors": 3,
+    "Flavors": "pistachio, raspberry, chocolate"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Luis",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Raspberry, frozen yogurt, apricot, frangipane, cherry",
+    "# of Flavors": 5,
+    "Flavors": "raspberry, frozen yogurt, apricot, frangipane, cherry"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Martha",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "lime, coconut",
+    "# of Flavors": 2,
+    "Flavors": "lime, coconut"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Nancy",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Vanilla, almond, mixed berry",
+    "# of Flavors": 3,
+    "Flavors": "vanilla, almond, mixed berry"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Norman",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Strawberry, vanilla",
+    "# of Flavors": 2,
+    "Flavors": "strawberry, vanilla"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "coffee",
+    "# of Flavors": 1,
+    "Flavors": "coffee"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Chetna",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Rice, Mangos and Raspberries",
+    "# of Flavors": 3,
+    "Flavors": "rice, mango, raspberry"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Kate",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Rhubarb, almond, rosemary",
+    "# of Flavors": 3,
+    "Flavors": "rhubarb, almond, rosemary"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Luis",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "passionfruit, orange, lime, desiccated coconut, mango",
+    "# of Flavors": 5,
+    "Flavors": "passionfruit, orange, lime, desiccated coconut, mango"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Martha",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Pistachio, Apricot, Honey",
+    "# of Flavors": 3,
+    "Flavors": "pistachio, apricot, honey"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Nancy",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Cocoa powder, Passion Fruit",
+    "# of Flavors": 2,
+    "Flavors": "cocoa, passionfruit"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Norman",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "candied lemon",
+    "# of Flavors": 1,
+    "Flavors": "candied lemon"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Fig, cinnamon, honey, peppercorns, almond, Orange",
+    "# of Flavors": 6,
+    "Flavors": "fig, cinnamon, honey, peppercorn, almond, orange"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Chetna",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "spices",
+    "# of Flavors": 1,
+    "Flavors": "spice"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Kate",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "pork, Rhubarb, Prune, Apple",
+    "# of Flavors": 4,
+    "Flavors": "pork, rhubarb, prune, apple"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Luis",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Duck, venison, chicken, pork",
+    "# of Flavors": 4,
+    "Flavors": "duck, venison, chicken, pork"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Martha",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Chorizo, pulled pork, pork, apple, paprika",
+    "# of Flavors": 5,
+    "Flavors": "chorizo, pulled pork, pork, apple, paprika"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Nancy",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "apple, chicken, gammon, blackberry",
+    "# of Flavors": 4,
+    "Flavors": "apple, chicken, gammon, blackberry"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Norman",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Venison, haggis, spinach, haddock, cheese, raspberry, passionfruit, lavender",
+    "# of Flavors": 8,
+    "Flavors": "venison, haggi, spinach, haddock, cheese, raspberry, passionfruit, lavender"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Richard",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Steak, ale, chicken, mushroom, frangipane, pear, apple",
+    "# of Flavors": 7,
+    "Flavors": "steak, ale, chicken, mushroom, frangipane, pear, apple"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Chetna",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Orange, cinnamon",
+    "# of Flavors": 2,
+    "Flavors": "orange, cinnamon"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Kate",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Pecan, chocolate, cherry",
+    "# of Flavors": 3,
+    "Flavors": "pecan, chocolate, cherry"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Luis",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Apple, almonds, calvados syrup",
+    "# of Flavors": 3,
+    "Flavors": "apple, almond, calvados syrup"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Martha",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Dark chocolate, almond liqueur, white chocolate",
+    "# of Flavors": 3,
+    "Flavors": "dark chocolate, almond liqueur, white chocolate"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Nancy",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Rum, coconut, orange, passion fruit, banana",
+    "# of Flavors": 5,
+    "Flavors": "rum, coconut, orange, passionfruit, banana"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Cranberries, apricots, raisins, mixed peel, rum, orange zest, almonds",
+    "# of Flavors": 7,
+    "Flavors": "cranberry, apricot, raisin, mixed peel, rum, orange, almond"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Chetna",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Chocolate, caramel, almond liqueur, buttercream",
+    "# of Flavors": 4,
+    "Flavors": "chocolate, caramel, almond liqueur, buttercream"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Kate",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Raspberry, chocolate, orange",
+    "# of Flavors": 3,
+    "Flavors": "raspberry, chocolate, orange"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Luis",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Coffee, buttercream, caramel, vanilla, hazelnut",
+    "# of Flavors": 5,
+    "Flavors": "coffee, buttercream, caramel, vanilla, hazelnut"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Martha",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Chocolate, salted caramel",
+    "# of Flavors": 2,
+    "Flavors": "chocolate, salted caramel"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Nancy",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "chocolate, caramel, praline",
+    "# of Flavors": 3,
+    "Flavors": "chocolate, caramel, praline"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Richard",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "chocolate, raspberry, white peach, pistachio",
+    "# of Flavors": 4,
+    "Flavors": "chocolate, raspberry, white peach, pistachio"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Chetna",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "lentil, carom seed",
+    "# of Flavors": 2,
+    "Flavors": "lentil, carom seed"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Kate",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Paneer and spinach, coriander, cumin, mustard seed, ginger powder, chili flakes, turmeric",
+    "# of Flavors": 8,
+    "Flavors": "paneer, spinach, coriander, cumin, mustard seed, ginger powder, chili flake, turmeric"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Luis",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Beef, chorizo, potato, carrot, celery, paprika, oregano, orange and paprika",
+    "# of Flavors": 9,
+    "Flavors": "beef, chorizo, potato, carrot, celery, paprika, oregano, orange, paprika"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Martha",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Beef, mushroom, parma ham",
+    "# of Flavors": 3,
+    "Flavors": "beef, mushroom, parma ham"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Nancy",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Spicy duck, oriental vegetables, Chinese spices",
+    "# of Flavors": 3,
+    "Flavors": "spicy duck, oriental vegetable, chinese spice"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Lamb and mint, sweet potato",
+    "# of Flavors": 3,
+    "Flavors": "lamb, mint, sweet potato"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Chetna",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Caramel, chocolate, mango, Lemon, raspberries",
+    "# of Flavors": 5,
+    "Flavors": "caramel, chocolate, mango, lemon, raspberry"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Luis",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Blueberry, cheesecake, peanut butter, strawberry",
+    "# of Flavors": 4,
+    "Flavors": "blueberry, cheesecake, peanut butter, strawberry"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Martha",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "rhubarb, maple syrup, pecan, bacon",
+    "# of Flavors": 4,
+    "Flavors": "rhubarb, maple syrup, pecan, bacon"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Nancy",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "salmon, horseradish, sesame",
+    "# of Flavors": 3,
+    "Flavors": "salmon, horseradish, sesame"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Richard",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "lavender, blueberry, rose, raspberry",
+    "# of Flavors": 4,
+    "Flavors": "lavender, blueberry, rose, raspberry"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Chetna",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Dates, walnut, cocoa, cinnamon",
+    "# of Flavors": 4,
+    "Flavors": "date, walnut, cocoa, cinnamon"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Luis",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Cinnamon, cherries, chocolate",
+    "# of Flavors": 3,
+    "Flavors": "cinnamon, cherry, chocolate"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Martha",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Plum, cinnamon, flaked almonds, cassis, cloves, star anise",
+    "# of Flavors": 6,
+    "Flavors": "plum, cinnamon, flaked almond, cassis, clove, star anise"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Nancy",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Apricot, strawberries, masala wine, marzipan, cinnamon, nutmeg, orange zest, plum",
+    "# of Flavors": 8,
+    "Flavors": "apricot, strawberry, masala wine, marzipan, cinnamon, nutmeg, orange, plum"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Apricot, pecan, dried fruit, lemon",
+    "# of Flavors": 4,
+    "Flavors": "apricot, pecan, dried fruit, lemon"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Chetna",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "potato, white chocolate, dark chocolate, ginger, cinnamon",
+    "# of Flavors": 5,
+    "Flavors": "potato, white chocolate, dark chocolate, ginger, cinnamon"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Luis",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "irish liqueur, rasberry, mint jam",
+    "# of Flavors": 3,
+    "Flavors": "irish liqueur, raspberry, mint"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Martha",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Lemon, poppy seed, Chocolate, passionfruit",
+    "# of Flavors": 4,
+    "Flavors": "lemon, poppy seed, chocolate, passionfruit"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Nancy",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Limoncello, almond, Milk chocolate",
+    "# of Flavors": 3,
+    "Flavors": "limoncello, almond, milk chocolate"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Toffee, apple, salted caramel, Rhubarb, custard",
+    "# of Flavors": 5,
+    "Flavors": "toffee, apple, salted caramel, rhubarb, custard"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Signature",
+    "Baker": "Chetna",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "orange, chocolate, masala, chai",
+    "# of Flavors": 4,
+    "Flavors": "orange, chocolate, masala, chai"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Signature",
+    "Baker": "Luis",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Rose, barberry; Cashews, almond, carrot, saffron",
+    "# of Flavors": 6,
+    "Flavors": "rose, barberry; cashew, almond, carrot, saffron"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Signature",
+    "Baker": "Nancy",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Muesli, apple, Coffee, chocolate, orange, honey",
+    "# of Flavors": 6,
+    "Flavors": "muesli, apple, coffee, chocolate, orange, honey"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Signature",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Pistachio, rose, Walnut, almond, cinnamon, orange",
+    "# of Flavors": 6,
+    "Flavors": "pistachio, rose, walnut, almond, cinnamon, orange"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Showstopper",
+    "Baker": "Chetna",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Praline, milk chocolate, orange, hazelnut; Coffee, cocoa",
+    "# of Flavors": 6,
+    "Flavors": "praline, milk chocolate, orange, hazelnut; coffee, cocoa"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Showstopper",
+    "Baker": "Luis",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Chocolate, cherry; Pomegranate, fig, pistachio",
+    "# of Flavors": 5,
+    "Flavors": "chocolate, cherry; pomegranate, fig, pistachio"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Showstopper",
+    "Baker": "Nancy",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Lime, chocolate, passionfruit; Raspberry, almond, verbena jelly, chocolate",
+    "# of Flavors": 7,
+    "Flavors": "lime, chocolate, passionfruit; raspberry, almond, verbena, chocolate"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Showstopper",
+    "Baker": "Richard",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Grapefruit, almond, vanilla; Hazelnut, coffee",
+    "# of Flavors": 5,
+    "Flavors": "grapefruit, almond, vanilla; hazelnut, coffee"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Signature",
+    "Baker": "Luis",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Apple, walnut, raisin, Cheshire cheese; White chocolate, raspberry",
+    "# of Flavors": 6,
+    "Flavors": "apple, walnut, raisin, cheshire cheese; white chocolate, raspberry"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Signature",
+    "Baker": "Nancy",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Raspberry, almond; Lemon, apple",
+    "# of Flavors": 4,
+    "Flavors": "raspberry, almond; lemon, apple"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Signature",
+    "Baker": "Richard",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Pear, chocolate",
+    "# of Flavors": 2,
+    "Flavors": "pear, chocolate"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Showstopper",
+    "Baker": "Luis",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Chocolate, vanilla, orange, almond, hazelnut, mint",
+    "# of Flavors": 6,
+    "Flavors": "chocolate, vanilla, orange, almond, hazelnut, mint"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Showstopper",
+    "Baker": "Nancy",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Ginger, caramel, passionfruit",
+    "# of Flavors": 3,
+    "Flavors": "ginger, caramel, passionfruit"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Showstopper",
+    "Baker": "Richard",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Almond, raspberry, ginger, orange, elderflower",
+    "# of Flavors": 5,
+    "Flavors": "almond, raspberry, ginger, orange, elderflower"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Frances",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "coconut, sugar paste, raspberry, rose",
+    "# of Flavors": 4,
+    "Flavors": "coconut, sugar paste, raspberry, rose"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "blood orange",
+    "# of Flavors": 1,
+    "Flavors": "blood orange"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Ruby",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "rhubarb, custard, creme patissiere",
+    "# of Flavors": 3,
+    "Flavors": "rhubarb, custard, creme patissiere"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Beca",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "grapefruit",
+    "# of Flavors": 1,
+    "Flavors": "grapefruit"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Christine",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "strawberry, vanilla, rosewater",
+    "# of Flavors": 3,
+    "Flavors": "strawberry, vanilla, rosewater"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Glenn",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "strawberry, cream",
+    "# of Flavors": 2,
+    "Flavors": "strawberry, cream"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Howard",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "rice flour, xantham gum, passion fruit, coconut",
+    "# of Flavors": 4,
+    "Flavors": "rice flour, xantham gum, passionfruit, coconut"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Rob",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "pecan, apple",
+    "# of Flavors": 2,
+    "Flavors": "pecan, apple"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Ali",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "pistachio, lychee, rose",
+    "# of Flavors": 3,
+    "Flavors": "pistachio, lychee, rose"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Deborah",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "pineapple",
+    "# of Flavors": 1,
+    "Flavors": "pineapple"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Mark",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "lemon, poppy seed",
+    "# of Flavors": 2,
+    "Flavors": "lemon, poppy seed"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Lucy",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "cardamom, rhubarb",
+    "# of Flavors": 2,
+    "Flavors": "cardamom, rhubarb"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Signature",
+    "Baker": "Toby",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "spice, carrot",
+    "# of Flavors": 2,
+    "Flavors": "spice, carrot"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Frances",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "walnut, almond, hazelnut, chocolate",
+    "# of Flavors": 4,
+    "Flavors": "walnut, almond, hazelnut, chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Kimberley",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "chocolate, raspberry, basil",
+    "# of Flavors": 3,
+    "Flavors": "chocolate, raspberry, basil"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Ruby",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "chocolate, ginger, dark chocolate",
+    "# of Flavors": 3,
+    "Flavors": "chocolate, ginger, dark chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Beca",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "ginger, chocolate, cherry",
+    "# of Flavors": 3,
+    "Flavors": "ginger, chocolate, cherry"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Christine",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "chocolate, orange",
+    "# of Flavors": 2,
+    "Flavors": "chocolate, orange"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Glenn",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "almond, chocolate, espresso",
+    "# of Flavors": 3,
+    "Flavors": "almond, chocolate, espresso"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Howard",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "cream cheese, kirsch, dark chocolate",
+    "# of Flavors": 3,
+    "Flavors": "cream cheese, kirsch, dark chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Rob",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "raspberry, chocolate, white chocolate, dark chocolate",
+    "# of Flavors": 4,
+    "Flavors": "raspberry, chocolate, white chocolate, dark chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Ali",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "raspberry, chocolate, passionfruit, passionfruit seed, white chocolate, dark chocolate",
+    "# of Flavors": 6,
+    "Flavors": "raspberry, chocolate, passionfruit, passionfruit seed, white chocolate, dark chocolate"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Deborah",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "coffee",
+    "# of Flavors": 1,
+    "Flavors": "coffee"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Mark",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "chocolate, buttermilk",
+    "# of Flavors": 2,
+    "Flavors": "chocolate, buttermilk"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Lucy",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "dark chocolate, thyme",
+    "# of Flavors": 2,
+    "Flavors": "dark chocolate, thyme"
+  },
+  {
+    "Episode": 1,
+    "Challenge": "Showstopper",
+    "Baker": "Toby",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "dark chocolate, white chocolate",
+    "# of Flavors": 2,
+    "Flavors": "dark chocolate, white chocolate"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Frances",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "ginger, chili",
+    "# of Flavors": 2,
+    "Flavors": "ginger, chili"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "nigella seed, parmesan, paprika",
+    "# of Flavors": 3,
+    "Flavors": "nigella seed, parmesan, paprika"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Ruby",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "jalapeño, paprika, cumin",
+    "# of Flavors": 3,
+    "Flavors": "jalapeño, paprika, cumin"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Beca",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "fennel, chili, semolini",
+    "# of Flavors": 3,
+    "Flavors": "fennel, chili, semolini"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Christine",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "oregano",
+    "# of Flavors": 1,
+    "Flavors": "oregano"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Glenn",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "rosemary, parmesan, milk, butter",
+    "# of Flavors": 4,
+    "Flavors": "rosemary, parmesan, milk, butter"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Howard",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "ras al hanout, rosemary, lemon",
+    "# of Flavors": 3,
+    "Flavors": "ras el hanout, rosemary, lemon"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Rob",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "poppy seed, caraway seed, kalamata olive",
+    "# of Flavors": 3,
+    "Flavors": "poppy seed, caraway seed, kalamata olive"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Ali",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "garlic, parmesan, blue cheese",
+    "# of Flavors": 3,
+    "Flavors": "garlic, parmesan, blue cheese"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Deborah",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "fennel, chili",
+    "# of Flavors": 2,
+    "Flavors": "fennel, chili"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Mark",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "rosemary, raisin",
+    "# of Flavors": 2,
+    "Flavors": "rosemary, raisin"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Signature",
+    "Baker": "Lucy",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "sea salt",
+    "# of Flavors": 1,
+    "Flavors": "sea salt"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Frances",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "sea salt",
+    "# of Flavors": 1,
+    "Flavors": "sea salt"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "za'atar spice, garlic, saffron, onion",
+    "# of Flavors": 4,
+    "Flavors": "za'atar, garlic, saffron, onion"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Ruby",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "white chocolate, orange",
+    "# of Flavors": 2,
+    "Flavors": "white chocolate, orange"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Beca",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "cinnamon, honey, sultana",
+    "# of Flavors": 3,
+    "Flavors": "cinnamon, honey, sultana"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Christine",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "onion, cheese, bacon",
+    "# of Flavors": 3,
+    "Flavors": "onion, cheese, bacon"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Glenn",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "shallot, sesame seed, poppy seed, date",
+    "# of Flavors": 4,
+    "Flavors": "shallot, sesame seed, poppy seed, date"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Howard",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "oregano, orange",
+    "# of Flavors": 2,
+    "Flavors": "oregano, orange"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Rob",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "plain",
+    "# of Flavors": 1,
+    "Flavors": "plain"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Ali",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "white chocolate, apricot, chicken tikka, paneer",
+    "# of Flavors": 4,
+    "Flavors": "white chocolate, apricot, chicken tikka, paneer"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Deborah",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "walnut",
+    "# of Flavors": 1,
+    "Flavors": "walnut"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Mark",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "garlic, sage",
+    "# of Flavors": 2,
+    "Flavors": "garlic, sage"
+  },
+  {
+    "Episode": 2,
+    "Challenge": "Showstopper",
+    "Baker": "Lucy",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "tomato, garlic",
+    "# of Flavors": 2,
+    "Flavors": "tomato, garlic"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Frances",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "apple, cinnamon",
+    "# of Flavors": 2,
+    "Flavors": "apple, cinnamon"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Kimberley",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "peach, almond, ginger, honeycomb",
+    "# of Flavors": 4,
+    "Flavors": "peach, almond, ginger, honeycomb"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Ruby",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "rum, coconut, cardamom, banana, strawberry, mango",
+    "# of Flavors": 6,
+    "Flavors": "rum, coconut, cardamom, banana, strawberry, mango"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Beca",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "ginger, orange",
+    "# of Flavors": 2,
+    "Flavors": "ginger, orange"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Christine",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "mango, coconut, rum",
+    "# of Flavors": 3,
+    "Flavors": "mango, coconut, rum"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Glenn",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "raspberry, almond",
+    "# of Flavors": 2,
+    "Flavors": "raspberry, almond"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Howard",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "caramel, apple, macadamia",
+    "# of Flavors": 3,
+    "Flavors": "caramel, apple, macadamia"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Rob",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "rhubarb, orange",
+    "# of Flavors": 2,
+    "Flavors": "rhubarb, orange"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Ali",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "coconut, raspberry, lemon",
+    "# of Flavors": 3,
+    "Flavors": "coconut, raspberry, lemon"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Deborah",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "orange, lemon, mango, Cointreau",
+    "# of Flavors": 4,
+    "Flavors": "orange, lemon, mango, cointreau"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Signature",
+    "Baker": "Mark",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "ground ginger, stem ginger, root ginger, mango, passion fruit, dark rum",
+    "# of Flavors": 6,
+    "Flavors": "ground ginger, stem ginger, root ginger, mango, passionfruit, dark rum"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Frances",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "ginger, cardamom, white chocolate; buttercream",
+    "# of Flavors": 4,
+    "Flavors": "ginger, cardamom, white chocolate; buttercream"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Kimberley",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "chocolate, lemon, pistachio, bergamot orange",
+    "# of Flavors": 4,
+    "Flavors": "chocolate, lemon, pistachio, bergamot orange"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Ruby",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "lemon, white chocolate, raspberry; chocolate, blackberry",
+    "# of Flavors": 5,
+    "Flavors": "lemon, white chocolate, raspberry; chocolate, blackberry"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Beca",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "limoncello, blueberry; apricot, chocolate, amaretto",
+    "# of Flavors": 5,
+    "Flavors": "limoncello, blueberry; apricot, chocolate, amaretto"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Christine",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "amaretto, chocolate; brandy, raspberry, mascarpone, pistachio",
+    "# of Flavors": 6,
+    "Flavors": "amaretto, chocolate; brandy, raspberry, mascarpone, pistachio"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Glenn",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "sea salt, caramel; orange, kumquat, buttercream",
+    "# of Flavors": 5,
+    "Flavors": "sea salt, caramel; orange, kumquat, buttercream"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Howard",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "pear, white stilton; coffee, cardamom",
+    "# of Flavors": 4,
+    "Flavors": "pear, white stilton; coffee, cardamom"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Rob",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "almond; turand",
+    "# of Flavors": 2,
+    "Flavors": "almond; turand"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Ali",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "vanilla; lime, mint",
+    "# of Flavors": 3,
+    "Flavors": "vanilla; lime, mint"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Deborah",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "cherry, chocolate, pansy; rose",
+    "# of Flavors": 4,
+    "Flavors": "cherry, chocolate, pansy; rose"
+  },
+  {
+    "Episode": 3,
+    "Challenge": "Showstopper",
+    "Baker": "Mark",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "rose, pistachio; chocolate, raspberry",
+    "# of Flavors": 4,
+    "Flavors": "rose, pistachio; chocolate, raspberry"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Frances",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "peach, almond, frangipane",
+    "# of Flavors": 3,
+    "Flavors": "peach, almond, frangipane"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "rosemary, caramel, pecan, apple",
+    "# of Flavors": 4,
+    "Flavors": "rosemary, caramel, pecan, apple"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Ruby",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "apple, sour cherry, marzipan",
+    "# of Flavors": 3,
+    "Flavors": "apple, sour cherry, marzipan"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Beca",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "orange, rhubarb",
+    "# of Flavors": 2,
+    "Flavors": "orange, rhubarb"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Christine",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "apple, plum, cinnamon, allspice, nutmeg",
+    "# of Flavors": 5,
+    "Flavors": "apple, plum, cinnamon, allspice, nutmeg"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Glenn",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "apple, sour cream, maple syrup, custard",
+    "# of Flavors": 4,
+    "Flavors": "apple, sour cream, maple syrup, custard"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Howard",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "polenta, apple, sultana, pistachio, sage",
+    "# of Flavors": 5,
+    "Flavors": "polenta, apple, sultana, pistachio, sage"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Rob",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "apple, pear, thyme, star anise",
+    "# of Flavors": 4,
+    "Flavors": "apple, pear, thyme, star anise"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Signature",
+    "Baker": "Ali",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "pecan, walnut, apple, ginger",
+    "# of Flavors": 4,
+    "Flavors": "pecan, walnut, apple, ginger"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Frances",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "cream cheese, ricotta, orange blossom honey, orange, lemon, morello cherry, pistachio",
+    "# of Flavors": 7,
+    "Flavors": "cream cheese, ricotta, orange blossom honey, orange, lemon, morello cherry, pistachio"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "ras el hanout, chicken, bacon, turmeric, butternut squash, garlic, coriander, crackling",
+    "# of Flavors": 8,
+    "Flavors": "ras el hanout, chicken, bacon, turmeric, butternut squash, garlic, coriander, crackling"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Ruby",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "almond, orange",
+    "# of Flavors": 2,
+    "Flavors": "almond, orange"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Beca",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "butternut squash, almond, vegetables",
+    "# of Flavors": 3,
+    "Flavors": "butternut squash, almond, vegetable"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Christine",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "feta, tomato, onion, lemon, bell pepper, zucchini, eggplant",
+    "# of Flavors": 7,
+    "Flavors": "feta, tomato, onion, lemon, bell pepper, zucchini, eggplant"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Glenn",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "feta, spinach, walnut, dill",
+    "# of Flavors": 4,
+    "Flavors": "feta, spinach, walnut, dill"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Howard",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "fig, feta",
+    "# of Flavors": 2,
+    "Flavors": "fig, feta"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Rob",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "mushroom",
+    "# of Flavors": 1,
+    "Flavors": "mushroom"
+  },
+  {
+    "Episode": 4,
+    "Challenge": "Showstopper",
+    "Baker": "Ali",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "orange, cardamom, date, almond, pistachio",
+    "# of Flavors": 5,
+    "Flavors": "orange, cardamom, date, almond, pistachio"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Frances",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "salted caramel, banana, toffee",
+    "# of Flavors": 3,
+    "Flavors": "salted caramel, banana, toffee"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Kimberley",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "almond, sour cherry, maraschino cherry, glace cherry, black cherry, damson",
+    "# of Flavors": 6,
+    "Flavors": "almond, sour cherry, maraschino cherry, glace cherry, black cherry, damson"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Ruby",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "blackberry, ginger, lemon",
+    "# of Flavors": 3,
+    "Flavors": "blackberry, ginger, lemon"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Beca",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "hazelnut, chocolate, cherry, white chocolate",
+    "# of Flavors": 4,
+    "Flavors": "hazelnut, chocolate, cherry, white chocolate"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Christine",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "almond, blackberry, raspberry, blueberry",
+    "# of Flavors": 4,
+    "Flavors": "almond, blackberry, raspberry, blueberry"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Glenn",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "pistachio, apricot, dark chocolate, marshmallow",
+    "# of Flavors": 4,
+    "Flavors": "pistachio, apricot, dark chocolate, marshmallow"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Signature",
+    "Baker": "Howard",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "banana, oats, grapefruit, yogurt",
+    "# of Flavors": 4,
+    "Flavors": "banana, oat, grapefruit, yogurt"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Rob",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "orange, lemon, chocolate, edible glue",
+    "# of Flavors": 4,
+    "Flavors": "orange, lemon, chocolate, edible glue"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Frances",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "ginger; chocolate, vanilla; peanut butter",
+    "# of Flavors": 4,
+    "Flavors": "ginger; chocolate, vanilla; peanut butter"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "chocolate, caramel, buttercream, vanilla",
+    "# of Flavors": 4,
+    "Flavors": "chocolate, caramel, buttercream, vanilla"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Ruby",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "ginger, cinnamon; lemon, ginger, chocolate, buttercream",
+    "# of Flavors": 6,
+    "Flavors": "ginger, cinnamon; lemon, ginger, chocolate, buttercream"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Beca",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "sugar, edible glue",
+    "# of Flavors": 2,
+    "Flavors": "sugar, edible glue"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Christine",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "orange, cardamom; lemon, lavender; chocolate; vanilla",
+    "# of Flavors": 6,
+    "Flavors": "orange, cardamom; lemon, lavender; chocolate; vanilla"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Glenn",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "cherry, hazelnut, stem ginger, raspberry, white chocolate",
+    "# of Flavors": 5,
+    "Flavors": "cherry, hazelnut, stem ginger, raspberry, white chocolate"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Howard",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "green tea, earl grey",
+    "# of Flavors": 2,
+    "Flavors": "green tea, earl grey tea"
+  },
+  {
+    "Episode": 5,
+    "Challenge": "Showstopper",
+    "Baker": "Rob",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "chocolate, lemon, orange",
+    "# of Flavors": 3,
+    "Flavors": "chocolate, lemon, orange"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Beca",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Tea, dried fruit, cranberries",
+    "# of Flavors": 3,
+    "Flavors": "tea, dried fruit, cranberry"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Christine",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Grape, Assam tea, apricots, walnut",
+    "# of Flavors": 4,
+    "Flavors": "grape, assam tea, apricot, walnut"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Frances",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Cinnamon, cardamom, ginger, tea",
+    "# of Flavors": 4,
+    "Flavors": "cinnamon, cardamom, ginger, tea"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Glenn",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Saffron, nutmeg, orange",
+    "# of Flavors": 3,
+    "Flavors": "saffron, nutmeg, orange"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Howard",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Hemp flour, hemp oil, date, yogurt",
+    "# of Flavors": 4,
+    "Flavors": "hemp flour, hemp oil, date, yogurt"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Date, ginger, butter, cardamom, ginger, palm sugar",
+    "# of Flavors": 6,
+    "Flavors": "date, ginger, butter, cardamom, ginger, palm sugar"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Signature",
+    "Baker": "Ruby",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Oranges, lemons",
+    "# of Flavors": 2,
+    "Flavors": "orange, lemon"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Beca",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Chocolate, rum, prunes, cardamom, lemon",
+    "# of Flavors": 5,
+    "Flavors": "chocolate, rum, prune, cardamom, lemon"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Christine",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Cherry, raisin, vanilla, raspberry, cinnamon, caramel",
+    "# of Flavors": 6,
+    "Flavors": "cherry, raisin, vanilla, raspberry, cinnamon, caramel"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Frances",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Cinnamon, rhubarb, strawberry, cream",
+    "# of Flavors": 4,
+    "Flavors": "cinnamon, rhubarb, strawberry, cream"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Glenn",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Almond, apricot, cinnamon, caramel, hazelnuts",
+    "# of Flavors": 5,
+    "Flavors": "almond, apricot, cinnamon, caramel, hazelnut"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Howard",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Peach, marzipan, cinnamon",
+    "# of Flavors": 3,
+    "Flavors": "peach, marzipan, cinnamon"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Kumquat, chocolate, hazelnut, chamomile, apricot, almond, cardamom",
+    "# of Flavors": 7,
+    "Flavors": "kumquat, chocolate, hazelnut, chamomile, apricot, almond, cardamom"
+  },
+  {
+    "Episode": 6,
+    "Challenge": "Showstopper",
+    "Baker": "Ruby",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Cardamom, lemon, chocolate, saffron, currants",
+    "# of Flavors": 5,
+    "Flavors": "cardamom, lemon, chocolate, saffron, currant"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Beca",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Lamb, red currant, leek, carrot",
+    "# of Flavors": 4,
+    "Flavors": "lamb, red currant, leek, carrot"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Christine",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Ginger, vanilla, dried fruit",
+    "# of Flavors": 3,
+    "Flavors": "ginger, vanilla, dried fruit"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Frances",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Fig, walnut, honey, goat's cheese, almond",
+    "# of Flavors": 5,
+    "Flavors": "fig, walnut, honey, goat cheese, almond"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Glenn",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Prune, brandy, butterscotch",
+    "# of Flavors": 3,
+    "Flavors": "prune, brandy, butterscotch"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Barberry, apple, maple syrup, white chocolate",
+    "# of Flavors": 4,
+    "Flavors": "barberry, apple, maple syrup, white chocolate"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Signature",
+    "Baker": "Ruby",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Plum, ginger",
+    "# of Flavors": 2,
+    "Flavors": "plum, ginger"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Beca",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Nectarine, chocolate, hazelnut, strawberry, cream",
+    "# of Flavors": 5,
+    "Flavors": "nectarine, chocolate, hazelnut, strawberry, cream"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Christine",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Currants, lemon, chocolate, strawberries, cream",
+    "# of Flavors": 5,
+    "Flavors": "currant, lemon, chocolate, strawberry, cream"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Frances",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Cream, chocolate, raspberry",
+    "# of Flavors": 3,
+    "Flavors": "cream, chocolate, raspberry"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Glenn",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Apple, marzipan, chocolate, passionfruit, cinnamon",
+    "# of Flavors": 5,
+    "Flavors": "apple, marzipan, chocolate, passionfruit, cinnamon"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Pear, malt, butterscotch, blackberry, lemon, fig, orange, thyme, cream, caramel, verbena",
+    "# of Flavors": 11,
+    "Flavors": "pear, malt, butterscotch, blackberry, lemon, fig, orange, thyme, cream, caramel, verbena"
+  },
+  {
+    "Episode": 7,
+    "Challenge": "Showstopper",
+    "Baker": "Ruby",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Raspberry, passionfruit, apple, cream, chocolate",
+    "# of Flavors": 5,
+    "Flavors": "raspberry, passionfruit, apple, cream, chocolate"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Beca",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Spelt, potato, rosemary",
+    "# of Flavors": 3,
+    "Flavors": "spelt, potato, rosemary"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Christine",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Tapioca, rice, potato, pumpkin seeds, sesame, sunflower seeds",
+    "# of Flavors": 6,
+    "Flavors": "tapioca, rice, potato, pumpkin seed, sesame, sunflower seed"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Frances",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Spelt, orange, apricots, honeycomb",
+    "# of Flavors": 4,
+    "Flavors": "spelt, orange, apricot, honeycomb"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Spelt, garlic, pesto, ham",
+    "# of Flavors": 4,
+    "Flavors": "spelt, garlic, pesto, ham"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Signature",
+    "Baker": "Ruby",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Spelt, mango, nigella",
+    "# of Flavors": 3,
+    "Flavors": "spelt, mango, nigella"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Beca",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Butternut squash, peach, pecan, ginger",
+    "# of Flavors": 4,
+    "Flavors": "butternut squash, peach, pecan, ginger"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Christine",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Sweet potato, passionfruit, marshmallow, pineapple",
+    "# of Flavors": 4,
+    "Flavors": "sweet potato, passionfruit, marshmallow, pineapple"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Frances",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Beetroot, walnut, dark chocolate, orange zest, carrot, praline, coconut",
+    "# of Flavors": 7,
+    "Flavors": "beetroot, walnut, dark chocolate, orange, carrot, praline, coconut"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Butternut squash, maple syrup, spices",
+    "# of Flavors": 3,
+    "Flavors": "butternut squash, maple syrup, spice"
+  },
+  {
+    "Episode": 8,
+    "Challenge": "Showstopper",
+    "Baker": "Ruby",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Cider vinegar, pistachio, carrot, poppy seed, dark chocolate, praline, caramel",
+    "# of Flavors": 7,
+    "Flavors": "cider vinegar, pistachio, carrot, poppy seed, dark chocolate, praline, caramel"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Signature",
+    "Baker": "Beca",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Stilton, walnut, beetroot, salmon, horseradish, ale",
+    "# of Flavors": 6,
+    "Flavors": "stilton, walnut, beetroot, salmon, horseradish, ale"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Signature",
+    "Baker": "Frances",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Carrot, tomato, trout, paprika, cauliflower, lettuce, cheese, hummus",
+    "# of Flavors": 8,
+    "Flavors": "carrot, tomato, trout, paprika, cauliflower, lettuce, cheese, hummus"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Signature",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Pea, ham; crab, wasabi, lotus root; chicken",
+    "# of Flavors": 6,
+    "Flavors": "pea, ham; crab, wasabi, lotus root; chicken"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Signature",
+    "Baker": "Ruby",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Beetroot, rye, poppy seed, spinach, parmesan, quail egg, goat's cheese, red onion",
+    "# of Flavors": 8,
+    "Flavors": "beetroot, rye, poppy seed, spinach, parmesan, quail egg, goat cheese, red onion"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Showstopper",
+    "Baker": "Beca",
+    "Risky": "F",
+    "Grade": "-",
+    "Notes": "Banana, toffee",
+    "# of Flavors": 2,
+    "Flavors": "banana, toffee"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Showstopper",
+    "Baker": "Frances",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "White chocolate, lemon, lavender",
+    "# of Flavors": 3,
+    "Flavors": "white chocolate, lemon, lavender"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Showstopper",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "-",
+    "Notes": "Passionfruit, lime, dark chocolate",
+    "# of Flavors": 3,
+    "Flavors": "passionfruit, lime, dark chocolate"
+  },
+  {
+    "Episode": 9,
+    "Challenge": "Showstopper",
+    "Baker": "Ruby",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Praline, saffron, vanilla, cream, dark chocolate",
+    "# of Flavors": 5,
+    "Flavors": "praline, saffron, vanilla, cream, dark chocolate"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Signature",
+    "Baker": "Frances",
+    "Risky": "F",
+    "Grade": "+",
+    "Notes": "Rice, trout, turmeric, shallot, garlic, pine nut, red pepper, green bean, asparagus, mint, dill, parsley, lemon",
+    "# of Flavors": 13,
+    "Flavors": "rice, trout, turmeric, shallot, garlic, pine nut, red pepper, green bean, asparagus, mint, dill, parsley, lemon"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Signature",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Chicken, pancetta, pork, pistachio, black pudding",
+    "# of Flavors": 5,
+    "Flavors": "chicken, pancetta, pork, pistachio, black pudding"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Signature",
+    "Baker": "Ruby",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Mozzarella, halloumi, couscous, tomato, oregano, basil",
+    "# of Flavors": 6,
+    "Flavors": "mozzarella, halloumi, couscous, tomato, oregano, basil"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Showstopper",
+    "Baker": "Frances",
+    "Risky": "T",
+    "Grade": "+",
+    "Notes": "Rhubarb, ginger, lemon, raspberry, cream, carrot, apricot, orange, beetroot, mango, sweet potato, pineapple",
+    "# of Flavors": 12,
+    "Flavors": "rhubarb, ginger, lemon, raspberry, cream, carrot, apricot, orange, beetroot, mango, sweet potato, pineapple"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Showstopper",
+    "Baker": "Kimberley",
+    "Risky": "T",
+    "Grade": "o",
+    "Notes": "Chocolate, raspberry, orange, pistachio, lemon, elderflower, poppy seed",
+    "# of Flavors": 7,
+    "Flavors": "chocolate, raspberry, orange, pistachio, lemon, elderflower, poppy seed"
+  },
+  {
+    "Episode": 10,
+    "Challenge": "Showstopper",
+    "Baker": "Ruby",
+    "Risky": "F",
+    "Grade": "o",
+    "Notes": "Passionfruit, raspberry, cream, lemon",
+    "# of Flavors": 4,
+    "Flavors": "passionfruit, raspberry, cream, lemon"
+  }
+]
