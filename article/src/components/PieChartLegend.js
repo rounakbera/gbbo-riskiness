@@ -5,12 +5,12 @@ import {
 } from 'victory';
 
 const colorMap = {
-    "Risky & Good": "#24693D", // dark green
-    "Risky & Okay": "#A08400", // dark yellow
-    "Risky & Bad": "#B60A1C", // dark red
-    "Not Risky & Good": "#B3E0A6", // light green
-    "Not Risky & Okay": "#F7C480", // light yellow
-    "Not Risky & Bad": "#FB9984" // light red
+    "Risky & Good": "#497028", // dark green
+    "Risky & Okay": "#927D31", // dark yellow
+    "Risky & Bad": "#A3352C", // dark red
+    "Not Risky & Good": "#C3E17D", // light green
+    "Not Risky & Okay": "#F4DD8B", // light yellow
+    "Not Risky & Bad": "#FFBD98" // light red
   };
 
 export default class PieChartLegend extends React.Component {
