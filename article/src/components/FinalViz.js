@@ -17,8 +17,10 @@ import PieChartLegend from './PieChartLegend';
 const bakerInfo = require('../data/bakerinfo.json')
 const Container = styled.div`
 width: 300px;
-margin: 0px 48px;
-float: right;
+margin:  0px 10px;
+padding: 0px 700px;
+float: left;
+position: absolute;
 text-align: center;
 `;
 const legendContainer = styled.div`

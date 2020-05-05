@@ -37,10 +37,9 @@ export default class PieChartLegend extends React.Component {
     }
     render() {
         return(
-          <svg width={1000} height={210}
-          >
+          <svg width={800} height={210}>
           <VictoryLegend
-            x={220} y={60}
+            x={20} y={60}
             title="Legend"
             standalone = { false }
             centerTitle
