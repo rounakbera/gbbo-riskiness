@@ -36,7 +36,6 @@ export default class BarchartExample extends React.Component {
       "Not Risky & Okay": "#F7C480", // light yellow
       "Not Risky & Bad": "#FB9984" // light red
     };
-    
     return colorMap[label];
   }
 
@@ -63,17 +62,17 @@ export default class BarchartExample extends React.Component {
 
   render() {
     return (
-      <VictoryPie
-        data={this.getData(this.state.baker)}
-        style={{
-          data: {
-            fill: ({ datum }) => this.getColor(datum.x)
-          },
-          labels: {
-            fontSize: 10
-          }
-        }}
-      />
+          <VictoryPie
+            data={this.getData(this.state.baker)}
+            style={{
+              data: {
+                fill: ({ datum }) => this.getColor(datum.x)
+              },
+              labels: {
+                fontSize: 5
+              }
+            }}
+          />
     )
   }
 }

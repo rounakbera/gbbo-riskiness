@@ -12,7 +12,7 @@ import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 import { HandleFormat } from "./HandleFormat";
 import { CurrentVictoryTheme, GlobalStyles } from "./GlobalStyles.js";
-
+import PieChartLegend from './PieChartLegend';
 
 const bakerInfo = require('../data/bakerinfo.json')
 const Container = styled.div`
@@ -21,6 +21,10 @@ margin: 0px 48px;
 float: right;
 text-align: center;
 `;
+const legendContainer = styled.div`
+margin-right: 80%;
+position: absolute
+`
 const ContainerLabel = styled.p`
 padding: 30px;
 font-size: 20;
@@ -71,7 +75,7 @@ export default class FinalViz extends React.Component {
     return this.calcLeaf(bakerPlaceRisk);
   }
   getLabel(baker, place, season) {
-    return "Constestant: " + baker + "\nSeason: " + season + "\nPlacing: " + place;
+    return "Contestant: " + baker + "\nSeason: " + season + "\nPlacing: " + place;
   }
   getTooltipLength(string) {
     return string.split("\n")[0].length;
@@ -101,13 +105,14 @@ export default class FinalViz extends React.Component {
             handle={HandleFormat}
           />
         </Container>
+        <PieChartLegend />
         <VictoryChart 
           theme={ CurrentVictoryTheme }
           domain = {{y:[-0.025, 1.025]}}
           width = {165}
           height = {160}
-          style={{ parent: { maxWidth: "65%" } }}
-          padding={{ top: 20, bottom: 20, right: 10, left: 30 }}
+          style={{ parent: { maxWidth: "50%" } }}
+          padding={{ top: 0, bottom: 20, right: 10, left: 30 }}
           containerComponent={<VictoryVoronoiContainer/>}>
           <VictoryVoronoi
             padding={{ top: 0, bottom: 50, right: 0, left: 30 }}

@@ -30,8 +30,8 @@ function App() {
         }}
       />
       <RiskBarchartScrollama />
-      {/* <FlavorScatterplot /> */}
-      {/* <RiskRewardPieChart baker={"Mat"} /> */}
+      { <FlavorScatterplot /> }
+      { <RiskRewardPieChart baker={"Mat"} /> }
       <StuScrollama/>
       <MatScrollama />
       <NadiyaScrollama />   
