@@ -41,6 +41,14 @@ const GlobalStyles = createGlobalStyle`
     font-weight: 700;
     margin: 0;
   }
+
+  h4 {
+    color: #A3352C;
+    font-family: Muli, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+  }
 `
 
 const CurrentVictoryTheme = () => {
