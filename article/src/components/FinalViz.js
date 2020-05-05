@@ -7,13 +7,30 @@ import {
   VictoryTooltip, 
   VictoryAxis 
 } from 'victory';
+import styled from "styled-components";
+import Slider from "rc-slider";
+import "rc-slider/assets/index.css";
+import { HandleFormat } from "./HandleFormat";
 import PieChartPointWrapper from './PieChartPointWrapper';
-import WorkingHandle from './WorkingHandle';
+import { CurrentVictoryTheme, GlobalStyles } from "./GlobalStyles.js";
 
 
 const bakerInfo = require('../data/bakerinfo.json')
-const allSeasons = require('../data/seasons.json')
 const separation = 0.05; 
+
+const Container = styled.div`
+width: 300px;
+margin: 0px 48px;
+float: right;
+text-align: center;
+`;
+const ContainerLabel = styled.p`
+padding: 30px;
+font-size: 20;
+font-weight: bold;
+color: #ff6347;
+`;
+
 
 export default class FinalViz extends React.Component {
   constructor(props) {
@@ -23,7 +40,7 @@ export default class FinalViz extends React.Component {
       data: this.parseData(bakerInfo),
       animate: props.animate,
       animating: false,
-      placeLimit: 3
+      placeLimit: 1
     }
   }
   calcLeaf(bakerList) {
@@ -62,62 +79,70 @@ export default class FinalViz extends React.Component {
   getTooltipLength(string) {
     return string.split("\n")[0].length;
   }
-  componentDidUpdate(prevProps) {
-    if (!this.state.animating && this.props.data !== prevProps.data) {
-      this.setState({
-        data: this.props.data,
-        animating: true
-      });
-      setTimeout(() => this.setState({animating: false}), this.state.animate);
-    }
+  getBorderOpacity(place) {
+    return place > this.state.placeLimit ? 0 : 100;
   }
-  getBorderColor(place) {
-    return place > this.state.placeLimit ? "black" : "tomato";
+  changePlaceLimit = (placeLimit) =>{
+    this.setState({placeLimit});
   }
   render () {
     var ticks = Array.from({length: 1/separation}, (x,i) => i*separation);
     ticks.push(1);
-    
     return (
       <div>
-        <WorkingHandle />
+        <Container>
+          <ContainerLabel>
+            <p>Contestant Placing Range</p>
+          </ContainerLabel>
+          <Slider
+            min={1}
+            max={13}
+            value={this.state.placeLimit}
+            step={1}
+            marks={{ 1: "1", 13: "13" }}
+            onChange={this.changePlaceLimit}
+            handle={HandleFormat}
+          />
+        </Container>
         <VictoryChart 
+          theme={ CurrentVictoryTheme }
           domain = {{y:[-0.025, 1.025]}}
           width = {90}
           height = {200}
           padding={{ top: 0, bottom: 50, right: 5, left: 20 }}
+          style={{ parent: { maxWidth: "65%" } }}
           containerComponent={<VictoryVoronoiContainer/>}>
           <VictoryVoronoi
             padding={{ top: 0, bottom: 50, right: 0, left: 20 }}
             standalone = {false}
-            style={{ data: { stroke: "#c43a31", strokeWidth: 0 } }}
+            style={{ data: { fill: "transparent" } }}
             data={this.state.data}
             x="leaf"
             y="risk"
           />
           <VictoryScatter
+            style = {{ line: "transparent" }}
             data={this.state.data}
             dataComponent={ <PieChartPointWrapper /> }
             x="leaf"
             y="risk"
             labels={({ datum }) => this.getLabel(datum.baker, datum.place, datum.season)}
             labelComponent={
-              <VictoryTooltip
+            <VictoryTooltip
                 cornerRadius={2}
                 centerOffset={{x: 20, y: 10}}
-                dy={16}
-                dx={0}
-                pointerLength={0}
-              />
-            }
+                dy = {16}
+                dx = {0}
+            />}
             style={{
               data: { 
                 fill: "black",
-                stroke: ({datum}) => this.getBorderColor(datum.place), 
+                stroke: "tomato",
+                strokeOpacity: ({datum}) => this.getBorderOpacity(datum.place), 
                 strokeWidth: 1, 
                 fillOpacity: ({ datum }) => 1/datum.place
               },
-              labels: {
+              labels: { 
                 fill: "black", 
                 fontSize: 2, 
                 textAlign: "middle", 
@@ -127,15 +152,20 @@ export default class FinalViz extends React.Component {
             size={2}
           />
           <VictoryAxis dependentAxis
-            label = "Baker's Overall Average Risk"
+            label = "Baker Average Risk Distribution"
             offsetX={15}
             tickValues = {ticks}
             tickFormat = {(t) => `${Math.round(t*100)}%`}
             style={{
-              axis: {strokeWidth: 2},
+              axis: {
+                strokeWidth: 2
+              },
               axisLabel: {
                 fontSize: 3, 
                 padding: 10
+              },
+              grid: {
+                strokeOpacity: 0
               },
               tickLabels: { 
                 fontSize: 2,
@@ -146,6 +176,7 @@ export default class FinalViz extends React.Component {
           />
         </VictoryChart>
       </div>
+
     )
   }
 }
