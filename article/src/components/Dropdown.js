@@ -7,8 +7,9 @@ import Bakers from '../data/bakerinfo.json';
 
 const Wrapper = styled.div`
     width: 90vw;
-    padding: 0 5vw;
+    padding: 5vh 5vw;
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,250,236,1) 5%, rgba(255,250,236,1) 100%);
+    height: 70vh;
 `
 const ExploreWrapper = styled.div`
     width: 90vw;
@@ -30,7 +31,7 @@ const Ingredients = styled.div`
     li {
         padding-bottom: 5px;
     }
-    max-height: 40vh;
+    max-height: 30vh;
     overflow: scroll;
 `
 
