@@ -36,7 +36,6 @@ const Content = styled.div`
 const ImageWrapper = styled.div`
   height: ${props => `${props.minHeight + 150}px`};
   width: ${props => `${props.minWidth}px`};
-  margin-top: 20vh;
 `
 const Image = styled.img`
   position: absolute;
@@ -45,7 +44,7 @@ const Image = styled.img`
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
-  width: 40vw;
+  width: 80%;
 `
 const ScatterplotWrapper = styled.div`
   margin-left: 5vw;
@@ -53,8 +52,7 @@ const ScatterplotWrapper = styled.div`
 
 const imageMap = {
   0: Volvauvent,
-  1: Carrotcake,
-  5:Carrotcake
+  1: Carrotcake
 };
 var datascatter = require('../data/flavorRiskinessToPerformance.json');
 const datamap={
@@ -120,20 +118,11 @@ const contentMap = {
   description={
     <div>
       <p>
-      Cinnamon is a decently low risk and commonly used ingredient. Mat chose to pair it with the less risky ingredients like <b>honey (36%)</b> and <b>ginger (42%)</b>. Conversely, Nadiya went with the more risky choice of <b>cardamom (68%)</b> 
+      Cinnamon is a decently low risk and commonly used ingredient. Mat chose to pair it with the less risky ingredients like <b>honey (36%)</b> and <b>ginger (42%)</b>. Conversely, Nadiya went with the more risky choice of <b>cardamom (68%)</b>. Although Mat’s and Nadiya’s bakes were at least considered okay, Mat played it safe, while Nadiya’s riskily-flavored vol-au-vents pushed the limits on creative baking.  
       </p>
     </div>
   } 
-/>,
-  5: <TextSection 
-    description={
-      <div>
-        <p>
-        Although Mat’s and Nadiya’s bakes were at least considered okay, Mat played it safe, while Nadiya’s riskily-flavored vol-au-vents pushed the limits on creative baking. 
-        </p>
-      </div>
-    } 
-  />
+/>
 }
 
 export default class FlavorScatterplotScrollama extends React.Component {
@@ -202,12 +191,12 @@ export default class FlavorScatterplotScrollama extends React.Component {
           </Scrollama>
         </Scroller>
         <Graphic>
-          {(data==5||(data==1))  && (
+          {(data==1)  && (
             <ImageWrapper minHeight={150} minWidth={200}>
               {this.getImages(imageMap, data)}
             </ImageWrapper> 
           )}
-          {(data>1 && (data<5)) && (
+          {(data>1) && (
             <ScatterplotWrapper>
               <FlavorScatterplot 
                 scatterdata={this.getData(data)} 

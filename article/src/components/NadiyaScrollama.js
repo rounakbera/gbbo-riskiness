@@ -48,17 +48,6 @@ const Image = styled.img`
   top: 25%;
   left: 10%;
 `
-const Image1 = styled.img`
-  position: absolute;
-  opacity: ${props => props.display ? `1` : `0`};
-  transition: opacity 1s ease-in-out;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  width: 45vw;
-  margin-left: 12vw;
-  top: 25%;
-`
 
 const imageMap = {
   1: NadiyaPic,
@@ -79,11 +68,7 @@ export default class NadiyaScrollama extends React.Component {
 
   getImages(imageMap, data) {
     return Object.keys(imageMap).map((key => {
-      if(key==4){
-        return (<Image1 src={imageMap[key]} display={key == data} />);
-      }else{
-        return (<Image src={imageMap[key]} display={key == data} />);
-      }
+      return (<Image src={imageMap[key]} display={key == data} />);
     }));
   }
 

@@ -27,9 +27,9 @@ margin:  0px 10px;
 float: right;
 text-align: center;
 `;
-const legendContainer = styled.div`
-margin-right: 80%;
-position: absolute;
+const LegendWrapper = styled.div`
+width: 70%;
+margin-top: 15vh;
 `
 const ContainerLabel = styled.p`
 padding: 30px;
@@ -129,7 +129,9 @@ export default class FinalViz extends React.Component {
             handle={HandleFormat}
           />
         </Container>
-        <PieChartLegend />
+        <LegendWrapper>
+          <PieChartLegend />
+        </LegendWrapper>
         <VictoryChart 
           theme={ CustomVictoryTheme }
           domain = {{x:[-0.025, 1.025]}}
