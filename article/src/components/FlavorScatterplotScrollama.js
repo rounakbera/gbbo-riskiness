@@ -56,7 +56,20 @@ const imageMap = {
   3: Carrotcake,
   6:Carrotcake
 };
-
+var datascatter = require('../data/flavorRiskinessToPerformance.json');
+const datamap={
+  4: [{
+    "riskiness": 0.321428571,
+    "flavor": "cinnamon",
+    "performance": "GOOD",
+    "bad": 0.25,
+    "good": 0.392857143,
+    "neutral": 0.357142857,
+    "controversy": 0.142857143,
+    "count": 28
+  }],
+  5: datascatter
+}
 const domainMap = {
   4: {x: [.3, .34], y: [26, 29]},
   5: {x: [0,1], y: [0, 65]}
@@ -193,7 +206,7 @@ export default class FlavorScatterplotScrollama extends React.Component {
     return displayMap[data] || displayMap[1];
   }
   getDomain = (data) => {
-    return domainMap[data] || domainMap[1];
+    return datamap[data] || datamap[4];
   }
 
   getContent = (value) => {
@@ -230,7 +243,7 @@ export default class FlavorScatterplotScrollama extends React.Component {
            {/* {data<=3&&data>=2  && <div><ImageWrapper minHeight={150} minWidth={200}>
               {this.getImages(imageMap, data)}
             </ImageWrapper></div> } */}
-          {data>3&& data<6 &&<FlavorScatterplot domain={this.getDomain(data)} />}
+          {data>3&& data<6 &&<FlavorScatterplot scatterata={this.getDomain(data)} />}
         </Graphic>
       </Main>
     );
