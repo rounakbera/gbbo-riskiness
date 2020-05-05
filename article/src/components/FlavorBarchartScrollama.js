@@ -76,9 +76,14 @@ const displayMap = {
 };
 
 const contentMap = {
-  1: <TextSection title={"Average Flavors Used per Bake"} description={<p>Again, let’s look at Stu, Mat, and Nadiya’s average number of flavors used. In his two dishes before being eliminated, Stu used three and five flavors respectively, averaging to four. Mat chose slightly more than three on average, and Nadiya was right in between at about 3.5 flavors per bake.    </p>} />,
+  1: <TextSection title={"Variety of Flavors"} description={
+    <div>
+    <p>let’s look back at Stu, Mat, and Nadiya, but this time let's focus on their <b>average number of flavors used per bake.</b> </p>
+    <p>In his two dishes before being eliminated, Stu used three and five flavors respectively, averaging to four. 
+    Mat chose slightly more than three on average, and Nadiya was right in between at about 3.5 flavors per bake.</p>   
+     </div>} />,
   2: <TextSection description={[<br/>,<br/>,<p>Like the previous risk-taking graph, let’s order our three contestants among their peers in series 6 by placing. There seems to be little relation among the data, but if we add a linear regression...</p>]} />,
-  3: <TextSection description={[<br/>,<br/>,<p>...we can immediately see that the average number of flavors used has a positive trend with place in the competition.</p>]} />
+  3: <TextSection description={[<br/>,<br/>,<p>...we immediately see that the average number of flavors used has a positive trend with place in the competition.</p>]} />
 }
 
 export default class FlavorBarchartScrollama extends React.Component {

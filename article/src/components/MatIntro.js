@@ -45,7 +45,7 @@ So this was a Good Bake but Not Risky
                 description={
                     <div>
                         <p>
-                            He is a firefighter from London who made it all the way to week 7.
+                            He is a firefighter from London who made it all the way to <b>week 7</b>.
                             He says his "greatest ambition is to own a dishwasher."
                         </p>
                         <p>
