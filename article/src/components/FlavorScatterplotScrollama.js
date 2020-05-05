@@ -71,7 +71,7 @@ const datamap={
   3: datascatter
 }
 const domainMap = {
-  2: {x: [.3, .34], y: [26, 29]},
+  2: {x: [0.305357142, 0.355357142], y: [26.6, 29.85]},
   3: {x: [0,1], y: [0, 65]}
 };
 
@@ -155,13 +155,13 @@ export default class FlavorScatterplotScrollama extends React.Component {
 
  
   getData = (data) => {
-    return datamap[data] || datamap[4];
+    return datamap[data] || datamap[2];
   }
   getDomain = (data) => {
-    return domainMap[data] || domainMap[4];
+    return domainMap[data] || domainMap[2];
   }
   getZoom = (data) => {
-    return zoomMap[data] || zoomMap[4];
+    return zoomMap[data] || zoomMap[2];
   }
 
   getContent = (value) => {

@@ -125,7 +125,7 @@ const contentMap = {
     description={
       <div>
         <p>
-          Moving on to the rest of the season: here are the contestants of 
+          Here are the contestants of 
           series six ordered from left to right by how far they made it in the 
           competition. Nadiya is the right-most bar, as she won this series.
         </p>
@@ -146,7 +146,9 @@ const contentMap = {
         </p>
         <p>
           As you can see, average riskiness seems to be higher on each end: both in those 
-          who left earlier in the competition and those who made it til the end. 
+          who left earlier in the competition and those who made it til the end. While bakers 
+          who decide to play it safe can survive the early weeks, they have to be willing to take risks 
+          if they want to make it to the finals. 
         </p>
       </div>
     } 

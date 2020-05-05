@@ -10,6 +10,7 @@ import {
   VictoryLabel,
   VictoryAxis
 } from 'victory';
+//import Math from 'math';
 
 //const data = require('../data/flavorRiskinessToPerformance.json');
 const VictoryZoomVoronoiContainer = createContainer("zoom", "voronoi");
@@ -60,7 +61,7 @@ export default class FlavorScatterplot extends React.Component {
     return (
       <VictoryChart
         containerComponent={<VictoryZoomVoronoiContainer 
-                                allowZoom={this.state.zoom} 
+                                allowZoom={false} 
                                 />}
                                 
         domain={this.state.domain}
@@ -81,7 +82,7 @@ export default class FlavorScatterplot extends React.Component {
           label= "Number of Times Used"
           dependentAxis
           //domain={[0, 1]}
-          tickFormat={(x) => (`${x}`)}
+          tickFormat={(x) => (`${Math.round(x)}`)}
           style= {{
             axisLabel : {
               padding : 35
