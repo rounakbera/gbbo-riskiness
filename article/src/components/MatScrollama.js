@@ -5,6 +5,7 @@ import MatIntro from './MatIntro.js';
 import MatCarrotCake from '../assets/mat-carrotcake.png';
 import MatStrawberry from '../assets/mat-strawberry.png';
 import Mat from '../assets/mat2.jpg';
+import RiskRewardPieChart from './RiskRewardPieChart.js';
 
 const Main = styled.div`
   padding: 10vh 2vw;
@@ -64,7 +65,7 @@ export default class MatScrollama extends React.Component {
 
   getImages(imageMap, data) {
     return Object.keys(imageMap).map((key => {
-      return (<Image src={imageMap[key]} display={key == data} />);
+      return (<div><Image src={imageMap[key]} display={key == data} /> </div>);
     }));
   }
 

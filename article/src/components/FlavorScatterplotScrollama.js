@@ -54,7 +54,7 @@ const Wrapper = styled.div`
 const imageMap = {
   0: Volvauvent,
   1: Carrotcake,
-  4:Carrotcake
+  5:Carrotcake
 };
 var datascatter = require('../data/flavorRiskinessToPerformance.json');
 const datamap={
@@ -68,11 +68,13 @@ const datamap={
     "controversy": 0.142857143,
     "count": 28
   }],
-  3: datascatter
+  3: datascatter,
+  4: datascatter
 }
 const domainMap = {
   2: {x: [0.305357142, 0.355357142], y: [26.6, 29.85]},
-  3: {x: [0,1], y: [0, 65]}
+  3: {x: [0,1], y: [0, 65]},
+  4: {x: [0,1], y: [0, 65]}
 };
 
 const zoomMap = {
@@ -115,6 +117,14 @@ const contentMap = {
     } 
   />,
   4: <TextSection 
+  description={
+    <div>
+      <p>
+      Cinnamon is a decently low risk and commonly used ingredient. Mat chose to pair it with the less risky ingredients like honey (.36) and ginger (.42). Conversely, Nadiya went with the more risky choice of Cardamom (.68) </p>
+    </div>
+  } 
+/>,
+  5: <TextSection 
     description={
       <div>
         <p>
@@ -191,10 +201,10 @@ export default class FlavorScatterplotScrollama extends React.Component {
           </Scrollama>
         </Scroller>
         <Graphic>
-            {(data==4||(data==1))  && <ImageWrapper minHeight={150} minWidth={200}>
+            {(data==5||(data==1))  && <ImageWrapper minHeight={150} minWidth={200}>
               {this.getImages(imageMap, data)}
             </ImageWrapper> }
-          {(data==2 || (data==3)) &&<FlavorScatterplot scatterdata={this.getData(data)} domain= {this.getDomain(data)} zoom={this.getZoom(data)} />}
+          {(data>1 && (data<5)) &&<FlavorScatterplot scatterdata={this.getData(data)} domain= {this.getDomain(data)} zoom={this.getZoom(data)} />}
         </Graphic>
       </Main>
     );
