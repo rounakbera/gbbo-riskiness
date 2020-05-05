@@ -142,10 +142,9 @@ export default class FinalViz extends React.Component {
             />}
             style={{
               data: { 
-                fill: "black",
-                stroke: "tomato",
-                strokeOpacity: ({datum}) => this.getBorderOpacity(datum.place), 
-                strokeWidth: 1, fillOpacity: ({ datum }) => 1/datum.place
+                fill: "transparent",
+                stroke: "yellow",
+                strokeOpacity: ({datum}) => this.getBorderOpacity(datum.place),
               },
               labels: { fill: "black", fontSize: 4, textAlign: "middle", padding: 2}
             }}
