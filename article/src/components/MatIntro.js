@@ -59,6 +59,8 @@ So this was a Good Bake but Not Risky
          )
     } else if(this.state.step==2){
         return (
+            <TextSection
+            description={
             <div>
                 <p>
                     In Episode 4, with the theme of alternative ingredients, 
@@ -80,10 +82,12 @@ So this was a Good Bake but Not Risky
                     So this was a <Good>good bake</Good> but <Safe>not risky</Safe>.
                 </p>    
             </div>
-                
+            }/>
         )
     } else {
         return (
+            <TextSection
+            description={
             <div>
                 <p>
                     Later in episode 7, Mat makes a <b>Strawberry Charlotte Russe Cake</b>.
@@ -103,6 +107,7 @@ So this was a Good Bake but Not Risky
                     We consider this an <Okay>okay bake</Okay> that is <Safe>not risky</Safe>.
                 </p>    
             </div>
+            }/>
         )
     }
 }}

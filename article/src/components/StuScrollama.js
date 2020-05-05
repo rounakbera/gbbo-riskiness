@@ -4,7 +4,6 @@ import { Scrollama, Step } from 'react-scrollama';
 import Stu from './Stu.js';
 import StuMadeira from '../assets/stu-madeira.png';
 import StuPic from '../assets/stu2.jpg';
-
 const Main = styled.div`
   padding: 10vh 2vw;
   display: flex;
@@ -12,7 +11,6 @@ const Main = styled.div`
   justify-content: space-between;
 `
 const Graphic = styled.div`
-  flex-basis: 65%;
   position: sticky;
   width: 100%;
   padding: 2rem 0;
@@ -20,7 +18,7 @@ const Graphic = styled.div`
   align-self: flex-start;
 `
 const Scroller = styled.div`
-  flex-basis: 40%;
+  flex-basis: 100%;
 `
 const Content = styled.div`
   margin: 0 auto 2rem auto;
@@ -40,9 +38,9 @@ const Image = styled.img`
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
-  width: 25vw;
-  margin-left: 20vw;
+  height: 80%;
   top: 25%;
+  left: 10%;
 `
 
 const imageMap = {
