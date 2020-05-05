@@ -25,19 +25,19 @@ function App() {
       </style>
       <GlobalStyles/>
       <TitleCard/>
-      {/* <IntroMethodology />
+      <IntroMethodology />
       <ImportantTextScrollama 
         content={{
           1: ["With this data, can we find out if certain ",<b>risks</b>," and ",<b>flavor choices</b>," help win the Great British Bake Off?"],
         }}
       />
-      <RiskBarchartScrollama /> */}
+      <RiskBarchartScrollama />
       {/* <FlavorScatterplot /> */}
       {/* <RiskRewardPieChart baker={"Mat"} pieWidth={500} standalone={true}/> */}
       <StuScrollama/>
       <MatScrollama />
       <NadiyaScrollama />  
-      {/* <ImportantTextScrollama 
+      <ImportantTextScrollama 
         content={{
           1: ["Now that we've seen few bakes, what is the relationship between ingredients and riskiness?"],
         }}
@@ -53,7 +53,7 @@ function App() {
       <BarchartsCompiled/>
       <QuoteScrollama />
       <FinalViz />
-      <Dropdown/> */}
+      <Dropdown/>
       <Footer/>
     </div>
   );
