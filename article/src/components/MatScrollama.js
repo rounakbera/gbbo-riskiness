@@ -6,6 +6,8 @@ import MatCarrotCake from '../assets/mat-carrotcake.png';
 import MatStrawberry from '../assets/mat-strawberry.png';
 import Mat from '../assets/mat2.jpg';
 import RiskRewardPieChart from './RiskRewardPieChart.js';
+import MatPie from '../assets/matpie.png';
+
 
 const Main = styled.div`
   padding: 10vh 2vw;
@@ -46,11 +48,23 @@ const Image = styled.img`
   margin-left: 20vw;
   top: 25%;
 `
+const Image1 = styled.img`
+  position: absolute;
+  opacity: ${props => props.display ? `1` : `0`};
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  width: 45vw;
+  margin-left: 12vw;
+  top: 25%;
+`
 
 const imageMap = {
   1: Mat,
   2: MatCarrotCake,
-  3: MatStrawberry 
+  3: MatStrawberry,
+  4: MatPie 
 };
 
 export default class MatScrollama extends React.Component {
@@ -65,7 +79,11 @@ export default class MatScrollama extends React.Component {
 
   getImages(imageMap, data) {
     return Object.keys(imageMap).map((key => {
-      return (<div><Image src={imageMap[key]} display={key == data} /> </div>);
+      if(key==4){
+        return (<Image1 src={imageMap[key]} display={key == data} />);
+      }else{
+        return (<Image src={imageMap[key]} display={key == data} />);
+      }
     }));
   }
 
