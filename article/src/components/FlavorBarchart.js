@@ -82,11 +82,6 @@ export default class FlavorBarchart extends React.Component {
             }
           }}
         />
-        <VictoryAxis
-          dependentAxis
-          domain={[0, 1]}
-          tickFormat={(x) => (`${x}`)}
-        />
         <VictoryBar
           data={this.getDataWithDisplayInfo(this.state.displayInfo)}
           x="baker"
