@@ -23,7 +23,7 @@ const separation = 0.05;
 
 const Container = styled.div`
 width: 300px;
-margin:  0px 10px;
+margin: 10vh 10px;
 float: right;
 text-align: center;
 `;
