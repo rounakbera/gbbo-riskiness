@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gbbo-riskiness/precache-manifest.7fcf7998582c0ae85ebfc67b63d266e6.js"
+  "/gbbo-riskiness/precache-manifest.1ef550a272913b6a19eea955372e082b.js"
 );
 
 self.addEventListener('message', (event) => {
