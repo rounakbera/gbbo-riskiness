@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gbbo-riskiness/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/gbbo-riskiness/static/js/main.7c5e9d19.chunk.js",
-    "main.js.map": "/gbbo-riskiness/static/js/main.7c5e9d19.chunk.js.map",
+    "main.js": "/gbbo-riskiness/static/js/main.893794f7.chunk.js",
+    "main.js.map": "/gbbo-riskiness/static/js/main.893794f7.chunk.js.map",
     "runtime-main.js": "/gbbo-riskiness/static/js/runtime-main.397da531.js",
     "runtime-main.js.map": "/gbbo-riskiness/static/js/runtime-main.397da531.js.map",
     "static/css/2.6883e14e.chunk.css": "/gbbo-riskiness/static/css/2.6883e14e.chunk.css",
     "static/js/2.1c952968.chunk.js": "/gbbo-riskiness/static/js/2.1c952968.chunk.js",
     "static/js/2.1c952968.chunk.js.map": "/gbbo-riskiness/static/js/2.1c952968.chunk.js.map",
     "index.html": "/gbbo-riskiness/index.html",
-    "precache-manifest.e66fac27ea588c602ee7e4cd80986cba.js": "/gbbo-riskiness/precache-manifest.e66fac27ea588c602ee7e4cd80986cba.js",
+    "precache-manifest.d7b4e4e51e961e068dcf906895f9c5c7.js": "/gbbo-riskiness/precache-manifest.d7b4e4e51e961e068dcf906895f9c5c7.js",
     "service-worker.js": "/gbbo-riskiness/service-worker.js",
     "static/css/2.6883e14e.chunk.css.map": "/gbbo-riskiness/static/css/2.6883e14e.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/gbbo-riskiness/static/css/main.5ecd60fb.chunk.css.map",
@@ -77,6 +77,6 @@
     "static/css/2.6883e14e.chunk.css",
     "static/js/2.1c952968.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.7c5e9d19.chunk.js"
+    "static/js/main.893794f7.chunk.js"
   ]
 }
