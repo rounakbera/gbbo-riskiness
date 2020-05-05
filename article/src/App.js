@@ -13,7 +13,7 @@ import ImportantTextScrollama from './components/ImportantTextScrollama.js';
 import BarchartsCompiled from './components/BarchartsCompiled.js';
 import QuoteScrollama from './components/QuoteScrollama.js';
 
-import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
+import {GlobalStyles, CustomVictoryTheme} from './components/GlobalStyles.js';
 
 function App() {
   return (

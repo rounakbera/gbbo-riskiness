@@ -12,7 +12,7 @@ import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 import { HandleFormat } from "./HandleFormat";
 import PieChartPointWrapper from './PieChartPointWrapper';
-import { CurrentVictoryTheme, GlobalStyles } from "./GlobalStyles.js";
+import { CustomVictoryTheme, GlobalStyles } from "./GlobalStyles.js";
 
 
 const bakerInfo = require('../data/bakerinfo.json')
@@ -105,7 +105,7 @@ export default class FinalViz extends React.Component {
           />
         </Container>
         <VictoryChart 
-          theme={ CurrentVictoryTheme }
+          theme={ CustomVictoryTheme }
           domain = {{y:[-0.025, 1.025]}}
           width = {90}
           height = {200}
