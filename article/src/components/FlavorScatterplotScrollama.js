@@ -3,7 +3,8 @@ import styled from 'styled-components';
 import { Scrollama, Step } from 'react-scrollama';
 import RiskBarchart from './RiskBarchart.js';
 import TextSection from './TextSection.js';
-import FlavorScatterplot from './FlavorScatterplot.js'
+import FlavorScatterplot from './FlavorScatterplot';
+import PieChartLegend from './PieChartLegend';
 import Carrotcake from '../assets/voulaucarrotcake.png';
 import Volvauvent from '../assets/voulauventwocake.png';
 
@@ -17,7 +18,7 @@ const Graphic = styled.div`
   flex-basis: 45%;
   position: sticky;
   width: 100%;
-  padding: 10vh 5vw 0 5vw;
+  margin: 10vh 5vw 0 5vw;
   top: 1rem;
   align-self: flex-start;
 `
@@ -35,6 +36,7 @@ const Content = styled.div`
 const ImageWrapper = styled.div`
   height: ${props => `${props.minHeight + 150}px`};
   width: ${props => `${props.minWidth}px`};
+  margin-top: 20vh;
 `
 const Image = styled.img`
   position: absolute;
@@ -44,13 +46,11 @@ const Image = styled.img`
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   width: 40vw;
+`
+const ScatterplotWrapper = styled.div`
   margin-left: 5vw;
-  top: 25%;
 `
-const Wrapper = styled.div`
-  display: grid;
-  grid-template-columns: 1% 33% 33% 33%;
-`
+
 const imageMap = {
   0: Volvauvent,
   1: Carrotcake,
@@ -118,7 +118,7 @@ const contentMap = {
     description={
       <div>
         <p>
-        Although Mat’s and Nadiya’s bakes were at least considered okay, Mat placed it safe, while Nadiya’s riskily-flavored vol-au-vents pushed the limits on creative baking. 
+        Although Mat’s and Nadiya’s bakes were at least considered okay, Mat played it safe, while Nadiya’s riskily-flavored vol-au-vents pushed the limits on creative baking. 
         </p>
       </div>
     } 
@@ -191,10 +191,22 @@ export default class FlavorScatterplotScrollama extends React.Component {
           </Scrollama>
         </Scroller>
         <Graphic>
-            {(data==4||(data==1))  && <ImageWrapper minHeight={150} minWidth={200}>
+          {(data==4||(data==1))  && (
+            <ImageWrapper minHeight={150} minWidth={200}>
               {this.getImages(imageMap, data)}
-            </ImageWrapper> }
-          {(data==2 || (data==3)) &&<FlavorScatterplot scatterdata={this.getData(data)} domain= {this.getDomain(data)} zoom={this.getZoom(data)} />}
+            </ImageWrapper> 
+          )}
+          {(data==2 || (data==3)) && (
+            <ScatterplotWrapper>
+              <FlavorScatterplot 
+                scatterdata={this.getData(data)} 
+                domain={this.getDomain(data)} 
+                zoom={this.getZoom(data)} 
+              />
+              <br />
+              <PieChartLegend />
+            </ScatterplotWrapper>
+          )}
         </Graphic>
       </Main>
     );

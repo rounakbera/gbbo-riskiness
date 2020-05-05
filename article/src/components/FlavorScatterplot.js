@@ -82,12 +82,6 @@ export default class FlavorScatterplot extends React.Component {
         domain={this.state.domain}
         theme={VictoryTheme.material}
       >
-       <VictoryLabel 
-        text= {"Flavor Riskiness vs Number of Times Used"} 
-        x={175} 
-        y={30} 
-        textAnchor="middle"
-      />
         <VictoryAxis
           label="Riskiness"
           tickFormat={(t) => `${Math.round(t*100)}%`}
