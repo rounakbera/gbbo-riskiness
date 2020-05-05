@@ -1,5 +1,5 @@
 import React from 'react';
-import FlavorScatterplot from './components/FlavorScatterplot.js';
+import FlavorScatterplotScrollama from './components/FlavorScatterplotScrollama.js';
 import RiskBarchartScrollama from './components/RiskBarchartScrollama.js';
 import RiskRewardPieChart from './components/RiskRewardPieChart.js';
 import TitleCard from './components/TitleCard.js';
@@ -14,6 +14,8 @@ import BarchartsCompiled from './components/BarchartsCompiled.js';
 import QuoteScrollama from './components/QuoteScrollama.js';
 
 import {GlobalStyles, CustomVictoryTheme} from './components/GlobalStyles.js';
+import Dropdown from './components/Dropdown.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -34,7 +36,13 @@ function App() {
       {/* <RiskRewardPieChart baker={"Mat"} pieWidth={500} standalone={true}/> */}
       <StuScrollama/>
       <MatScrollama />
-      <NadiyaScrollama />   
+      <NadiyaScrollama />  
+      <ImportantTextScrollama 
+        content={{
+          1: ["Now that we've seen few bakes, what is the relationship between ingredients and riskiness?"],
+        }}
+      />
+      <FlavorScatterplotScrollama /> 
       <ImportantTextScrollama 
         content={{
           1: ["Since using multiple flavors can be risky, creating successful combinations helps to exemplify a great baker."],
@@ -45,6 +53,8 @@ function App() {
       <BarchartsCompiled/>
       <QuoteScrollama />
       <FinalViz />
+      <Dropdown/>
+      <Footer/>
     </div>
   );
 }
