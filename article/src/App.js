@@ -30,11 +30,16 @@ function App() {
         }}
       />
       <RiskBarchartScrollama />
-      <FlavorScatterplotScrollama />
       {/* <RiskRewardPieChart baker={"Mat"} /> */}
       <StuScrollama/>
       <MatScrollama />
-      <NadiyaScrollama />   
+      <NadiyaScrollama />  
+      <ImportantTextScrollama 
+        content={{
+          1: ["Now that we've seen few bakes, what is the relationship between ingredients and riskiness?"],
+        }}
+      />
+      <FlavorScatterplotScrollama /> 
       <ImportantTextScrollama 
         content={{
           1: ["Since using multiple flavors can be risky, creating successful combinations helps to exemplify a great baker."],

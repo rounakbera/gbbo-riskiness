@@ -4,8 +4,8 @@ import { Scrollama, Step } from 'react-scrollama';
 import RiskBarchart from './RiskBarchart.js';
 import TextSection from './TextSection.js';
 import FlavorScatterplot from './FlavorScatterplot.js'
-import MatCarrotCake from '../assets/mat-carrotcake.png';
-import NadiyaVolAuVents from '../assets/nadiya-volauvents.png';
+import Carrotcake from '../assets/voulaucarrotcake.png';
+import Volvauvent from '../assets/voulauventwocake.png';
 
 const Main = styled.div`
   padding: 0 2vw 0 2vw;
@@ -43,8 +43,8 @@ const Image = styled.img`
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
-  width: 25vw;
-  margin-left: 20vw;
+  width: 40vw;
+  margin-left: 5vw;
   top: 25%;
 `
 const Wrapper = styled.div`
@@ -52,15 +52,11 @@ const Wrapper = styled.div`
   grid-template-columns: 1% 33% 33% 33%;
 `
 const imageMap = {
-  1: "",
-  2: NadiyaVolAuVents,
-  3: MatCarrotCake
+  2: Volvauvent,
+  3: Carrotcake,
+  6:Carrotcake
 };
-const imageMap1 = {
-  1: "",
-  2: "",
-  3: MatCarrotCake
-};
+
 const domainMap = {
   4: {x: [.3, .34], y: [26, 29]},
   5: {x: [0,1], y: [0, 65]}
@@ -112,19 +108,13 @@ const displayMap = {
 
 const contentMap = {
   1: <TextSection 
-    description={
-      <div>
-        <p>
-          Let’s look at back at two of the bakes:
-        </p>
-      </div>
-    } 
+    title={"Let’s look at back at two of the bakes:"}
   />,
   2: <TextSection 
     description={
       <div>
         <p>
-          Nadiya's Voul-au-Vents
+          Nadiya's Vol-au-Vents
         </p>
       </div>
     } 
@@ -133,7 +123,7 @@ const contentMap = {
     description={
       <div>
         <p>
-          Nadiya's Voul-au-Vents
+          Nadiya's Vol-au-Vents
         </p>
         <p>
           and Mat's Sugar Free Carrot Cake
@@ -142,12 +132,9 @@ const contentMap = {
     } 
   />,
   4: <TextSection 
-    title={"Cinnamon"} 
+    title={"They have one thing in common: Cinnamon."} 
     description={
       <div>
-        <p>
-        They have one thing in common: cinnamon.
-        </p>
         <p>
           Hover over the point and see how many times cinnamon was used and cinnamon's general riskiness.  
         </p>
@@ -162,8 +149,16 @@ const contentMap = {
         </p>
       </div>
     } 
+  />,
+  6: <TextSection 
+    description={
+      <div>
+        <p>
+        Although Mat’s and Nadiya’s bakes were at least considered okay, Mat placed it safe, while Nadiya’s riskily-flavored vol-au-vents pushed the limits on creative baking. 
+        </p>
+      </div>
+    } 
   />
-  
 }
 
 export default class FlavorScatterplotScrollama extends React.Component {
@@ -229,14 +224,13 @@ export default class FlavorScatterplotScrollama extends React.Component {
           </Scrollama>
         </Scroller>
         <Graphic>
-          {data<=3 && <Wrapper><ImageWrapper minHeight={150} minWidth={200}>
+            {(data==6||(data<=3&&data>=2))  && <ImageWrapper minHeight={150} minWidth={200}>
               {this.getImages(imageMap, data)}
-            </ImageWrapper>
-            <ImageWrapper minHeight={150} minWidth={200}>
-            {this.getImages(imageMap1, data)}
-          </ImageWrapper></Wrapper> }
-          {data>3 &&<FlavorScatterplot domain={this.getDomain(data)} />}
-          {/* {data>2  } */}
+            </ImageWrapper> }
+           {/* {data<=3&&data>=2  && <div><ImageWrapper minHeight={150} minWidth={200}>
+              {this.getImages(imageMap, data)}
+            </ImageWrapper></div> } */}
+          {data>3&& data<6 &&<FlavorScatterplot domain={this.getDomain(data)} />}
         </Graphic>
       </Main>
     );
