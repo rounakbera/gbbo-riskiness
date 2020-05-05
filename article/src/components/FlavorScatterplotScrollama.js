@@ -89,10 +89,10 @@ const contentMap = {
     description={
       <div>
         <p>
-          Nadiya's Vol-au-Vents
+          <b>Nadiya's Vol-au-Vents</b>
         </p>
         <p>
-          and Mat's Sugar Free Carrot Cake
+         and <b>Mat's Sugar Free Carrot Cake</b>
         </p>
       </div>
     } 
@@ -102,7 +102,7 @@ const contentMap = {
     description={
       <div>
         <p>
-          Hover over the point and see how many times cinnamon was used and cinnamon's general riskiness.  
+          Hover over the point and see how many times <b>cinnamon</b> was used throughout the season and percentage of bakes with cinnamon that are considered risky.  
         </p>
       </div>
     } 
@@ -120,7 +120,8 @@ const contentMap = {
   description={
     <div>
       <p>
-      Cinnamon is a decently low risk and commonly used ingredient. Mat chose to pair it with the less risky ingredients like honey (.36) and ginger (.42). Conversely, Nadiya went with the more risky choice of Cardamom (.68) </p>
+      Cinnamon is a decently low risk and commonly used ingredient. Mat chose to pair it with the less risky ingredients like <b>honey (36%)</b> and <b>ginger (42%)</b>. Conversely, Nadiya went with the more risky choice of <b>cardamom (68%)</b> 
+      </p>
     </div>
   } 
 />,

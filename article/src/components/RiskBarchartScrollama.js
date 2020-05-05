@@ -130,10 +130,12 @@ const contentMap = {
           competition. Nadiya is the right-most bar, as she won this series.
         </p>
         <p>
-          On the Y-axis is the average riskiness score we calculated by 
-          noting every time a judge points out the unusualness of a flavor. 
-          Plotted here is the proportion of bakes considered risky over the 
-          course of the entire series for each individual baker. 
+            
+          Plotted here is the <b>percentage of bakes considered risky</b> over the 
+          course of the entire series for each baker. 
+        </p>
+        <p>
+          We determined this by noting when the judges point out an unusual flavor combination. 
         </p>
       </div>
     } 
@@ -142,11 +144,14 @@ const contentMap = {
     description={
       <div>
         <p>
-          Here we added a trend line using quadratic regression. 
+          Added is a trend line using quadratic regression. 
         </p>
         <p>
           As you can see, average riskiness seems to be higher on each end: both in those 
-          who left earlier in the competition and those who made it til the end. While bakers 
+          who left earlier in the competition and those who made it til the end. 
+        </p>
+        <p>
+          While bakers 
           who decide to play it safe can survive the early weeks, they have to be willing to take risks 
           if they want to make it to the finals. 
         </p>
