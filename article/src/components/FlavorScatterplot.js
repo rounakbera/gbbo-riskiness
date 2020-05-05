@@ -20,6 +20,7 @@ export default class BarchartExample extends React.Component {
     
     this.state = {
       data: props.scatterdata,
+      domain: props.domain,
       //data: props.data || data,
       animate: props.animate,
       animating: false
@@ -30,9 +31,9 @@ export default class BarchartExample extends React.Component {
     if (!this.state.animating && this.props !== prevProps ) {
       this.setState({
         //data: this.props.data,
-        data: this.props.data,
+        data: this.props.scatterdata,
+        domain: this.props.domain,
         animating: true,
-        domain: this.props.domain
       });
       setTimeout(() => this.setState({animating: false}), this.state.animate);
     }
@@ -51,9 +52,7 @@ export default class BarchartExample extends React.Component {
     return "circle";
   }
 
-  handleZoom(domainin) {
-    this.setState({ domain: domainin });
-  }
+  
   // containerComponent={<VictoryVoronoiContainer/>}
   render() {
     return (
@@ -62,7 +61,7 @@ export default class BarchartExample extends React.Component {
                                 allowZoom={false} 
                                 />}
                                 
-        domain={{ x: [0, 1], y: [0, 100] }}
+        domain={this.state.domain}
         theme={VictoryTheme.material}
       >
        <VictoryLabel text= {"Flavor Riskiness vs Number of Times Used"} x={175} y={30} textAnchor="middle"/>
@@ -103,12 +102,12 @@ export default class BarchartExample extends React.Component {
           animate={{
             onExit: {
               duration: 500,
-              before: () => ({ opacity: 0.3, _y: 0 })
+             before: () => ({ opacity: 0.3, _y: 0 })
             },
             onEnter: {
               duration: 500,
               before: () => ({ opacity: 0.3, _y: 0 }),
-              after: (datum) => ({ opacity: 1, _y: datum._y })
+             after: (datum) => ({ opacity: 1, _y: datum._y })
             }
           }}
           symbol={({ datum }) => this.getShape(datum.performance)}

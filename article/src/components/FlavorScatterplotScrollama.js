@@ -52,13 +52,13 @@ const Wrapper = styled.div`
   grid-template-columns: 1% 33% 33% 33%;
 `
 const imageMap = {
-  2: Volvauvent,
-  3: Carrotcake,
-  6:Carrotcake
+  0: Volvauvent,
+  1: Carrotcake,
+  4:Carrotcake
 };
 var datascatter = require('../data/flavorRiskinessToPerformance.json');
 const datamap={
-  4: [{
+  2: [{
     "riskiness": 0.321428571,
     "flavor": "cinnamon",
     "performance": "GOOD",
@@ -68,71 +68,17 @@ const datamap={
     "controversy": 0.142857143,
     "count": 28
   }],
-  5: datascatter
+  3: datascatter
 }
 const domainMap = {
-  4: {x: [.3, .34], y: [26, 29]},
-  5: {x: [0,1], y: [0, 65]}
+  2: {x: [.3, .34], y: [26, 29]},
+  3: {x: [0,1], y: [0, 65]}
 };
-const displayMap = {
-  1: {
-    "Alvin": true,
-    "Dorret": true,
-    "Flora": true,
-    "Ian": true,
-    "Mat": true,
-    "Nadiya": true,
-    "Paul": true,
-    "Sandy": true,
-    "Tamal": true,
-    "Ugne": true,
-    "Stu": true,
-    "Marie": true
-  },
-  2: {
-    "Alvin": true,
-    "Dorret": true,
-    "Flora": true,
-    "Ian": true,
-    "Mat": true,
-    "Nadiya": true,
-    "Paul": true,
-    "Sandy": true,
-    "Tamal": true,
-    "Ugne": true,
-    "Stu": true,
-    "Marie": true
-  },
-  3: {
-    "Alvin": false,
-    "Dorret": false,
-    "Flora": false,
-    "Ian": false,
-    "Mat": true,
-    "Nadiya": true,
-    "Paul": false,
-    "Sandy": false,
-    "Tamal": false,
-    "Ugne": false,
-    "Stu": true,
-    "Marie": false
-  }
-};
+
 
 const contentMap = {
   1: <TextSection 
     title={"Let’s look at back at two of the bakes:"}
-  />,
-  2: <TextSection 
-    description={
-      <div>
-        <p>
-          Nadiya's Vol-au-Vents
-        </p>
-      </div>
-    } 
-  />,
-  3: <TextSection 
     description={
       <div>
         <p>
@@ -144,7 +90,7 @@ const contentMap = {
       </div>
     } 
   />,
-  4: <TextSection 
+  2: <TextSection 
     title={"They have one thing in common: Cinnamon."} 
     description={
       <div>
@@ -154,7 +100,7 @@ const contentMap = {
       </div>
     } 
   />,
-  5: <TextSection 
+  3: <TextSection 
     description={
       <div>
         <p>
@@ -163,7 +109,7 @@ const contentMap = {
       </div>
     } 
   />,
-  6: <TextSection 
+  4: <TextSection 
     description={
       <div>
         <p>
@@ -202,11 +148,12 @@ export default class FlavorScatterplotScrollama extends React.Component {
     // this.setState({ progress });
   }
 
-  getDisplayInfo = (data) => {
-    return displayMap[data] || displayMap[1];
+ 
+  getData = (data) => {
+    return datamap[data] || datamap[4];
   }
   getDomain = (data) => {
-    return datamap[data] || datamap[4];
+    return domainMap[data] || domainMap[4];
   }
 
   getContent = (value) => {
@@ -237,10 +184,10 @@ export default class FlavorScatterplotScrollama extends React.Component {
           </Scrollama>
         </Scroller>
         <Graphic>
-            {(data==6||(data<=3&&data>=2))  && <ImageWrapper minHeight={150} minWidth={200}>
+            {(data==4||(data==1))  && <ImageWrapper minHeight={150} minWidth={200}>
               {this.getImages(imageMap, data)}
             </ImageWrapper> }
-          {data>3&& data<6 &&<FlavorScatterplot scatterata={this.getDomain(data)} />}
+          {(data==2 || (data==3)) &&<FlavorScatterplot scatterdata={this.getData(data)} domain= {this.getDomain(data)} />}
         </Graphic>
       </Main>
     );
