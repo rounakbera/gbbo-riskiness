@@ -4,7 +4,7 @@ import { Scrollama, Step } from 'react-scrollama';
 import Nadiya from './Nadiya.js';
 import NadiyaIcedBuns from '../assets/nadiya-icebuns.png';
 import NadiyaVolAuVents from '../assets/nadiya-volauvents.png';
-import NadiyaPic from '../assets/nadiya.jpg';
+import NadiyaPic from '../assets/nadiya2.jpg';
 
 const Main = styled.div`
   padding: 10vh 2vw;

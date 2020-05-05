@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Scrollama, Step } from 'react-scrollama';
 import Stu from './Stu.js';
 import StuMadeira from '../assets/stu-madeira.png';
-import StuPic from '../assets/stu.jpg';
+import StuPic from '../assets/stu2.jpg';
 
 const Main = styled.div`
   padding: 10vh 2vw;

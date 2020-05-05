@@ -4,7 +4,7 @@ import { Scrollama, Step } from 'react-scrollama';
 import MatIntro from './MatIntro.js';
 import MatCarrotCake from '../assets/mat-carrotcake.png';
 import MatStrawberry from '../assets/mat-strawberry.png';
-import Mat from '../assets/mat.jpg';
+import Mat from '../assets/mat2.jpg';
 
 const Main = styled.div`
   padding: 10vh 2vw;
