@@ -97,7 +97,7 @@ export default class FinalViz extends React.Component {
     ticks.push(1);
     return (
       <>
-      <div style={{width: "90vw", marginLeft: "5vw"}}>
+      <div style={{width: "90vw", marginLeft: "5vw", marginBottom: "10vh"}}>
         <TextSection
         title={"Bringing it All Together"}
         description ={
