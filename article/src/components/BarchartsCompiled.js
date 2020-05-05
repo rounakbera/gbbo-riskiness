@@ -5,6 +5,7 @@ import styled from 'styled-components';
 // import Col from 'react-bootstrap/Col'
 import RiskBar from './RiskBarchartWOanim.js';
 import NFlavorsBar from './FlavorBarchartWOanim.js';
+import TextSection from './TextSection'
 
 const Wrapper = styled.div`
   display: grid;
@@ -29,6 +30,9 @@ export default class BarchartsCompiled extends React.Component {
 
 	render() {
     return ( 
+      <div>
+      <TextSection
+      title={"Extrapolating risk and flavor combination trends to other seasons..."} />
       <Wrapper>
         <div />
         <Top>
@@ -51,6 +55,7 @@ export default class BarchartsCompiled extends React.Component {
           <NFlavorsBar series={6}/>
         </Bottom>
       </Wrapper>
+      </div>
     )
   }
 }
