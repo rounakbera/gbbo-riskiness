@@ -17,7 +17,6 @@ const Main = styled.div`
   justify-content: space-between;
 `
 const Graphic = styled.div`
-  flex-basis: 65%;
   position: sticky;
   width: 100%;
   padding: 2rem 0;
@@ -25,7 +24,7 @@ const Graphic = styled.div`
   align-self: flex-start;
 `
 const Scroller = styled.div`
-  flex-basis: 40%;
+  flex-basis: 100%;
 `
 const Content = styled.div`
   margin: 0 auto 2rem auto;
@@ -45,20 +44,9 @@ const Image = styled.img`
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
-  width: 25vw;
-  margin-left: 20vw;
+  height: 80%;
   top: 25%;
-`
-const Image1 = styled.img`
-  position: absolute;
-  opacity: ${props => props.display ? `1` : `0`};
-  transition: opacity 1s ease-in-out;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  width: 45vw;
-  margin-left: 12vw;
-  top: 25%;
+  left: 10%;
 `
 
 const imageMap = {
@@ -80,11 +68,7 @@ export default class NadiyaScrollama extends React.Component {
 
   getImages(imageMap, data) {
     return Object.keys(imageMap).map((key => {
-      if(key==4){
-        return (<Image1 src={imageMap[key]} display={key == data} />);
-      }else{
-        return (<Image src={imageMap[key]} display={key == data} />);
-      }
+      return (<Image src={imageMap[key]} display={key == data} />);
     }));
   }
 

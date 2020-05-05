@@ -143,7 +143,7 @@ export default function Dropdown() {
         placeholder = <><div style={{display: "flex"}}><BakerImgWrapper style={{backgroundImage: `url(${img})`}}/><div style={{width: "50vw"}}><h4><strong>{value["Baker"]}</strong> participated in <strong>Season {value["Season"]}</strong>, and placed <strong>#{value["Place"]}</strong>. Approximately <strong>{Math.round(value["% Risk"]*100)}%</strong> of their bakes were risky.<br/><br/>Here's a list of the important flavors they used; each row represents a different bake, where bolded flavors were marked as a risky combination for that particular dish.</h4></div></div><Ingredients><Display name={value}/></Ingredients></>;
     }
     else{
-        height = "30vh";
+        height = "50vh";
         placeholder = <h4><strong>Choose a baker in the dropdown on the left.</strong></h4>;
     }
     return(
