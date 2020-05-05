@@ -29,7 +29,7 @@ text-align: center;
 `;
 const legendContainer = styled.div`
 margin-right: 80%;
-position: absolute
+position: absolute;
 `
 const ContainerLabel = styled.p`
 padding: 30px;
