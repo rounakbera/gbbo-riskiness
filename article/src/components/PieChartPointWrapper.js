@@ -12,13 +12,6 @@ export default class PieChartPointWrapper extends React.Component {
         opacity={ style.strokeOpacity(this.props) }
         transform={ `translate(${x - radius}, ${y - radius})` }
       >
-        {/* <circle 
-          cx={radius} 
-          cy={radius} 
-          r={10} // diameter - 100
-          fill={style.stroke}
-          fill-opacity={style.strokeOpacity(this.props)}
-        /> */}
         <RiskRewardPieChart 
           diameter={diameter}
           baker={datum.baker}

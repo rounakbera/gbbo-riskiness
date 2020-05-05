@@ -74,7 +74,7 @@ export default class FinalViz extends React.Component {
     return this.calcLeaf(bakerPlaceRisk);
   }
   getLabel(baker, place, season) {
-    return "Constestant: " + baker + "\nSeason: " + season + "\nPlacing: " + place;
+    return "Baker: " + baker + "\nSeries: " + season + "\nPlacing: " + place;
   }
   getTooltipLength(string) {
     return string.split("\n")[0].length;
@@ -107,8 +107,8 @@ export default class FinalViz extends React.Component {
         <VictoryChart 
           theme={ CustomVictoryTheme }
           domain = {{x:[-0.025, 1.025]}}
-          height = {225}
-          padding={{ right: 0, left: 0, top: 30, bottom: 30 }}
+          height = {235}
+          padding={{ right: 0, left: 0, top: 30, bottom: 40 }}
           style={{ parent: { maxHeight: "65%" } }}
           containerComponent={<VictoryVoronoiContainer/>}>
           <VictoryVoronoi
@@ -129,9 +129,13 @@ export default class FinalViz extends React.Component {
             labelComponent={
             <VictoryTooltip
                 cornerRadius={2}
-                centerOffset={{x: 10, y: 25}}
-                dy = {0}
-                dx = {0}
+                pointerLength={0}
+                style={{ 
+                  fontSize: 6, 
+                  textAnchor: "right", 
+                }}
+                dy={50}
+                dx={0}
             />}
             style={{
               data: { 
@@ -140,8 +144,6 @@ export default class FinalViz extends React.Component {
               },
               labels: { 
                 fill: "black", 
-                fontSize: 3, 
-                textAlign: "middle", 
                 padding: 1
               }
             }}
@@ -149,7 +151,7 @@ export default class FinalViz extends React.Component {
           />
           <VictoryAxis
             label = "Baker Average Risk Distribution"
-            offsetY={18}
+            offsetY={28}
             tickValues = {ticks}
             tickFormat = {(t) => `${Math.round(t*100)}%`}
             style={{
@@ -157,14 +159,14 @@ export default class FinalViz extends React.Component {
                 strokeWidth: 2
               },
               axisLabel: {
-                fontSize: 5, 
-                padding: 10
+                fontSize: 8, 
+                padding: 12
               },
               grid: {
                 strokeOpacity: 0
               },
               tickLabels: { 
-                fontSize: 4,
+                fontSize: 5,
                 padding: 2,
                 textAnchor: "middle" 
               }

@@ -22,17 +22,17 @@ function App() {
         @import url('https://fonts.googleapis.com/css?family=Muli:400,700|Philosopher:400,700&display=swap');
       </style>
       <GlobalStyles/>
-      {/* <TitleCard/>
+      <TitleCard/>
       <IntroMethodology />
       <ImportantTextScrollama 
         content={{
           1: ["With this data, can we find out if certain ",<b>risks</b>," and ",<b>flavor choices</b>," help win the Great British Bake Off?"],
         }}
       />
-      <RiskBarchartScrollama /> */}
+      <RiskBarchartScrollama />
       {/* <FlavorScatterplot /> */}
       {/* <RiskRewardPieChart baker={"Mat"} pieWidth={500} standalone={true}/> */}
-      {/* <StuScrollama/>
+      <StuScrollama/>
       <MatScrollama />
       <NadiyaScrollama />   
       <ImportantTextScrollama 
@@ -43,7 +43,7 @@ function App() {
       />
       <FlavorBarchartScrollama /> 
       <BarchartsCompiled/>
-      <QuoteScrollama /> */}
+      <QuoteScrollama />
       <FinalViz />
     </div>
   );
