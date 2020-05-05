@@ -75,6 +75,11 @@ const domainMap = {
   3: {x: [0,1], y: [0, 65]}
 };
 
+const zoomMap = {
+  2: false,
+  3: true
+}
+
 
 const contentMap = {
   1: <TextSection 
@@ -155,6 +160,9 @@ export default class FlavorScatterplotScrollama extends React.Component {
   getDomain = (data) => {
     return domainMap[data] || domainMap[4];
   }
+  getZoom = (data) => {
+    return zoomMap[data] || zoomMap[4];
+  }
 
   getContent = (value) => {
     return contentMap[value] || contentMap[1];
@@ -171,7 +179,7 @@ export default class FlavorScatterplotScrollama extends React.Component {
             onStepExit={this.onStepExit}
             progress
             onStepProgress={this.onStepProgress}
-            offset={0.33}
+            offset={0.55}
           >
             {steps.map(value => (
               <Step data={value} key={value}>
@@ -186,7 +194,7 @@ export default class FlavorScatterplotScrollama extends React.Component {
             {(data==4||(data==1))  && <ImageWrapper minHeight={150} minWidth={200}>
               {this.getImages(imageMap, data)}
             </ImageWrapper> }
-          {(data==2 || (data==3)) &&<FlavorScatterplot scatterdata={this.getData(data)} domain= {this.getDomain(data)} />}
+          {(data==2 || (data==3)) &&<FlavorScatterplot scatterdata={this.getData(data)} domain= {this.getDomain(data)} zoom={this.getZoom(data)} />}
         </Graphic>
       </Main>
     );

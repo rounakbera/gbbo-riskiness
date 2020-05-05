@@ -23,7 +23,8 @@ export default class FlavorScatterplot extends React.Component {
       domain: props.domain,
       //data: props.data || data,
       animate: props.animate,
-      animating: false
+      animating: false,
+      zoom: this.props.zoom
     }
   }
 
@@ -34,6 +35,7 @@ export default class FlavorScatterplot extends React.Component {
         data: this.props.scatterdata,
         domain: this.props.domain,
         animating: true,
+        zoom: this.props.zoom
       });
       setTimeout(() => this.setState({animating: false}), this.state.animate);
     }
@@ -58,7 +60,7 @@ export default class FlavorScatterplot extends React.Component {
     return (
       <VictoryChart
         containerComponent={<VictoryZoomVoronoiContainer 
-                                allowZoom={false} 
+                                allowZoom={this.state.zoom} 
                                 />}
                                 
         domain={this.state.domain}
