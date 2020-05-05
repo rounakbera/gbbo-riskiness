@@ -76,7 +76,7 @@ export default class BarchartExample extends React.Component {
             },
             tickLabels: {
               angle: 270,
-              fontSize: 10,
+              fontSize: 8,
               //opacity: ({text}) => {return this.state.displayInfo[text] ? 1 : 0;},
               padding: 0,
               textAnchor: "end"
@@ -90,7 +90,11 @@ export default class BarchartExample extends React.Component {
           tickFormat={(x) => (`${x}`)}
           style= {{
             axisLabel : {
+              fontSize: 15,
               padding : 35
+            },
+            tickLabels: {
+              fontSize: 8
             }
           }}
         />

@@ -62,7 +62,7 @@ export default class RiskBarchart extends React.Component {
             },
             tickLabels: {
               angle: 270,
-              fontSize: 10,
+              fontSize: 8,
               opacity: ({text}) => {return this.state.displayInfo[text] ? 1 : 0;},
               padding: 0,
               textAnchor: "end"
@@ -73,10 +73,14 @@ export default class RiskBarchart extends React.Component {
           label= "Riskiness"
           dependentAxis
           domain={[0, 1]}
-          tickFormat={(x) => (`${x}`)}
+          tickFormat={(t) => `${Math.round(t*100)}%`}
           style= {{
-            axisLabel : {
+            axisLabel: {
+              fontSize: 15,
               padding : 35
+            },
+            tickLabels: {
+              fontSize: 8
             }
           }}
         />

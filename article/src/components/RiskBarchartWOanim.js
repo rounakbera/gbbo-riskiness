@@ -80,7 +80,7 @@ export default class BarchartExample extends React.Component {
             },
             tickLabels: {
               angle: 270,
-              fontSize: 10,
+              fontSize: 8,
              // opacity: ({text}) => {return this.state.displayInfo[text] ? 1 : 0;},
               padding: 0,
               textAnchor: "end"
@@ -91,10 +91,14 @@ export default class BarchartExample extends React.Component {
           label= "Riskiness"
           dependentAxis
           domain={[0, 1]}
-          tickFormat={(x) => (`${x}`)}
+          tickFormat={(t) => `${Math.round(t*100)}%`}
           style= {{
-            axisLabel : {
-              padding : 35
+            axisLabel: {
+              fontSize: 15,
+              padding: 35
+            },
+            tickLabel: {
+              fontSize: 8
             }
           }}
         />
