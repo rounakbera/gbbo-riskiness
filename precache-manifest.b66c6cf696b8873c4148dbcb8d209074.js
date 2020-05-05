@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ed978132f34a3a9d3355dcda924e0b7",
+    "revision": "aedbdb5bcf5bf14c06f3a25add61c6b8",
     "url": "/gbbo-riskiness/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gbbo-riskiness/static/css/2.6883e14e.chunk.css"
   },
   {
-    "revision": "729562b91ec3f25cd206",
+    "revision": "26c4cb2e9890a6943caf",
     "url": "/gbbo-riskiness/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gbbo-riskiness/static/js/2.1c952968.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "729562b91ec3f25cd206",
-    "url": "/gbbo-riskiness/static/js/main.893794f7.chunk.js"
+    "revision": "26c4cb2e9890a6943caf",
+    "url": "/gbbo-riskiness/static/js/main.d33665e8.chunk.js"
   },
   {
     "revision": "90b2ee86c27be842513d",
