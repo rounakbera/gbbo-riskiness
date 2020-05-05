@@ -13,7 +13,7 @@ import ImportantTextScrollama from './components/ImportantTextScrollama.js';
 import BarchartsCompiled from './components/BarchartsCompiled.js';
 import QuoteScrollama from './components/QuoteScrollama.js';
 
-import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
+import {GlobalStyles, CustomVictoryTheme} from './components/GlobalStyles.js';
 import Dropdown from './components/Dropdown.js';
 import Footer from './components/Footer.js';
 
@@ -32,7 +32,12 @@ function App() {
         }}
       />
       <RiskBarchartScrollama />
+<<<<<<< HEAD
       {/* <RiskRewardPieChart baker={"Mat"} /> */}
+=======
+      {/* <FlavorScatterplot /> */}
+      {/* <RiskRewardPieChart baker={"Mat"} pieWidth={500} standalone={true}/> */}
+>>>>>>> tian
       <StuScrollama/>
       <MatScrollama />
       <NadiyaScrollama />  

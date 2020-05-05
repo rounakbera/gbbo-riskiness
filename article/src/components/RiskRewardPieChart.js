@@ -1,19 +1,20 @@
 import React from 'react';
 import { 
-  VictoryPie,
-  VictoryTooltip
+  VictoryPie
 } from 'victory';
 
 const data = require('../data/bakerRiskReward.json');
 
-export default class BarchartExample extends React.Component {
+export default class RiskRewardPieChart extends React.Component {
   constructor(props) {
     super(props);
     
     this.state = {
-      baker: props.baker,
       animate: props.animate,
-      animating: false
+      animating: false,
+      baker: props.baker,
+      diameter: props.diameter || 200,
+      standalone: props.standalone
     }
   }
 
@@ -41,14 +42,12 @@ export default class BarchartExample extends React.Component {
 
   getData(baker) {
     let bakerData = data.filter(entry => entry.baker == baker);
-    let output = bakerData.map(entry => {
+    return bakerData.map(entry => {
       return {
         x: this.getLabel(entry.risky, entry.grade),
         y: entry.count
       }
     });
-    console.log(output);
-    return output;
   }
 
   getLabel(risk, grade) {
@@ -61,18 +60,20 @@ export default class BarchartExample extends React.Component {
   }
 
   render() {
+    const {baker, diameter, standalone} = this.state;
     return (
-          <VictoryPie
-            data={this.getData(this.state.baker)}
-            style={{
-              data: {
-                fill: ({ datum }) => this.getColor(datum.x)
-              },
-              labels: {
-                fontSize: 5
-              }
-            }}
-          />
+      <VictoryPie
+        standalone={standalone}
+        height={diameter}
+        width={diameter}
+        data={this.getData(baker)}
+        style={{
+          labels: { fontSize: 0 },
+          data: {
+            fill: ({ datum }) => this.getColor(datum.x)
+          }
+        }}
+      />
     )
   }
 }
