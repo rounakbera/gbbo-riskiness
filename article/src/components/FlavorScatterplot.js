@@ -4,16 +4,22 @@ import {
   VictoryScatter,
   VictoryTheme,
   VictoryTooltip,
-  VictoryVoronoiContainer 
+  VictoryVoronoiContainer,
+  VictoryZoomContainer,
+  createContainer,
+  VictoryLabel,
+  VictoryAxis
 } from 'victory';
 
 const data = require('../data/flavorRiskinessToPerformance.json');
+const VictoryZoomVoronoiContainer = createContainer("zoom", "voronoi");
 
 export default class BarchartExample extends React.Component {
   constructor(props) {
     super(props);
     
     this.state = {
+      domain: props.domain,
       data: props.data || data,
       animate: props.animate,
       animating: false
@@ -21,10 +27,11 @@ export default class BarchartExample extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (!this.state.animating && this.props.data !== prevProps.data) {
+    if (!this.state.animating && this.props !== prevProps ) {
       this.setState({
         data: this.props.data,
-        animating: true
+        animating: true,
+        domain: this.props.domain
       });
       setTimeout(() => this.setState({animating: false}), this.state.animate);
     }
@@ -43,18 +50,51 @@ export default class BarchartExample extends React.Component {
     return "circle";
   }
 
+  handleZoom(domainin) {
+    this.setState({ domain: domainin });
+  }
+  // containerComponent={<VictoryVoronoiContainer/>}
   render() {
     return (
       <VictoryChart
-        containerComponent={<VictoryVoronoiContainer/>}
+        containerComponent={<VictoryZoomVoronoiContainer 
+                                allowZoom={false} 
+                                zoomDomain= {this.state.domain}
+                                onZoomChange= {this.state.domain}
+                                animate = {{
+                                  onEnter: { duration: 1000 },
+                                }}/>}
+                                
         domain={{ x: [0, 1], y: [0, 100] }}
         theme={VictoryTheme.material}
       >
+       <VictoryLabel text= {"Flavor Riskiness vs Number of Times Used"} x={175} y={30} textAnchor="middle"/>
+        <VictoryAxis
+          label="Flavor Riskiness"
+          tickFormat={(x) => (`${x}`)}
+          style={{
+            axisLabel: {
+              fontSize: 10,
+              padding: 30
+            }
+          }}
+        />
+        <VictoryAxis
+          label= "Number of Times Used"
+          dependentAxis
+          //domain={[0, 1]}
+          tickFormat={(x) => (`${x}`)}
+          style= {{
+            axisLabel : {
+              padding : 35
+            }
+          }}
+        />
         <VictoryScatter
-          data={this.state.data}
+          data={data}
           labels={({ datum }) => datum.flavor}
           labelComponent={<VictoryTooltip pointerLength={0} />}
-          size={2}
+          size={3.3}
           style={{
             data: {
               fill: ({ datum }) => this.getColor(datum.controversy)

@@ -1,5 +1,5 @@
 import React from 'react';
-import FlavorScatterplot from './components/FlavorScatterplot.js';
+import FlavorScatterplotScrollama from './components/FlavorScatterplotScrollama.js';
 import RiskBarchartScrollama from './components/RiskBarchartScrollama.js';
 import RiskRewardPieChart from './components/RiskRewardPieChart.js';
 import TitleCard from './components/TitleCard.js';
@@ -30,7 +30,7 @@ function App() {
         }}
       />
       <RiskBarchartScrollama />
-      {/* <FlavorScatterplot /> */}
+      <FlavorScatterplotScrollama />
       {/* <RiskRewardPieChart baker={"Mat"} /> */}
       <StuScrollama/>
       <MatScrollama />
