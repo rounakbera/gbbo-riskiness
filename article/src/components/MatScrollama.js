@@ -65,8 +65,7 @@ export default class MatScrollama extends React.Component {
 
   getImages(imageMap, data) {
     return Object.keys(imageMap).map((key => {
-      return (<div><Image src={imageMap[key]} display={key == data} />
-        <RiskRewardPieChart baker={"Mat"} pieWidth={500} standalone={true}/> </div>);
+      return (<div><Image src={imageMap[key]} display={key == data} /> </div>);
     }));
   }
 

@@ -10,7 +10,9 @@ import TextSection from './TextSection'
 const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 1% 33% 33% 33%;
-  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+
 `
 const Top = styled.div`
   margin-left: 40px;

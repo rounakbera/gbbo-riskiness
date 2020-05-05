@@ -120,8 +120,7 @@ const contentMap = {
   description={
     <div>
       <p>
-      Cinnamon is a decently low risk and commonly used ingredient. Mat chose to pair it with less risky ingredients like honey (.38) and ginger (.41). Conversely, Nadiya went with the more risky choices of Cardamom (.69) 
-      </p>
+      Cinnamon is a decently low risk and commonly used ingredient. Mat chose to pair it with the less risky ingredients like honey (.36) and ginger (.42). Conversely, Nadiya went with the more risky choice of Cardamom (.68) </p>
     </div>
   } 
 />,
