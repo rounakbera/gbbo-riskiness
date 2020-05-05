@@ -69,6 +69,16 @@ export default class FlavorBarchart extends React.Component {
           }}
         />
         <VictoryAxis
+          label= "Avg Flavors Used"
+          dependentAxis
+          tickFormat={(x) => (`${x}`)}
+          style= {{
+            axisLabel : {
+              padding : 35
+            }
+          }}
+        />
+        <VictoryAxis
           dependentAxis
           domain={[0, 1]}
           tickFormat={(x) => (`${x}`)}

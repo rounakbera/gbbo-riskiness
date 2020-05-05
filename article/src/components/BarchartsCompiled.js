@@ -32,7 +32,13 @@ export default class BarchartsCompiled extends React.Component {
     return ( 
       <div>
       <TextSection
-      title={"Extrapolating risk and flavor combination trends to other seasons..."} />
+      title={"Extrapolating risk and flavor combination trends to other seasons..."}
+      description ={
+        <p>
+          We see that the same trends continue with series 4 and 5: with a higher investment in complex flavor combination, bakers see a higher return in their ranking on the show. 
+          In other words, bakers can only succeed by using both unconventional ingredients and a large variety of ingredients.
+         </p>
+      } />
       <Wrapper>
         <div />
         <Top>
