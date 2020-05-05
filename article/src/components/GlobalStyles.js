@@ -4,10 +4,12 @@ import { assign } from 'lodash';
 const GlobalStyles = createGlobalStyle`
   html{
     scroll-behavior: smooth;
+
   }
 
   body {
     background-color: white;
+    overflow-x: hidden;
   }
 
   p {
