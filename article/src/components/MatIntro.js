@@ -116,7 +116,9 @@ So this was a Good Bake but Not Risky
                 <div>
                     <p>
                         This pie chart shows a breakdown of all of Mat's bakes by quality of bake and riskiness.
-                        See how these bakes fit into his performance throughout the series.
+                        Here you can see that much of his pie chart is light colors, which are bakes where Mat stayed on the <Safe>safe side</Safe>.
+                        The colors of <Good>green</Good>, <Okay>yellow</Okay>, and <Bad>red</Bad> represent how well the bakes performed in the eyes of the judges.
+                        You can see how his two cakes fit into his overall performance throughout the series.
                     </p>
                 </div>
             }
