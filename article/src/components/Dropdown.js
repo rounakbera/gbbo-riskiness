@@ -160,7 +160,7 @@ export default function Dropdown() {
                     id="baker-dropdown"
                     options={Bakers.sort((a,b) => a.Place > b.Place)}
                     getOptionLabel={(option) => option.Baker}
-                    groupBy={(option) => "Season " + option.Season}
+                    groupBy={(option) => "Series " + option.Season}
                     style={{ width: 300 }}
                     renderInput={(params) => <TextField {...params} label="Bakers" variant="outlined" />}
                 />

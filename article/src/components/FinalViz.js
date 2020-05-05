@@ -20,12 +20,13 @@ const bakerInfo = require('../data/bakerinfo.json')
 const separation = 0.05; 
 
 const Container = styled.div`
-width: 300px;
-margin:  0px 10px;
-padding: 0px 700px;
-float: left;
-position: absolute;
+width: 40%;
+margin: -80px 0 0 20%;
+// padding: 0px 700px;
+// float: left;
+// position: absolute;
 text-align: center;
+z-index: 99;
 `;
 const legendContainer = styled.div`
 margin-right: 80%;
@@ -97,6 +98,8 @@ export default class FinalViz extends React.Component {
     ticks.push(1);
     return (
       <div>
+        <div style={{float: "right",marginBottom:"-40vh",marginRight:"-10vw"}}>
+        <PieChartLegend />
         <Container>
           <ContainerLabel>
             <p>Contestant Placing Range</p>
@@ -111,14 +114,15 @@ export default class FinalViz extends React.Component {
             handle={HandleFormat}
           />
         </Container>
-        <PieChartLegend />
+        </div>
         <VictoryChart 
           theme={ CustomVictoryTheme }
           domain = {{x:[-0.025, 1.025]}}
           height = {235}
           padding={{ right: 0, left: 0, top: 30, bottom: 40 }}
           style={{ parent: { maxHeight: "65%" } }}
-          containerComponent={<VictoryVoronoiContainer/>}>
+          containerComponent={<VictoryVoronoiContainer radius={25}/>}
+          >
           <VictoryVoronoi
             padding={{ right: 0, left: 0, top: 0, bottom: 0 }}
             standalone = {false}

@@ -2,6 +2,10 @@ import { createGlobalStyle } from 'styled-components';
 import { assign } from 'lodash';
 
 const GlobalStyles = createGlobalStyle`
+  svg{
+    z-index:-1;
+  }
+
   html{
     scroll-behavior: smooth;
 
