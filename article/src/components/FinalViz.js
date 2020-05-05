@@ -14,6 +14,8 @@ import { HandleFormat } from "./HandleFormat";
 import PieChartLegend from './PieChartLegend';
 import PieChartPointWrapper from './PieChartPointWrapper';
 import { CustomVictoryTheme, GlobalStyles } from "./GlobalStyles.js";
+import TextSection from './TextSection';
+import ImportantText from './ImportantText.js';
 
 
 const bakerInfo = require('../data/bakerinfo.json')
@@ -94,7 +96,25 @@ export default class FinalViz extends React.Component {
     var ticks = Array.from({length: 1/separation}, (x,i) => i*separation);
     ticks.push(1);
     return (
+      <>
       <div style={{width: "90vw", marginLeft: "5vw"}}>
+        <TextSection
+        title={"Bringing it All Together"}
+        description ={
+          <>
+          <p>
+            While our visualizations do not account for a baker's technical skill, it is clear that a measured
+            riskiness in choosing flavors is an important key to baking well. Our final visualization is shown 
+            below, where we depict bakers' average risk; the slider allows you to choose a range of placements, 
+            and as you drag it you'll see that winning bakers cluster around a central risk level. The pie charts
+            are a callback to the ones we showed earlier, where each bakers' feedback is shown versus the riskiness 
+            of their dish.
+          </p>
+          <h3 style={{textAlign:"center",width:"70%",marginLeft:"15%"}}>
+            Bakes that are a piece of cake can get you far in GBBO if done well, but only bakers that take risks make it to the end. 
+          </h3>
+          </>
+        } />
         <Container>
           <ContainerLabel>
             <p>Contestant Placing Range</p>
@@ -180,7 +200,7 @@ export default class FinalViz extends React.Component {
           />
         </VictoryChart>
       </div>
-
+      </>
     )
   }
 }
