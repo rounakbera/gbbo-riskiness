@@ -113,7 +113,9 @@ export default class NadiyaIntro extends React.Component {
             description={
                 <div>
                     <p>
-                        See how these bakes fit into Nadiya's Break down of good vs bad and risky vs non-risky bakes.
+                        Here you can see how these bakes fit into Nadiya's break down of her series' bakes.
+                        Notice how, in comparison with Mat, Nadiya's pie chart is much darker, indicating the fact that she <Risky>took risks</Risky> on many more of her bakes.
+                        She also consistently <Good>performed well</Good> across both her <Safe>safe</Safe> and <Risky>risky</Risky> bakes.
                     </p>
                 </div>
             }
