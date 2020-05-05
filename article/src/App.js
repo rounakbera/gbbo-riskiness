@@ -15,6 +15,7 @@ import QuoteScrollama from './components/QuoteScrollama.js';
 
 import {GlobalStyles, CurrentVictoryTheme} from './components/GlobalStyles.js';
 import Dropdown from './components/Dropdown.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
       <QuoteScrollama />
       <FinalViz />
       <Dropdown/>
+      <Footer/>
     </div>
   );
 }

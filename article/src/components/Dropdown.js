@@ -9,10 +9,11 @@ const Wrapper = styled.div`
     width: 90vw;
     padding: 5vh 5vw;
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,250,236,1) 5%, rgba(255,250,236,1) 100%);
-    height: 70vh;
+    height: ${props => props.height};
+    transition: height 1s;
 `
 const ExploreWrapper = styled.div`
-    width: 90vw;
+    width: 80vw;
     display: flex;
     padding: 5vw 5vw 0 5vw;
 `
@@ -31,7 +32,7 @@ const Ingredients = styled.div`
     li {
         padding-bottom: 5px;
     }
-    max-height: 30vh;
+    max-height: 20vh;
     overflow: scroll;
 `
 
@@ -115,14 +116,17 @@ export default function Dropdown() {
     const [value, setValue] = React.useState('');
     // const [inputValue, setInputValue] = React.useState('');
     let placeholder;
+    let height;
     if(value){
-    placeholder = <><h4><strong>{value["Baker"]}</strong> participated in <strong>Season {value["Season"]}</strong>, and placed <strong>#{value["Place"]}</strong>. <strong>{value["% Risk"]*100}%</strong> of their bakes were risky.<br/><br/>Here's a list of the important flavors they used; each row represents a different bake, where bolded flavors were marked as a risky combination for that particular dish.</h4><Ingredients><Display name={value}/></Ingredients></>;
+        height = "70vh";
+        placeholder = <><h4><strong>{value["Baker"]}</strong> participated in <strong>Season {value["Season"]}</strong>, and placed <strong>#{value["Place"]}</strong>. <strong>{value["% Risk"]*100}%</strong> of their bakes were risky.<br/><br/>Here's a list of the important flavors they used; each row represents a different bake, where bolded flavors were marked as a risky combination for that particular dish.</h4><Ingredients><Display name={value}/></Ingredients></>;
     }
     else{
-        placeholder = <h4><strong>Choose a baker in the dropdown on the left!</strong></h4>
+        height = "30vh";
+        placeholder = <h4><strong>Choose a baker in the dropdown on the left!</strong></h4>;
     }
     return(
-        <Wrapper>
+        <Wrapper height={height}>
             <h1>
             Explore our data!
             </h1>
