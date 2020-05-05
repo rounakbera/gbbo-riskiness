@@ -79,7 +79,7 @@ export default class NadiyaIntro extends React.Component {
             }
             />
         )
-    } else {
+    } else if(this.state.step==3) {
         return (
             <TextSection
             description={
@@ -107,5 +107,18 @@ export default class NadiyaIntro extends React.Component {
             }
             />
         )
+    }else {
+        return (
+            <TextSection
+            description={
+                <div>
+                    <p>
+                        See how these bakes fit into Nadiya's Break down of good vs bad and risky vs non-risky bakes.
+                    </p>
+                </div>
+            }
+            />
+        )
+
     }
 }}

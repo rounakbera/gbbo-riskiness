@@ -82,7 +82,7 @@ So this was a Good Bake but Not Risky
             </div>
                 
         )
-    } else {
+    } else if(this.state.step==3){
         return (
             <div>
                 <p>
@@ -104,5 +104,19 @@ So this was a Good Bake but Not Risky
                 </p>    
             </div>
         )
+    }else {
+        return (
+            <TextSection
+            description={
+                <div>
+                    <p>
+                        This pie chart shows a breakdown of all of Mat's bakes by quality of bake and riskiness.
+                        See how these bakes fit into his performance throughout the series.
+                    </p>
+                </div>
+            }
+            />
+        )
+
     }
 }}
