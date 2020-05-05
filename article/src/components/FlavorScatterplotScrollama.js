@@ -240,9 +240,6 @@ export default class FlavorScatterplotScrollama extends React.Component {
             {(data==6||(data<=3&&data>=2))  && <ImageWrapper minHeight={150} minWidth={200}>
               {this.getImages(imageMap, data)}
             </ImageWrapper> }
-           {/* {data<=3&&data>=2  && <div><ImageWrapper minHeight={150} minWidth={200}>
-              {this.getImages(imageMap, data)}
-            </ImageWrapper></div> } */}
           {data>3&& data<6 &&<FlavorScatterplot scatterata={this.getDomain(data)} />}
         </Graphic>
       </Main>
