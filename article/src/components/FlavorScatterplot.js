@@ -14,7 +14,7 @@ import {
 //const data = require('../data/flavorRiskinessToPerformance.json');
 const VictoryZoomVoronoiContainer = createContainer("zoom", "voronoi");
 
-export default class BarchartExample extends React.Component {
+export default class FlavorScatterplot extends React.Component {
   constructor(props) {
     super(props);
     

@@ -208,7 +208,6 @@ export default class RiskBarchartScrollama extends React.Component {
             progress
             onStepProgress={this.onStepProgress}
             offset={0.33}
-            debug
           >
             {steps.map(value => (
               <Step data={value} key={value}>

@@ -2,8 +2,8 @@ import React from 'react';
 import {
   VictoryChart,
   VictoryScatter,
-  VictoryVoronoiContainer,
   VictoryVoronoi,
+  VictoryVoronoiContainer,
   VictoryTooltip, 
   VictoryAxis 
 } from 'victory';
@@ -11,10 +11,13 @@ import styled from "styled-components";
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 import { HandleFormat } from "./HandleFormat";
-import { CurrentVictoryTheme, GlobalStyles } from "./GlobalStyles.js";
+import PieChartPointWrapper from './PieChartPointWrapper';
+import { CustomVictoryTheme, GlobalStyles } from "./GlobalStyles.js";
 
 
 const bakerInfo = require('../data/bakerinfo.json')
+const separation = 0.05; 
+
 const Container = styled.div`
 width: 300px;
 margin: 0px 48px;
@@ -62,7 +65,7 @@ export default class FinalViz extends React.Component {
   parseData(info) {
     var bakerPlaceRisk = [];
     for (var i in info) {
-      var risk = Math.round(info[i]['% Risk']*20)/20;
+      var risk = Math.round(info[i]['% Risk']/separation)*separation;
       bakerPlaceRisk.push([info[i]['Place'], risk, info[i]['Baker'], info[i]['Season']]);
     }
     bakerPlaceRisk.sort(function(a,b) {
@@ -71,19 +74,19 @@ export default class FinalViz extends React.Component {
     return this.calcLeaf(bakerPlaceRisk);
   }
   getLabel(baker, place, season) {
-    return "Constestant: " + baker + "\nSeason: " + season + "\nPlacing: " + place;
+    return "Baker: " + baker + "\nSeries: " + season + "\nPlacing: " + place;
   }
   getTooltipLength(string) {
     return string.split("\n")[0].length;
   }
   getBorderOpacity(place) {
-    return place > this.state.placeLimit ? 0 : 100;
+    return place > this.state.placeLimit ? 0.1 : 1;
   }
   changePlaceLimit = (placeLimit) =>{
     this.setState({placeLimit});
   }
   render () {
-    var ticks = Array.from({length: 20}, (x,i) => i/20);
+    var ticks = Array.from({length: 1/separation}, (x,i) => i*separation);
     ticks.push(1);
     return (
       <div>
@@ -102,68 +105,73 @@ export default class FinalViz extends React.Component {
           />
         </Container>
         <VictoryChart 
-          theme={ CurrentVictoryTheme }
-          domain = {{y:[-0.025, 1.025]}}
-          width = {165}
-          height = {160}
-          style={{ parent: { maxWidth: "65%" } }}
-          padding={{ top: 20, bottom: 20, right: 10, left: 30 }}
+          theme={ CustomVictoryTheme }
+          domain = {{x:[-0.025, 1.025]}}
+          height = {235}
+          padding={{ right: 0, left: 0, top: 30, bottom: 40 }}
+          style={{ parent: { maxHeight: "65%" } }}
           containerComponent={<VictoryVoronoiContainer/>}>
           <VictoryVoronoi
-            padding={{ top: 0, bottom: 50, right: 0, left: 30 }}
+            padding={{ right: 0, left: 0, top: 0, bottom: 0 }}
             standalone = {false}
             style={{ data: { fill: "transparent" } }}
             data={this.state.data}
-            x="leaf"
-            y="risk"
+            x="risk"
+            y="leaf"
           />
           <VictoryScatter
             style = {{ line: "transparent" }}
             data={this.state.data}
-            x="leaf"
-            y="risk"
+            dataComponent={ <PieChartPointWrapper /> }
+            x="risk"
+            y="leaf"
             labels={({ datum }) => this.getLabel(datum.baker, datum.place, datum.season)}
             labelComponent={
             <VictoryTooltip
                 cornerRadius={2}
-                pointerOrientation = "left"
-                centerOffset = {{x: 30, y: 15}}
-                dy = {0}
-                dx = {0}
-                pointerLength={({ datum }) => this.getTooltipLength(datum.baker)}
-                pointerWidth = {5}
+                pointerLength={0}
+                style={{ 
+                  fontSize: 6, 
+                  textAnchor: "right", 
+                }}
+                dy={50}
+                dx={0}
             />}
             style={{
               data: { 
-                fill: "black",
-                stroke: "tomato",
                 strokeOpacity: ({datum}) => this.getBorderOpacity(datum.place), 
-                strokeWidth: 1, fillOpacity: ({ datum }) => 1/datum.place
+                strokeWidth: 0
               },
-              labels: { fill: "black", fontSize: 4, textAlign: "middle", padding: 2}
+              labels: { 
+                fill: "black", 
+                padding: 1
+              }
             }}
-            size={2}
+            size={4}
           />
-          <VictoryAxis dependentAxis
-            tickValues = {ticks}
-            label = "Baker Average Risk Distribution"
-            tickFormat = {(t) => t.toFixed(2)}
-            offsetX = {30}
-            x={10} y={300} 
-            padding = {30}
-            style={{
-              grid: { strokeOpacity: 0 },
-              axis: {strokeWidth: 5},
-              axisLabel: {fontSize: 5, padding: 20},
-              tickLabels: { fontSize: 4, textAnchor: "middle", padding: 10 }
-            }}  />
           <VictoryAxis
-            tickValues = {Array.from({length: 4}, (x,i) => i)}
-            style = {{
-              grid: { strokeOpacity: 0 },
-              axis: {strokeOpacity: 0},
-              tickLabels: { fontSize: 0 }
-            }}  />
+            label = "Baker Average Risk Distribution"
+            offsetY={28}
+            tickValues = {ticks}
+            tickFormat = {(t) => `${Math.round(t*100)}%`}
+            style={{
+              axis: {
+                strokeWidth: 2
+              },
+              axisLabel: {
+                fontSize: 8, 
+                padding: 12
+              },
+              grid: {
+                strokeOpacity: 0
+              },
+              tickLabels: { 
+                fontSize: 5,
+                padding: 2,
+                textAnchor: "middle" 
+              }
+            }}  
+          />
         </VictoryChart>
       </div>
 
