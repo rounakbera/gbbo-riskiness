@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/gbbo-riskiness/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/gbbo-riskiness/static/js/main.e0a6ecbd.chunk.js",
+    "main.js.map": "/gbbo-riskiness/static/js/main.e0a6ecbd.chunk.js.map",
+    "runtime-main.js": "/gbbo-riskiness/static/js/runtime-main.397da531.js",
+    "runtime-main.js.map": "/gbbo-riskiness/static/js/runtime-main.397da531.js.map",
+    "static/css/2.6883e14e.chunk.css": "/gbbo-riskiness/static/css/2.6883e14e.chunk.css",
+    "static/js/2.72c842c9.chunk.js": "/gbbo-riskiness/static/js/2.72c842c9.chunk.js",
+    "static/js/2.72c842c9.chunk.js.map": "/gbbo-riskiness/static/js/2.72c842c9.chunk.js.map",
+    "index.html": "/gbbo-riskiness/index.html",
+    "precache-manifest.1459108bbd6f428de321fd5ca1825c82.js": "/gbbo-riskiness/precache-manifest.1459108bbd6f428de321fd5ca1825c82.js",
+    "service-worker.js": "/gbbo-riskiness/service-worker.js",
+    "static/css/2.6883e14e.chunk.css.map": "/gbbo-riskiness/static/css/2.6883e14e.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/gbbo-riskiness/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.72c842c9.chunk.js.LICENSE.txt": "/gbbo-riskiness/static/js/2.72c842c9.chunk.js.LICENSE.txt",
+    "static/media/challenges.png": "/gbbo-riskiness/static/media/challenges.4672358d.png",
+    "static/media/data-collection.png": "/gbbo-riskiness/static/media/data-collection.1b8ba2e5.png",
+    "static/media/intro.gif": "/gbbo-riskiness/static/media/intro.1074ecdd.gif",
+    "static/media/mat-carrotcake.png": "/gbbo-riskiness/static/media/mat-carrotcake.fdecb3a1.png",
+    "static/media/mat-strawberry.png": "/gbbo-riskiness/static/media/mat-strawberry.02795684.png",
+    "static/media/mat.jpg": "/gbbo-riskiness/static/media/mat.2b74ac7c.jpg",
+    "static/media/nadiya-icebuns.png": "/gbbo-riskiness/static/media/nadiya-icebuns.c138b164.png",
+    "static/media/nadiya-volauvents.png": "/gbbo-riskiness/static/media/nadiya-volauvents.1cd1d607.png",
+    "static/media/nadiya.jpg": "/gbbo-riskiness/static/media/nadiya.eff5a390.jpg",
+    "static/media/quote-blank.jpg": "/gbbo-riskiness/static/media/quote-blank.e4aaf439.jpg",
+    "static/media/quote-mary.jpg": "/gbbo-riskiness/static/media/quote-mary.8fda3fac.jpg",
+    "static/media/quote-paul.jpg": "/gbbo-riskiness/static/media/quote-paul.e7b47506.jpg",
+    "static/media/stu-madeira.png": "/gbbo-riskiness/static/media/stu-madeira.02f741a7.png",
+    "static/media/stu.jpg": "/gbbo-riskiness/static/media/stu.28d80fa5.jpg",
+    "static/media/title-cake.png": "/gbbo-riskiness/static/media/title-cake.044d89e6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.397da531.js",
+    "static/css/2.6883e14e.chunk.css",
+    "static/js/2.72c842c9.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.e0a6ecbd.chunk.js"
+  ]
+}
