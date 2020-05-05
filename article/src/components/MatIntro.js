@@ -45,7 +45,7 @@ So this was a Good Bake but Not Risky
                 description={
                     <div>
                         <p>
-                            He is a firefighter from London who made it all the way to week 7.
+                            He is a firefighter from London who made it all the way to <b>week 7</b>.
                             He says his "greatest ambition is to own a dishwasher."
                         </p>
                         <p>
@@ -84,7 +84,7 @@ So this was a Good Bake but Not Risky
             </div>
             }/>
         )
-    } else {
+    } else if(this.state.step==3){
         return (
             <TextSection
             description={
@@ -109,5 +109,19 @@ So this was a Good Bake but Not Risky
             </div>
             }/>
         )
+    }else {
+        return (
+            <TextSection
+            description={
+                <div>
+                    <p>
+                        This pie chart shows a breakdown of all of Mat's bakes by quality of bake and riskiness.
+                        See how these bakes fit into his performance throughout the series.
+                    </p>
+                </div>
+            }
+            />
+        )
+
     }
 }}

@@ -29,7 +29,7 @@ const Okay = styled.span`
 const showStructure = (
   <div>
     <p> 
-      Each season of the Great British Bake Off starts with twelve 
+      A quick primer on the Great British Bake Off: each season starts with twelve 
       contestants and consists of ten weekly episodes. One baker
       is eliminated each week until the finale, when three chefs 
       compete to be crowned the champion.

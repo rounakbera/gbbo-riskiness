@@ -5,6 +5,10 @@ import Nadiya from './Nadiya.js';
 import NadiyaIcedBuns from '../assets/nadiya-icebuns.png';
 import NadiyaVolAuVents from '../assets/nadiya-volauvents.png';
 import NadiyaPic from '../assets/nadiya2.jpg';
+import NadiyaPie from '../assets/nadiyapie.png';
+import MatPie from '../assets/matpie.png';
+
+
 
 const Main = styled.div`
   padding: 10vh 2vw;
@@ -44,11 +48,23 @@ const Image = styled.img`
   top: 25%;
   left: 10%;
 `
+const Image1 = styled.img`
+  position: absolute;
+  opacity: ${props => props.display ? `1` : `0`};
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  width: 45vw;
+  margin-left: 12vw;
+  top: 25%;
+`
 
 const imageMap = {
   1: NadiyaPic,
   2: NadiyaVolAuVents,
-  3: NadiyaIcedBuns
+  3: NadiyaIcedBuns,
+  4: NadiyaPie
 };
 
 export default class NadiyaScrollama extends React.Component {
@@ -63,7 +79,11 @@ export default class NadiyaScrollama extends React.Component {
 
   getImages(imageMap, data) {
     return Object.keys(imageMap).map((key => {
-      return (<Image src={imageMap[key]} display={key == data} />);
+      if(key==4){
+        return (<Image1 src={imageMap[key]} display={key == data} />);
+      }else{
+        return (<Image src={imageMap[key]} display={key == data} />);
+      }
     }));
   }
 

@@ -50,7 +50,7 @@ So this was a Good Bake but Not Risky
                         </p>
                         <p>
                             He made some bold flavor choices the first episode that didn’t pay 
-                            off, leading to him being the first elimination of the season.
+                            off, leading to him being the <b>first elimination</b> of the series.
                         </p>
                     </div>
                 }

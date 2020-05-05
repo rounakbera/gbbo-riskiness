@@ -54,7 +54,7 @@ const ScatterplotWrapper = styled.div`
 const imageMap = {
   0: Volvauvent,
   1: Carrotcake,
-  4:Carrotcake
+  5:Carrotcake
 };
 var datascatter = require('../data/flavorRiskinessToPerformance.json');
 const datamap={
@@ -68,11 +68,13 @@ const datamap={
     "controversy": 0.142857143,
     "count": 28
   }],
-  3: datascatter
+  3: datascatter,
+  4: datascatter
 }
 const domainMap = {
   2: {x: [0.305357142, 0.355357142], y: [26.6, 29.85]},
-  3: {x: [0,1], y: [0, 65]}
+  3: {x: [0,1], y: [0, 65]},
+  4: {x: [0,1], y: [0, 65]}
 };
 
 const zoomMap = {
@@ -87,10 +89,10 @@ const contentMap = {
     description={
       <div>
         <p>
-          Nadiya's Vol-au-Vents
+          <b>Nadiya's Vol-au-Vents</b>
         </p>
         <p>
-          and Mat's Sugar Free Carrot Cake
+         and <b>Mat's Sugar Free Carrot Cake</b>
         </p>
       </div>
     } 
@@ -100,7 +102,7 @@ const contentMap = {
     description={
       <div>
         <p>
-          Hover over the point and see how many times cinnamon was used and cinnamon's general riskiness.  
+          Hover over the point and see how many times <b>cinnamon</b> was used throughout the season and percentage of bakes with cinnamon that are considered risky.  
         </p>
       </div>
     } 
@@ -115,6 +117,15 @@ const contentMap = {
     } 
   />,
   4: <TextSection 
+  description={
+    <div>
+      <p>
+      Cinnamon is a decently low risk and commonly used ingredient. Mat chose to pair it with the less risky ingredients like <b>honey (36%)</b> and <b>ginger (42%)</b>. Conversely, Nadiya went with the more risky choice of <b>cardamom (68%)</b> 
+      </p>
+    </div>
+  } 
+/>,
+  5: <TextSection 
     description={
       <div>
         <p>
@@ -191,12 +202,12 @@ export default class FlavorScatterplotScrollama extends React.Component {
           </Scrollama>
         </Scroller>
         <Graphic>
-          {(data==4||(data==1))  && (
+          {(data==5||(data==1))  && (
             <ImageWrapper minHeight={150} minWidth={200}>
               {this.getImages(imageMap, data)}
             </ImageWrapper> 
           )}
-          {(data==2 || (data==3)) && (
+          {(data>1 && (data<5)) && (
             <ScatterplotWrapper>
               <FlavorScatterplot 
                 scatterdata={this.getData(data)} 

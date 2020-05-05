@@ -40,7 +40,7 @@ export default class NadiyaIntro extends React.Component {
                         <p>
                             She is a full-time mom living in Leeds with her family. 
                             Her bakes are often inspired by her family and her Bangladeshi background.
-                            She was the winner of Series 6.
+                            She was the <b>winner of Series 6</b>.
                         </p>
                         <p>
                             She struggled a bit at the beginning, but around halfway through 
@@ -79,7 +79,7 @@ export default class NadiyaIntro extends React.Component {
             }
             />
         )
-    } else {
+    } else if(this.state.step==3) {
         return (
             <TextSection
             description={
@@ -107,5 +107,18 @@ export default class NadiyaIntro extends React.Component {
             }
             />
         )
+    }else {
+        return (
+            <TextSection
+            description={
+                <div>
+                    <p>
+                        See how these bakes fit into Nadiya's Break down of good vs bad and risky vs non-risky bakes.
+                    </p>
+                </div>
+            }
+            />
+        )
+
     }
 }}
