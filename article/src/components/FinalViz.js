@@ -22,9 +22,7 @@ const separation = 0.05;
 const Container = styled.div`
 width: 300px;
 margin:  0px 10px;
-padding: 0px 700px;
-float: left;
-position: absolute;
+float: right;
 text-align: center;
 `;
 const legendContainer = styled.div`
@@ -96,7 +94,7 @@ export default class FinalViz extends React.Component {
     var ticks = Array.from({length: 1/separation}, (x,i) => i*separation);
     ticks.push(1);
     return (
-      <div>
+      <div style={{width: "90vw", marginLeft: "5vw"}}>
         <Container>
           <ContainerLabel>
             <p>Contestant Placing Range</p>
