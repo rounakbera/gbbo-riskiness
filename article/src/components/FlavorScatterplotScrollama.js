@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Scrollama, Step } from 'react-scrollama';
-import RiskBarchart from './RiskBarchart.js';
 import TextSection from './TextSection.js';
 import FlavorScatterplot from './FlavorScatterplot';
 import PieChartLegend from './PieChartLegend';
@@ -66,13 +65,11 @@ const datamap={
     "controversy": 0.142857143,
     "count": 28
   }],
-  3: datascatter,
-  4: datascatter
+  3: datascatter
 }
 const domainMap = {
   2: {x: [0.305357142, 0.355357142], y: [26.6, 29.85]},
-  3: {x: [0,1], y: [0, 65]},
-  4: {x: [0,1], y: [0, 65]}
+  3: {x: [0,1], y: [0, 65]}
 };
 
 const zoomMap = {
@@ -100,7 +97,9 @@ const contentMap = {
     description={
       <div>
         <p>
-          Hover over the point and see how many times <b>cinnamon</b> was used throughout the season and percentage of bakes with cinnamon that are considered risky.  
+          <b>Cinnamon</b> was used 28 times throughout all three season. 
+          About 32% of bakes with cinnamon were considered risky.
+          This makes cinnamon a decently low risk and commonly used ingredient. 
         </p>
       </div>
     } 
@@ -109,20 +108,17 @@ const contentMap = {
     description={
       <div>
         <p>
-          Flavor is a crucial aspect to every bake. Judges look for those who use unconventional and inspired combinations. 
+          Flavor is a crucial aspect to every bake. 
+          Judges look for those who use unconventional and inspired combinations. 
+          Mat chose to pair it with the less risky ingredients like <b>honey (36%)</b> and <b>ginger (42%)</b>. 
+          Conversely, Nadiya went with the more risky choice of <b>cardamom (68%)</b>. 
+          Although Mat’s and Nadiya’s bakes were at least considered okay, 
+          Mat played it safe, while Nadiya’s riskily-flavored vol-au-vents 
+          pushed the limits on creative baking.  
         </p>
       </div>
     } 
-  />,
-  4: <TextSection 
-  description={
-    <div>
-      <p>
-      Cinnamon is a decently low risk and commonly used ingredient. Mat chose to pair it with the less risky ingredients like <b>honey (36%)</b> and <b>ginger (42%)</b>. Conversely, Nadiya went with the more risky choice of <b>cardamom (68%)</b>. Although Mat’s and Nadiya’s bakes were at least considered okay, Mat played it safe, while Nadiya’s riskily-flavored vol-au-vents pushed the limits on creative baking.  
-      </p>
-    </div>
-  } 
-/>
+  />
 }
 
 export default class FlavorScatterplotScrollama extends React.Component {

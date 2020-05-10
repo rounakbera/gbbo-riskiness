@@ -39,7 +39,7 @@ function App() {
       <NadiyaScrollama />  
       <ImportantTextScrollama 
         content={{
-          1: ["Now that we've seen few bakes, what is the relationship between ingredients and riskiness?"],
+          1: ["Now that we've seen a few bakes, what is the relationship between ingredients and riskiness?"],
         }}
       />
       <FlavorScatterplotScrollama /> 
