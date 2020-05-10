@@ -162,7 +162,7 @@ export default class FinalViz extends React.Component {
                   fontSize: 6, 
                   textAnchor: "right", 
                 }}
-                dy={50}
+                dy={0}
                 dx={0}
             />}
             style={{
