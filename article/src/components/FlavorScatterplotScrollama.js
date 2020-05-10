@@ -97,7 +97,7 @@ const contentMap = {
     description={
       <div>
         <p>
-          <b>Cinnamon</b> was used 28 times throughout all three season. 
+          <b>Cinnamon</b> was used 28 times throughout all three seasons. 
           About 32% of bakes with cinnamon were considered risky.
           This makes cinnamon a decently low risk and commonly used ingredient. 
         </p>

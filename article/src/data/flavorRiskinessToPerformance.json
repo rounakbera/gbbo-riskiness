@@ -121,7 +121,7 @@
   },
   {
     "riskiness": 0.418181818,
-    "flavor": "orange",
+    "flavor": "oranges",
     "performance": "GOOD",
     "bad": 0.2,
     "good": 0.563636364,
@@ -141,7 +141,7 @@
   },
   {
     "riskiness": 0.5,
-    "flavor": "lime",
+    "flavor": "limes",
     "performance": "GOOD",
     "bad": 0.357142857,
     "good": 0.642857143,

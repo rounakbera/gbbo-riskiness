@@ -75,10 +75,7 @@ export default class FlavorScatterplot extends React.Component {
   render() {
     return (
       <VictoryChart
-        containerComponent={<VictoryZoomVoronoiContainer 
-                                allowZoom={false} 
-                                />}
-                                
+        containerComponent={<VictoryZoomVoronoiContainer allowZoom={false} />}
         domain={this.state.domain}
         theme={VictoryTheme.material}
       >
