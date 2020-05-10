@@ -73,7 +73,7 @@ So this was a Good Bake but Not Risky
                             cakes and the glaze is too hard to bite into. 
                         </p>
                         <p>
-                            Due to the judges reactions and the unconventional flavor choices 
+                            Due to the judges reactions and the unconventional flavor choices, 
                             this is considered a <Bad>bad bake</Bad> that is <Risky>risky</Risky>.
                         </p>    
                     </div>
