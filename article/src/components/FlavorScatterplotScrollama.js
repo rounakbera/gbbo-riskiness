@@ -14,7 +14,7 @@ const Main = styled.div`
   justify-content: space-between;
 `
 const Graphic = styled.div`
-  flex-basis: 45%;
+  flex-basis: 100%;
   position: sticky;
   width: 100%;
   margin: 10vh 5vw 0 5vw;

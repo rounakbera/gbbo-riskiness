@@ -71,6 +71,23 @@ export default class FlavorScatterplot extends React.Component {
     return "circle";
   }
 
+  getLabel(flavor) {
+    if (flavor == "fig" || flavor == "pear") {
+      flavor = "pear/fig";
+    } else if ( flavor == "mango" || flavor == "coffee") {
+      flavor = "mango/coffee";
+    } else if (flavor == "strawberry" || flavor == "rosemary") {
+      flavor = "\nstrawberry/\nrosemary";
+    } else if (flavor == "coconut") {
+      flavor = flavor + "\n";
+    } else if (flavor == "apple" ) {
+      flavor = "\n" + flavor;
+    } else {
+      flavor = flavor.trim().split(" ").join("\n");
+    }
+    return flavor;
+  }
+
   // containerComponent={<VictoryVoronoiContainer/>}
   render() {
     return (
@@ -84,7 +101,7 @@ export default class FlavorScatterplot extends React.Component {
           tickFormat={(t) => `${Math.round(t*100)}%`}
           style={{
             axisLabel: {
-              fontSize: 15,
+              fontSize: 10,
               padding : 30
             },
             tickLabels: {
@@ -99,7 +116,7 @@ export default class FlavorScatterplot extends React.Component {
           tickFormat={(t) => (`${Math.round(t)}`)}
           style= {{
             axisLabel: {
-              fontSize: 15,
+              fontSize: 10,
               padding : 35
             },
             tickLabels: {
@@ -109,16 +126,16 @@ export default class FlavorScatterplot extends React.Component {
         />
         <VictoryScatter
           data={this.state.data}
-          labels={({ datum }) => datum.flavor}
-          labelComponent={<VictoryTooltip pointerLength={0} />}
-          size={3.3}
+          labels={({ datum }) => this.getLabel(datum.flavor)}
+          labelComponent={<VictoryLabel dy={1} />}
+          size={11}
           style={{
             data: {
-              fill: ({ datum }) => this.getColor(datum.performance, datum.riskiness)
+              fill: ({ datum }) => this.getColor(datum.performance, datum.riskiness),
+              fillOpacity: 0.85
             },
-            labels: {
-              fontSize: 8
-            }
+            labels: { fill: "white", fontSize: 4, textAnchor: "middle"}
+
           }}
           animate={{
             onExit: {
