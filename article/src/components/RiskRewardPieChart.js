@@ -61,7 +61,21 @@ export default class RiskRewardPieChart extends React.Component {
 
   render() {
     const {baker, diameter, standalone} = this.state;
-    return (
+    return standalone ? (
+      <VictoryPie
+        standalone={standalone}
+        height={diameter}
+        width={10}
+        padding={0}
+        data={this.getData(baker)}
+        style={{
+          labels: { fontSize: 0 },
+          data: {
+            fill: ({ datum }) => this.getColor(datum.x),
+          }
+        }}
+      />
+    ) : (
       <VictoryPie
         standalone={standalone}
         height={diameter}
@@ -70,7 +84,7 @@ export default class RiskRewardPieChart extends React.Component {
         style={{
           labels: { fontSize: 0 },
           data: {
-            fill: ({ datum }) => this.getColor(datum.x)
+            fill: ({ datum }) => this.getColor(datum.x),
           }
         }}
       />

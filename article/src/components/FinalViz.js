@@ -87,7 +87,7 @@ export default class FinalViz extends React.Component {
     return string.split("\n")[0].length;
   }
   getBorderOpacity(place) {
-    return place > this.state.placeLimit ? 0.1 : 1;
+    return place > this.state.placeLimit ? 1 : 1;
   }
   changePlaceLimit = (placeLimit) =>{
     this.setState({placeLimit});
