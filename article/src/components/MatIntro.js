@@ -64,7 +64,7 @@ So this was a Good Bake but Not Risky
             <div>
                 <p>
                     In Episode 4, with the theme of alternative ingredients, 
-                    at attempts a <b>Sugar Free Carrot Cake</b>.
+                    Mat attempts a <b>Sugar Free Carrot Cake</b>.
                 </p>
                 <p>
                     He used mostly classic ingredients including <b>dates</b> and <b>honey</b> to 
