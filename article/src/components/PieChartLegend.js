@@ -89,7 +89,7 @@ export default class PieChartLegend extends React.Component {
         <PlaceLegend>
           <RiskRewardPieChart baker={"Kimberley"} diameter={1} standalone={true}/>
           <Place>#</Place>
-          <Caption><p>Baker's Final Placing</p><p>(e.g. 1 = first)</p></Caption>
+          <Caption><p>Baker's Final Placing</p><p>(e.g. 2 = second)</p></Caption>
         </PlaceLegend>
       </Legend>
     )
