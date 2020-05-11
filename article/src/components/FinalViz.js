@@ -4,7 +4,7 @@ import {
   VictoryScatter,
   VictoryVoronoi,
   VictoryVoronoiContainer,
-  VictoryTooltip, 
+  VictoryLabel, 
   VictoryAxis 
 } from 'victory';
 import styled from "styled-components";
@@ -153,26 +153,34 @@ export default class FinalViz extends React.Component {
             dataComponent={ <PieChartPointWrapper /> }
             x="risk"
             y="leaf"
-            labels={({ datum }) => this.getLabel(datum.baker, datum.place, datum.season)}
+            labels={({ datum }) => datum.place}
             labelComponent={
-            <VictoryTooltip
-                cornerRadius={2}
-                pointerLength={0}
-                style={{ 
-                  fontSize: 6, 
-                  textAnchor: "right", 
-                }}
-                dy={50}
-                dx={0}
-            />}
+              <VictoryLabel dy={2} />
+            }
+            // labelComponent={
+            // <VictoryTooltip
+            //     cornerRadius={2}
+            //     pointerLength={0}
+            //     style={{ 
+            //       fontSize: 6, 
+            //       textAnchor: "right", 
+            //     }}
+            //     dy={50}
+            //     dx={0}
+            // />}
             style={{
               data: { 
                 strokeOpacity: ({datum}) => this.getBorderOpacity(datum.place), 
                 strokeWidth: 0
               },
               labels: { 
-                fill: "black", 
-                padding: 1
+                dy: 2,
+                fill: "white", 
+                fontFamily: "Muli",
+                fontSize: 6,
+                padding: 1,
+                stroke: "white",
+                strokeWidth: 0.5
               }
             }}
             size={4}
