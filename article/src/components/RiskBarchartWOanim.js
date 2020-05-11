@@ -97,9 +97,7 @@ export default class BarchartExample extends React.Component {
               fontSize: 15,
               padding: 35
             },
-            tickLabel: {
-              fontSize: 8
-            }
+            tickLabels: {fontSize: 9, padding: 5}
           }}
         />
         <VictoryBar
